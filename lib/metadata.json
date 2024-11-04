@@ -1,63 +1,224 @@
 {
   "vaultName": "Vio",
-  "lastExport": 1730750986699,
+  "lastExport": 1730751532528,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager show-inline-title math-booster-preview-enabled code-styler code-styler-style-inline code-styler-gutter-highlight theme-light sanctum-default-light sanctum-black code-lines default-marker-odd default-marker-even callout-no-metadata callout-no-quote infobox-enabled infobox-hide-thead",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "Math/Vysoká škola/Lineární Algebra/Úsudek (Assumption).md",
-    "Math/Vysoká škola/Lineární Algebra/Zobrazení (funkce).md",
-    "Math/Vysoká škola/Lineární Algebra/Věta (Theorem).md",
-    "Math/Vysoká škola/Lineární Algebra/Výrok.md",
-    "Math/Vysoká škola/Lineární Algebra/Vektor.md",
-    "Math/Vysoká škola/Lineární Algebra/Těleso (Division ring).md",
-    "Math/Vysoká škola/Lineární Algebra/Triviální a netriviální lineární kombinace.md",
-    "Math/Vysoká škola/Lineární Algebra/Transformace souřadnic.md",
-    "Math/Vysoká škola/Lineární Algebra/Test zkušební.md",
-    "Math/Vysoká škola/Lineární Algebra/Speciální vlastnosti lineárních zobrazení.md",
-    "Math/Vysoká škola/Lineární Algebra/Souřadnice vzhledem k uspořádané bázi.md",
-    "Math/Vysoká škola/Lineární Algebra/Skalár.md",
-    "Math/Vysoká škola/Lineární Algebra/Seznam (Set).md",
-    "Math/Vysoká škola/Lineární Algebra/Příklady/Příklad - lin. zobrazení, jádro, obraz a Px.md",
-    "Math/Vysoká škola/Lineární Algebra/Příklady/6.1.3 Příklad - dokaž báze Lin(F,F).md",
-    "Math/Vysoká škola/Lineární Algebra/Příklady/4.2.2 Příklad - cyklická báze.md",
-    "Math/Vysoká škola/Lineární Algebra/Příklady/4.1.1 Příklad - spoje.md",
-    "Math/Vysoká škola/Lineární Algebra/Příklady/3.4.6 Příklad - podprostor a spojení.md",
+    "Math/Maturita/Absolutní hodnota komplexního čísla.md",
+    "Math/Maturita/Algebraický tvar komplexního čísla.md",
+    "Math/Maturita/Analytická geometrie.md",
+    "Math/Maturita/Dvojčlen.md",
+    "Math/Maturita/Faktorial.md",
+    "Math/Maturita/Goniometrický tvar komplexního čísla.md",
+    "Math/Maturita/Kombinace.md",
+    "Math/Maturita/Kombinatorika.md",
+    "Math/Maturita/Kombinatorika – Úlohy.md",
+    "Math/Maturita/Komplexně sdružené a opačné číslo.md",
+    "Math/Maturita/Komplexní čísla.md",
+    "Math/Maturita/Komplexní rovina (Gaussova rovina).md",
+    "Math/Maturita/Množina bodů v komplexní rovině.md",
+    "Math/Maturita/Nulový bod.md",
+    "Math/Maturita/Odmocnina z komplexního čísla v goniometrickém tvaru.md",
+    "Math/Maturita/Parametrické vyjádření přímky.md",
+    "Math/Maturita/Permutace.md",
+    "Math/Maturita/Permutace s opakováním.md",
+    "Math/Maturita/Planimetrie.md",
+    "Math/Maturita/Početní operace s komplexními čísli - goniometrický tvar.md",
+    "Math/Maturita/Početní operace s komplexními čísly.md",
+    "Math/Maturita/Podobná zobrazení.md",
+    "Math/Maturita/Posloupnosti.md",
+    "Math/Maturita/Pravděpodobnost.md",
+    "Math/Maturita/Přímá a nepřímá úměrnost.md",
+    "Math/Maturita/Průměr, Medián a Modus.md",
+    "Math/Maturita/Pythagorova věta.md",
+    "Math/Maturita/Řešení kvadratické rovnice v množině komplexních číslech.md",
+    "Math/Maturita/Řezy mnohostěnů.md",
+    "Math/Maturita/Rýsování vrcholu s libovolní stupňem (uplatnění středového úhlu).md",
+    "Math/Maturita/Selský rozum.md",
+    "Math/Maturita/Shodná zobrazení.md",
+    "Math/Maturita/Transformace grafu funkce.md",
+    "Math/Maturita/Variace.md",
+    "Math/Maturita/Variace s opakováním.md",
+    "Math/Maturita/Základní kombinatorická pravidla.md",
+    "Math/Maturita/Zobrazení v rovině.md",
+    "Math/Precalculus/Amplitude, Period, Phase Shift and Frequency.md",
+    "Math/Precalculus/Antiderivatives.md",
+    "Math/Precalculus/Composing functions.md",
+    "Math/Precalculus/Coordinates system.md",
+    "Math/Precalculus/Cosine rule.md",
+    "Math/Precalculus/Definite Integral.md",
+    "Math/Precalculus/Derivative rules.md",
+    "Math/Precalculus/Differentiation.md",
+    "Math/Precalculus/Differentiation exercises.md",
+    "Math/Precalculus/Domain, Codomain and range.md",
+    "Math/Precalculus/Equation involving exponential and logarithm functions.md",
+    "Math/Precalculus/Equations with absolute value.md",
+    "Math/Precalculus/Exponential Function.md",
+    "Math/Precalculus/Exponential functions.md",
+    "Math/Precalculus/Extremal values.md",
+    "Math/Precalculus/Factorized form.md",
+    "Math/Precalculus/Functions.md",
+    "Math/Precalculus/Graphs of trigonometric functions.md",
+    "Math/Precalculus/Indefinite integral.md",
+    "Math/Precalculus/Inequalities.md",
+    "Math/Precalculus/Integration.md",
+    "Math/Precalculus/Integration by parts.md",
+    "Math/Precalculus/Integration by substitution.md",
+    "Math/Precalculus/Integration rules.md",
+    "Math/Precalculus/Inverses functions.md",
+    "Math/Precalculus/Logarithms.md",
+    "Math/Precalculus/Non-differentiable functions.md",
+    "Math/Precalculus/Orthogonal graphs.md",
+    "Math/Precalculus/Polynomial function.md",
+    "Math/Precalculus/Power functions.md",
+    "Math/Precalculus/Properties of functions.md",
+    "Math/Precalculus/Quadratic function.md",
+    "Math/Precalculus/Radians vs Degree.md",
+    "Math/Precalculus/Rational functions.md",
+    "Math/Precalculus/Riemann Sums.md",
+    "Math/Precalculus/Rules of calculation logarithm functions.md",
+    "Math/Precalculus/Rules of calculation trigonometric functions.md",
+    "Math/Precalculus/Set.md",
+    "Math/Precalculus/Sine rule.md",
+    "Math/Precalculus/System of equations.md",
+    "Math/Precalculus/Tangent line and angle.md",
+    "Math/Precalculus/Trigonometric functions.md",
+    "Math/Precalculus/Unit circle.md",
+    "Math/Precalculus/Vertex (Complete square) form.md",
+    "Math/Vysoká škola/Diskrétní matematika/Skripta/dmkni01.pdf",
+    "Math/Vysoká škola/Diskrétní matematika/Skripta/dmkni02.pdf",
+    "Math/Vysoká škola/Diskrétní matematika/Skripta/dmkni03.pdf",
+    "Math/Vysoká škola/Diskrétní matematika/Skripta/dmkni04.pdf",
+    "Math/Vysoká škola/Diskrétní matematika/Skripta/dmkni05.pdf",
+    "Math/Vysoká škola/Diskrétní matematika/Bezoutova identita.md",
+    "Math/Vysoká škola/Diskrétní matematika/Bezoutovo číslo.md",
+    "Math/Vysoká škola/Diskrétní matematika/Dělitelnost.md",
+    "Math/Vysoká škola/Diskrétní matematika/Diskrétní matematika.md",
+    "Math/Vysoká škola/Diskrétní matematika/DÚ 1.A - Diskrétní matematika.md",
+    "Math/Vysoká škola/Diskrétní matematika/DU 5.A.md",
+    "Math/Vysoká škola/Diskrétní matematika/Důkaz.md",
+    "Math/Vysoká škola/Diskrétní matematika/Euklidův algoritmus.md",
+    "Math/Vysoká škola/Diskrétní matematika/Komutativita.md",
+    "Math/Vysoká škola/Diskrétní matematika/Kongurence (Modulo).md",
+    "Math/Vysoká škola/Diskrétní matematika/Množina.md",
+    "Math/Vysoká škola/Diskrétní matematika/Polynomial.md",
+    "Math/Vysoká škola/Diskrétní matematika/Reaálná čísla.md",
+    "Math/Vysoká škola/Diskrétní matematika/Relace.md",
+    "Math/Vysoká škola/Diskrétní matematika/Rovnice nad Z (v celých čísel).md",
     "Math/Vysoká škola/Lineární Algebra/Příklady/0.3.1 Příklad - důkaz se sporem.md",
-    "Math/Vysoká škola/Lineární Algebra/Přirozená čísla.md",
-    "Math/Vysoká škola/Lineární Algebra/Polynom.md",
-    "Math/Vysoká škola/Lineární Algebra/Opačné číslo.md",
-    "Math/Vysoká škola/Lineární Algebra/Obraz a jádro lineárního zobrazení.md",
-    "Math/Vysoká škola/Lineární Algebra/Neutralní prvek.md",
-    "Math/Vysoká škola/Lineární Algebra/Množina generátorů.md",
-    "Math/Vysoká škola/Lineární Algebra/Matice zobrazení.md",
-    "Math/Vysoká škola/Lineární Algebra/Malá Fermatova věta.md",
-    "Math/Vysoká škola/Lineární Algebra/Lineární závislost a nezávislost.md",
-    "Math/Vysoká škola/Lineární Algebra/Lineární zobrazení (Lineární transformace).md",
-    "Math/Vysoká škola/Lineární Algebra/Lineární prostor nad tělesem reálných čísel R.md",
-    "Math/Vysoká škola/Lineární Algebra/Lineární prostor nad obecným tělesem F.md",
-    "Math/Vysoká škola/Lineární Algebra/Lineární prostor (Vektorový prostor).md",
-    "Math/Vysoká škola/Lineární Algebra/Lineární podprostor.md",
-    "Math/Vysoká škola/Lineární Algebra/Lineární obal (span).md",
-    "Math/Vysoká škola/Lineární Algebra/Lineární kombinace.md",
-    "Math/Vysoká škola/Lineární Algebra/Lineární algebra.md",
-    "Math/Vysoká škola/Lineární Algebra/Lineární algebra - definice.md",
-    "Math/Vysoká škola/Lineární Algebra/Lemma (Pomocné tvrzení).md",
-    "Math/Vysoká škola/Lineární Algebra/Konečné a nekonečné množiny.md",
-    "Math/Vysoká škola/Lineární Algebra/Komutativní diagram.md",
-    "Math/Vysoká škola/Lineární Algebra/Inverzní prvek.md",
-    "Math/Vysoká škola/Lineární Algebra/Inkluse v lineární algebře.md",
-    "Math/Vysoká škola/Lineární Algebra/I-tice vektorů.md",
-    "Math/Vysoká škola/Lineární Algebra/Hypotéza (Hypothesis).md",
+    "Math/Vysoká škola/Lineární Algebra/Příklady/3.4.6 Příklad - podprostor a spojení.md",
+    "Math/Vysoká škola/Lineární Algebra/Příklady/4.1.1 Příklad - spoje.md",
+    "Math/Vysoká škola/Lineární Algebra/Příklady/4.2.2 Příklad - cyklická báze.md",
+    "Math/Vysoká škola/Lineární Algebra/Příklady/6.1.3 Příklad - dokaž báze Lin(F,F).md",
+    "Math/Vysoká škola/Lineární Algebra/Příklady/Příklad - lin. zobrazení, jádro, obraz a Px.md",
+    "Math/Vysoká škola/Lineární Algebra/Algebra matic.md",
+    "Math/Vysoká škola/Lineární Algebra/Axiom.md",
+    "Math/Vysoká škola/Lineární Algebra/Báze (Basis).md",
+    "Math/Vysoká škola/Lineární Algebra/Defekt a hodnost lineárního zobrazení.md",
+    "Math/Vysoká škola/Lineární Algebra/Definice (Definition).md",
+    "Math/Vysoká škola/Lineární Algebra/Dimense.md",
     "Math/Vysoká škola/Lineární Algebra/Gaussova eliminační metoda.md",
     "Math/Vysoká škola/Lineární Algebra/GEM a soustavy lineárních rovnic.md",
-    "Math/Vysoká škola/Lineární Algebra/Dimense.md",
-    "Math/Vysoká škola/Lineární Algebra/Definice (Definition).md",
-    "Math/Vysoká škola/Lineární Algebra/Defekt a hodnost lineárního zobrazení.md",
-    "Math/Vysoká škola/Lineární Algebra/Báze (Basis).md",
-    "Math/Vysoká škola/Lineární Algebra/Axiom.md",
-    "Math/Vysoká škola/Lineární Algebra/Algebra matic.md",
+    "Math/Vysoká škola/Lineární Algebra/Hypotéza (Hypothesis).md",
+    "Math/Vysoká škola/Lineární Algebra/I-tice vektorů.md",
+    "Math/Vysoká škola/Lineární Algebra/Inkluse v lineární algebře.md",
+    "Math/Vysoká škola/Lineární Algebra/Inverzní prvek.md",
+    "Math/Vysoká škola/Lineární Algebra/Komutativní diagram.md",
+    "Math/Vysoká škola/Lineární Algebra/Konečné a nekonečné množiny.md",
+    "Math/Vysoká škola/Lineární Algebra/Lemma (Pomocné tvrzení).md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární algebra.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární algebra - definice.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární kombinace.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární obal (span).md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární podprostor.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární prostor (Vektorový prostor).md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární prostor nad obecným tělesem F.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární prostor nad tělesem reálných čísel R.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární závislost a nezávislost.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární zobrazení (Lineární transformace).md",
+    "Math/Vysoká škola/Lineární Algebra/Malá Fermatova věta.md",
+    "Math/Vysoká škola/Lineární Algebra/Matice zobrazení.md",
+    "Math/Vysoká škola/Lineární Algebra/Množina generátorů.md",
+    "Math/Vysoká škola/Lineární Algebra/Neutralní prvek.md",
+    "Math/Vysoká škola/Lineární Algebra/Obraz a jádro lineárního zobrazení.md",
+    "Math/Vysoká škola/Lineární Algebra/Opačné číslo.md",
+    "Math/Vysoká škola/Lineární Algebra/Polynom.md",
+    "Math/Vysoká škola/Lineární Algebra/Přirozená čísla.md",
+    "Math/Vysoká škola/Lineární Algebra/Seznam (Set).md",
+    "Math/Vysoká škola/Lineární Algebra/Skalár.md",
+    "Math/Vysoká škola/Lineární Algebra/Souřadnice vzhledem k uspořádané bázi.md",
+    "Math/Vysoká škola/Lineární Algebra/Speciální vlastnosti lineárních zobrazení.md",
+    "Math/Vysoká škola/Lineární Algebra/Těleso (Division ring).md",
+    "Math/Vysoká škola/Lineární Algebra/Test zkušební.md",
+    "Math/Vysoká škola/Lineární Algebra/Transformace souřadnic.md",
+    "Math/Vysoká škola/Lineární Algebra/Triviální a netriviální lineární kombinace.md",
+    "Math/Vysoká škola/Lineární Algebra/Úsudek (Assumption).md",
+    "Math/Vysoká škola/Lineární Algebra/Vektor.md",
+    "Math/Vysoká škola/Lineární Algebra/Věta (Theorem).md",
+    "Math/Vysoká škola/Lineární Algebra/Výrok.md",
+    "Math/Vysoká škola/Lineární Algebra/Zobrazení (funkce).md",
+    "index.md",
+    "lib/media/screenshot-2024-03-15-at-15.03.16.png",
+    "lib/media/pasted-image-20240418155529.png",
+    "lib/media/pasted-image-20240501161509.png",
+    "lib/media/screenshot-2024-03-15-at-15.33.39.png",
+    "lib/media/screenshot-2024-03-15-at-15.50.54.png",
+    "lib/media/screenshot-2024-03-15-at-14.56.13.png",
+    "lib/media/pasted-image-20240418171000.png",
+    "lib/media/pasted-image-20240418171112.png",
+    "lib/media/pasted-image-20240418171250.png",
+    "lib/media/pasted-image-20240418171406.png",
+    "lib/media/pasted-image-20240418171514.png",
+    "lib/media/pasted-image-20240418171553.png",
+    "lib/media/screenshot-2024-04-22-at-22.52.30.png",
+    "lib/media/pasted-image-20240422225212.png",
+    "lib/media/screenshot-2024-05-01-at-15.57.19.png",
+    "lib/media/pasted-image-20240424125726.png",
+    "lib/media/screenshot-2024-03-15-at-16.02.53.png",
+    "lib/media/pasted-image-20240417171902.png",
+    "lib/media/screenshot-2024-04-17-at-17.11.29.png",
+    "lib/media/screenshot-2024-04-17-at-17.14.35.png",
+    "lib/media/screenshot-2024-04-17-at-17.13.50.png",
+    "lib/media/pasted-image-20240417134806.png",
+    "lib/media/pasted-image-20240417134818.png",
+    "lib/media/pasted-image-20240419184010.png",
+    "lib/media/screenshot-2024-04-30-at-17.39.32.png",
+    "lib/media/pasted-image-20240414143940.png",
+    "lib/media/pasted-image-20240418162932.png",
+    "lib/media/pasted-image-20240314165232.png",
+    "lib/media/pasted-image-20240314165405.png",
+    "lib/media/pasted-image-20240314165707.png",
+    "lib/media/pasted-image-20240224221919.png",
+    "lib/media/pasted-image-20240224222226.png",
+    "lib/media/pasted-image-20240224222346.png",
+    "lib/media/pasted-image-20240420152109.png",
+    "lib/media/diagram-7.svg",
+    "lib/media/pasted-image-20240206203214.png",
+    "lib/media/pasted-image-20240223181226.png",
+    "lib/media/pasted-image-20240221210637.png",
+    "lib/media/screenshot-2024-02-22-at-21.37.15.png",
+    "lib/media/screenshot-2024-02-22-at-21.35.21.png",
+    "lib/media/pasted-image-20240418150204.png",
+    "lib/media/pasted-image-20240220112708.png",
+    "lib/media/pasted-image-20240222121754.png",
+    "lib/media/pasted-image-20240222122240.png",
+    "lib/media/pasted-image-20240222122924.png",
+    "lib/media/pasted-image-20240222123440.png",
+    "lib/media/pasted-image-20240222124840.png",
+    "lib/media/pasted-image-20240222125131.png",
+    "lib/media/pasted-image-20240221211650.png",
+    "lib/media/pasted-image-20240202172732.png",
+    "lib/media/power+functions.pdf",
+    "lib/media/diagram-6.svg",
+    "lib/media/pasted-image-20240223172631.png",
+    "lib/media/pasted-image-20240206203239.png",
+    "lib/media/pasted-image-20240418150047.png",
+    "lib/media/pasted-image-20240209114129.png",
+    "lib/media/pasted-image-20240418130529.png",
+    "lib/media/pasted-image-20240115082811.png",
+    "lib/media/pasted-image-20240928112240.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -112,15 +273,18 @@
     "lib/styles/supported-plugins.css",
     "lib/styles/main-styles.css",
     "lib/styles/snippets.css",
-    "lib/media/pasted-image-20241028193045.png",
-    "lib/media/pasted-image-20241028193217.png",
-    "lib/media/pasted-image-20241028195341.png",
-    "lib/media/pasted-image-20241030101533.png",
-    "lib/media/pasted-image-20241030101650.png",
-    "lib/media/pasted-image-20241030102948.png",
-    "lib/media/pasted-image-20241028200857.png",
-    "lib/media/pasted-image-20241016182810.png",
-    "lib/media/pasted-image-20241029145526.png",
+    "lib/media/pasted-image-20241012115802.png",
+    "lib/media/pasted-image-20241027200508.png",
+    "lib/media/pasted-image-20241030144130.png",
+    "lib/media/pasted-image-20241030144136.png",
+    "lib/media/screenshot-2024-10-06-at-17.58.00.png",
+    "lib/media/screenshot-2024-10-06-at-18.01.26.png",
+    "lib/media/screenshot-2024-10-06-at-18.05.01.png",
+    "lib/media/screenshot-2024-10-06-at-18.05.34.png",
+    "lib/media/screenshot-2024-10-27-at-19.05.56.png",
+    "lib/media/screenshot-2024-10-27-at-19.10.01.png",
+    "lib/media/pasted-image-20241016171040.png",
+    "lib/media/pasted-image-20241016171356.png",
     "lib/media/pasted-image-20241029163354.png",
     "lib/media/screenshot-2024-10-29-at-16.35.47.png",
     "lib/media/pasted-image-20241029165646.png",
@@ -129,18 +293,15 @@
     "lib/media/pasted-image-20241029165243.png",
     "lib/media/screenshot-2024-10-29-at-16.42.02.png",
     "lib/media/pasted-image-20241029171730.png",
-    "lib/media/screenshot-2024-10-27-at-19.05.56.png",
-    "lib/media/screenshot-2024-10-27-at-19.10.01.png",
-    "lib/media/pasted-image-20241016171040.png",
-    "lib/media/pasted-image-20241016171356.png",
-    "lib/media/screenshot-2024-10-06-at-17.58.00.png",
-    "lib/media/screenshot-2024-10-06-at-18.01.26.png",
-    "lib/media/screenshot-2024-10-06-at-18.05.01.png",
-    "lib/media/screenshot-2024-10-06-at-18.05.34.png",
-    "lib/media/pasted-image-20241030144130.png",
-    "lib/media/pasted-image-20241030144136.png",
-    "lib/media/pasted-image-20241027200508.png",
-    "lib/media/pasted-image-20241012115802.png"
+    "lib/media/pasted-image-20241029145526.png",
+    "lib/media/pasted-image-20241016182810.png",
+    "lib/media/pasted-image-20241028200857.png",
+    "lib/media/pasted-image-20241028193045.png",
+    "lib/media/pasted-image-20241028193217.png",
+    "lib/media/pasted-image-20241028195341.png",
+    "lib/media/pasted-image-20241030101533.png",
+    "lib/media/pasted-image-20241030101650.png",
+    "lib/media/pasted-image-20241030102948.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -726,327 +887,1390 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1730750986699,
-      "sourceSize": 23895,
+      "modifiedTime": 1730751532528,
+      "sourceSize": 65039,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1730750986699,
-      "sourceSize": 5704,
+      "modifiedTime": 1730751532528,
+      "sourceSize": 14790,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 131034,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 61298,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 396498,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 437,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 32196,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1730750986699,
+      "modifiedTime": 1730751532528,
       "sourceSize": 201410,
       "exportedPath": "lib/styles/snippets.css",
+      "dependencies": []
+    },
+    "Math/Maturita/Absolutní hodnota komplexního čísla.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1966,
+      "exportedPath": "math/maturita/absolutní-hodnota-komplexního-čísla.html",
+      "dependencies": [
+        "lib/media/screenshot-2024-03-15-at-15.03.16.png"
+      ]
+    },
+    "Math/Maturita/Algebraický tvar komplexního čísla.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 7231,
+      "exportedPath": "math/maturita/algebraický-tvar-komplexního-čísla.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Analytická geometrie.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 162,
+      "exportedPath": "math/maturita/analytická-geometrie.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Dvojčlen.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 479,
+      "exportedPath": "math/maturita/dvojčlen.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Faktorial.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1553,
+      "exportedPath": "math/maturita/faktorial.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Goniometrický tvar komplexního čísla.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 5558,
+      "exportedPath": "math/maturita/goniometrický-tvar-komplexního-čísla.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240418155529.png"
+      ]
+    },
+    "Math/Maturita/Kombinace.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 5106,
+      "exportedPath": "math/maturita/kombinace.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Kombinatorika.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1587,
+      "exportedPath": "math/maturita/kombinatorika.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Kombinatorika – Úlohy.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 362,
+      "exportedPath": "math/maturita/kombinatorika-–-úlohy.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240501161509.png"
+      ]
+    },
+    "Math/Maturita/Komplexně sdružené a opačné číslo.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1241,
+      "exportedPath": "math/maturita/komplexně-sdružené-a-opačné-číslo.html",
+      "dependencies": [
+        "lib/media/screenshot-2024-03-15-at-15.33.39.png",
+        "lib/media/screenshot-2024-03-15-at-15.50.54.png"
+      ]
+    },
+    "Math/Maturita/Komplexní čísla.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2015,
+      "exportedPath": "math/maturita/komplexní-čísla.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Komplexní rovina (Gaussova rovina).md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1770,
+      "exportedPath": "math/maturita/komplexní-rovina-(gaussova-rovina).html",
+      "dependencies": [
+        "lib/media/screenshot-2024-03-15-at-14.56.13.png"
+      ]
+    },
+    "Math/Maturita/Množina bodů v komplexní rovině.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2393,
+      "exportedPath": "math/maturita/množina-bodů-v-komplexní-rovině.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240418171000.png",
+        "lib/media/pasted-image-20240418171112.png",
+        "lib/media/pasted-image-20240418171250.png",
+        "lib/media/pasted-image-20240418171406.png",
+        "lib/media/pasted-image-20240418171514.png",
+        "lib/media/pasted-image-20240418171553.png",
+        "lib/media/screenshot-2024-04-22-at-22.52.30.png",
+        "lib/media/pasted-image-20240422225212.png"
+      ]
+    },
+    "Math/Maturita/Nulový bod.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1414,
+      "exportedPath": "math/maturita/nulový-bod.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Odmocnina z komplexního čísla v goniometrickém tvaru.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 932,
+      "exportedPath": "math/maturita/odmocnina-z-komplexního-čísla-v-goniometrickém-tvaru.html",
+      "dependencies": [
+        "lib/media/screenshot-2024-05-01-at-15.57.19.png"
+      ]
+    },
+    "Math/Maturita/Parametrické vyjádření přímky.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 661,
+      "exportedPath": "math/maturita/parametrické-vyjádření-přímky.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240424125726.png"
+      ]
+    },
+    "Math/Maturita/Permutace.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1615,
+      "exportedPath": "math/maturita/permutace.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Permutace s opakováním.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 140,
+      "exportedPath": "math/maturita/permutace-s-opakováním.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Planimetrie.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 0,
+      "exportedPath": "math/maturita/planimetrie.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Početní operace s komplexními čísli - goniometrický tvar.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 5387,
+      "exportedPath": "math/maturita/početní-operace-s-komplexními-čísli-goniometrický-tvar.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Početní operace s komplexními čísly.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1739,
+      "exportedPath": "math/maturita/početní-operace-s-komplexními-čísly.html",
+      "dependencies": [
+        "lib/media/screenshot-2024-03-15-at-16.02.53.png"
+      ]
+    },
+    "Math/Maturita/Podobná zobrazení.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1973,
+      "exportedPath": "math/maturita/podobná-zobrazení.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240417171902.png",
+        "lib/media/screenshot-2024-04-17-at-17.11.29.png",
+        "lib/media/screenshot-2024-04-17-at-17.14.35.png",
+        "lib/media/screenshot-2024-04-17-at-17.13.50.png"
+      ]
+    },
+    "Math/Maturita/Posloupnosti.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 3820,
+      "exportedPath": "math/maturita/posloupnosti.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240417134806.png",
+        "lib/media/pasted-image-20240417134818.png"
+      ]
+    },
+    "Math/Maturita/Pravděpodobnost.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 8568,
+      "exportedPath": "math/maturita/pravděpodobnost.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240419184010.png",
+        "lib/media/screenshot-2024-04-30-at-17.39.32.png"
+      ]
+    },
+    "Math/Maturita/Přímá a nepřímá úměrnost.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 428,
+      "exportedPath": "math/maturita/přímá-a-nepřímá-úměrnost.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240414143940.png"
+      ]
+    },
+    "Math/Maturita/Průměr, Medián a Modus.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 4535,
+      "exportedPath": "math/maturita/průměr,-medián-a-modus.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Pythagorova věta.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 912,
+      "exportedPath": "math/maturita/pythagorova-věta.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240418162932.png"
+      ]
+    },
+    "Math/Maturita/Řešení kvadratické rovnice v množině komplexních číslech.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1894,
+      "exportedPath": "math/maturita/řešení-kvadratické-rovnice-v-množině-komplexních-číslech.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Řezy mnohostěnů.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1131,
+      "exportedPath": "math/maturita/řezy-mnohostěnů.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Rýsování vrcholu s libovolní stupňem (uplatnění středového úhlu).md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 241,
+      "exportedPath": "math/maturita/rýsování-vrcholu-s-libovolní-stupňem-(uplatnění-středového-úhlu).html",
+      "dependencies": []
+    },
+    "Math/Maturita/Selský rozum.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 631,
+      "exportedPath": "math/maturita/selský-rozum.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240314165232.png",
+        "lib/media/pasted-image-20240314165405.png",
+        "lib/media/pasted-image-20240314165707.png"
+      ]
+    },
+    "Math/Maturita/Shodná zobrazení.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 400,
+      "exportedPath": "math/maturita/shodná-zobrazení.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Transformace grafu funkce.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 123,
+      "exportedPath": "math/maturita/transformace-grafu-funkce.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Variace.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2082,
+      "exportedPath": "math/maturita/variace.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Variace s opakováním.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1878,
+      "exportedPath": "math/maturita/variace-s-opakováním.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Základní kombinatorická pravidla.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2223,
+      "exportedPath": "math/maturita/základní-kombinatorická-pravidla.html",
+      "dependencies": []
+    },
+    "Math/Maturita/Zobrazení v rovině.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 618,
+      "exportedPath": "math/maturita/zobrazení-v-rovině.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Amplitude, Period, Phase Shift and Frequency.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 994,
+      "exportedPath": "math/precalculus/amplitude,-period,-phase-shift-and-frequency.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240224221919.png",
+        "lib/media/pasted-image-20240224222226.png",
+        "lib/media/pasted-image-20240224222346.png",
+        "lib/media/pasted-image-20240420152109.png"
+      ]
+    },
+    "Math/Precalculus/Antiderivatives.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 0,
+      "exportedPath": "math/precalculus/antiderivatives.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Composing functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1094,
+      "exportedPath": "math/precalculus/composing-functions.html",
+      "dependencies": [
+        "lib/media/diagram-7.svg"
+      ]
+    },
+    "Math/Precalculus/Coordinates system.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 0,
+      "exportedPath": "math/precalculus/coordinates-system.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Cosine rule.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1355,
+      "exportedPath": "math/precalculus/cosine-rule.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240206203214.png"
+      ]
+    },
+    "Math/Precalculus/Definite Integral.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2454,
+      "exportedPath": "math/precalculus/definite-integral.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240223181226.png"
+      ]
+    },
+    "Math/Precalculus/Derivative rules.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2202,
+      "exportedPath": "math/precalculus/derivative-rules.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Differentiation.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1393,
+      "exportedPath": "math/precalculus/differentiation.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240221210637.png"
+      ]
+    },
+    "Math/Precalculus/Differentiation exercises.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2651,
+      "exportedPath": "math/precalculus/differentiation-exercises.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Domain, Codomain and range.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 35,
+      "exportedPath": "math/precalculus/domain,-codomain-and-range.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Equation involving exponential and logarithm functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2088,
+      "exportedPath": "math/precalculus/equation-involving-exponential-and-logarithm-functions.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Equations with absolute value.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1483,
+      "exportedPath": "math/precalculus/equations-with-absolute-value.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Exponential Function.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 0,
+      "exportedPath": "math/precalculus/exponential-function.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Exponential functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 279,
+      "exportedPath": "math/precalculus/exponential-functions.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Extremal values.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2704,
+      "exportedPath": "math/precalculus/extremal-values.html",
+      "dependencies": [
+        "lib/media/screenshot-2024-02-22-at-21.37.15.png",
+        "lib/media/screenshot-2024-02-22-at-21.35.21.png"
+      ]
+    },
+    "Math/Precalculus/Factorized form.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 423,
+      "exportedPath": "math/precalculus/factorized-form.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 123,
+      "exportedPath": "math/precalculus/functions.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Graphs of trigonometric functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1987,
+      "exportedPath": "math/precalculus/graphs-of-trigonometric-functions.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240418150204.png"
+      ]
+    },
+    "Math/Precalculus/Indefinite integral.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 0,
+      "exportedPath": "math/precalculus/indefinite-integral.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Inequalities.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 4353,
+      "exportedPath": "math/precalculus/inequalities.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240220112708.png"
+      ]
+    },
+    "Math/Precalculus/Integration.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1788,
+      "exportedPath": "math/precalculus/integration.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Integration by parts.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 3601,
+      "exportedPath": "math/precalculus/integration-by-parts.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Integration by substitution.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 3796,
+      "exportedPath": "math/precalculus/integration-by-substitution.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Integration rules.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 6751,
+      "exportedPath": "math/precalculus/integration-rules.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Inverses functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2485,
+      "exportedPath": "math/precalculus/inverses-functions.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Logarithms.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2968,
+      "exportedPath": "math/precalculus/logarithms.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Non-differentiable functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 3303,
+      "exportedPath": "math/precalculus/non-differentiable-functions.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240222121754.png",
+        "lib/media/pasted-image-20240222122240.png",
+        "lib/media/pasted-image-20240222122924.png",
+        "lib/media/pasted-image-20240222123440.png",
+        "lib/media/pasted-image-20240222124840.png",
+        "lib/media/pasted-image-20240222125131.png"
+      ]
+    },
+    "Math/Precalculus/Orthogonal graphs.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 643,
+      "exportedPath": "math/precalculus/orthogonal-graphs.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240221211650.png"
+      ]
+    },
+    "Math/Precalculus/Polynomial function.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1247,
+      "exportedPath": "math/precalculus/polynomial-function.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Power functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 3058,
+      "exportedPath": "math/precalculus/power-functions.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240202172732.png",
+        "lib/media/power+functions.pdf"
+      ]
+    },
+    "Math/Precalculus/Properties of functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 444,
+      "exportedPath": "math/precalculus/properties-of-functions.html",
+      "dependencies": [
+        "lib/media/diagram-6.svg"
+      ]
+    },
+    "Math/Precalculus/Quadratic function.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 123,
+      "exportedPath": "math/precalculus/quadratic-function.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Radians vs Degree.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 720,
+      "exportedPath": "math/precalculus/radians-vs-degree.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Rational functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 3714,
+      "exportedPath": "math/precalculus/rational-functions.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Riemann Sums.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 890,
+      "exportedPath": "math/precalculus/riemann-sums.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240223172631.png"
+      ]
+    },
+    "Math/Precalculus/Rules of calculation logarithm functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 3247,
+      "exportedPath": "math/precalculus/rules-of-calculation-logarithm-functions.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Rules of calculation trigonometric functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 5501,
+      "exportedPath": "math/precalculus/rules-of-calculation-trigonometric-functions.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Set.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 123,
+      "exportedPath": "math/precalculus/set.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Sine rule.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 641,
+      "exportedPath": "math/precalculus/sine-rule.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240206203239.png"
+      ]
+    },
+    "Math/Precalculus/System of equations.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 0,
+      "exportedPath": "math/precalculus/system-of-equations.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Tangent line and angle.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 0,
+      "exportedPath": "math/precalculus/tangent-line-and-angle.html",
+      "dependencies": []
+    },
+    "Math/Precalculus/Trigonometric functions.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 558,
+      "exportedPath": "math/precalculus/trigonometric-functions.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240418150047.png",
+        "lib/media/pasted-image-20240209114129.png",
+        "lib/media/pasted-image-20240418130529.png",
+        "lib/media/pasted-image-20240206203239.png",
+        "lib/media/pasted-image-20240206203214.png",
+        "lib/media/pasted-image-20240418150204.png"
+      ]
+    },
+    "Math/Precalculus/Unit circle.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1915,
+      "exportedPath": "math/precalculus/unit-circle.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240209114129.png",
+        "lib/media/pasted-image-20240418130529.png"
+      ]
+    },
+    "Math/Precalculus/Vertex (Complete square) form.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 2380,
+      "exportedPath": "math/precalculus/vertex-(complete-square)-form.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240115082811.png"
+      ]
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Skripta/dmkni01.pdf": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 368504,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/skripta/dmkni01.pdf",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Skripta/dmkni02.pdf": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 380887,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/skripta/dmkni02.pdf",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Skripta/dmkni03.pdf": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 259357,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/skripta/dmkni03.pdf",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Skripta/dmkni04.pdf": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 304673,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/skripta/dmkni04.pdf",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Skripta/dmkni05.pdf": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 402638,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/skripta/dmkni05.pdf",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Bezoutova identita.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 172,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/bezoutova-identita.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Bezoutovo číslo.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 174,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/bezoutovo-číslo.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Dělitelnost.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 10289,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/dělitelnost.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Diskrétní matematika.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 174,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/diskrétní-matematika.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/DÚ 1.A - Diskrétní matematika.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 1278,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/dú-1.a-diskrétní-matematika.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240928112240.png"
+      ]
+    },
+    "Math/Vysoká škola/Diskrétní matematika/DU 5.A.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 712,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/du-5.a.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Důkaz.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 6764,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/důkaz.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Euklidův algoritmus.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 952,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/euklidův-algoritmus.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Komutativita.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 194,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/komutativita.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Kongurence (Modulo).md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 11875,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/kongurence-(modulo).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Množina.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 249,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/množina.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Polynomial.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 174,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/polynomial.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Reaálná čísla.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 170,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/reaálná-čísla.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Relace.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 7180,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/relace.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Diskrétní matematika/Rovnice nad Z (v celých čísel).md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 11770,
+      "exportedPath": "math/vysoká-škola/diskrétní-matematika/rovnice-nad-z-(v-celých-čísel).html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 19,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-03-15-at-15.03.16.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 102479,
+      "exportedPath": "lib/media/screenshot-2024-03-15-at-15.03.16.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418155529.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 58860,
+      "exportedPath": "lib/media/pasted-image-20240418155529.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240501161509.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 5959,
+      "exportedPath": "lib/media/pasted-image-20240501161509.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-03-15-at-15.33.39.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 94900,
+      "exportedPath": "lib/media/screenshot-2024-03-15-at-15.33.39.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-03-15-at-15.50.54.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 96439,
+      "exportedPath": "lib/media/screenshot-2024-03-15-at-15.50.54.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-03-15-at-14.56.13.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 94542,
+      "exportedPath": "lib/media/screenshot-2024-03-15-at-14.56.13.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418171000.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 14865,
+      "exportedPath": "lib/media/pasted-image-20240418171000.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418171112.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 12302,
+      "exportedPath": "lib/media/pasted-image-20240418171112.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418171250.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 22367,
+      "exportedPath": "lib/media/pasted-image-20240418171250.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418171406.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 25187,
+      "exportedPath": "lib/media/pasted-image-20240418171406.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418171514.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 20649,
+      "exportedPath": "lib/media/pasted-image-20240418171514.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418171553.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 17669,
+      "exportedPath": "lib/media/pasted-image-20240418171553.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-04-22-at-22.52.30.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 29928,
+      "exportedPath": "lib/media/screenshot-2024-04-22-at-22.52.30.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240422225212.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 90092,
+      "exportedPath": "lib/media/pasted-image-20240422225212.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-05-01-at-15.57.19.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 46942,
+      "exportedPath": "lib/media/screenshot-2024-05-01-at-15.57.19.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240424125726.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 4827,
+      "exportedPath": "lib/media/pasted-image-20240424125726.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-03-15-at-16.02.53.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 110991,
+      "exportedPath": "lib/media/screenshot-2024-03-15-at-16.02.53.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240417171902.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 28856,
+      "exportedPath": "lib/media/pasted-image-20240417171902.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-04-17-at-17.11.29.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 268147,
+      "exportedPath": "lib/media/screenshot-2024-04-17-at-17.11.29.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-04-17-at-17.14.35.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 246272,
+      "exportedPath": "lib/media/screenshot-2024-04-17-at-17.14.35.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-04-17-at-17.13.50.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 287476,
+      "exportedPath": "lib/media/screenshot-2024-04-17-at-17.13.50.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240417134806.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 3318,
+      "exportedPath": "lib/media/pasted-image-20240417134806.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240417134818.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 3092,
+      "exportedPath": "lib/media/pasted-image-20240417134818.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240419184010.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 26219,
+      "exportedPath": "lib/media/pasted-image-20240419184010.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-04-30-at-17.39.32.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 116329,
+      "exportedPath": "lib/media/screenshot-2024-04-30-at-17.39.32.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240414143940.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 170184,
+      "exportedPath": "lib/media/pasted-image-20240414143940.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418162932.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 16429,
+      "exportedPath": "lib/media/pasted-image-20240418162932.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240314165232.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 65522,
+      "exportedPath": "lib/media/pasted-image-20240314165232.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240314165405.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 68959,
+      "exportedPath": "lib/media/pasted-image-20240314165405.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240314165707.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 72486,
+      "exportedPath": "lib/media/pasted-image-20240314165707.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240224221919.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 24041,
+      "exportedPath": "lib/media/pasted-image-20240224221919.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240224222226.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 19828,
+      "exportedPath": "lib/media/pasted-image-20240224222226.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240224222346.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 20896,
+      "exportedPath": "lib/media/pasted-image-20240224222346.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240420152109.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 166030,
+      "exportedPath": "lib/media/pasted-image-20240420152109.png",
+      "dependencies": []
+    },
+    "lib/media/diagram-7.svg": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 61938,
+      "exportedPath": "lib/media/diagram-7.svg",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240206203214.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 21732,
+      "exportedPath": "lib/media/pasted-image-20240206203214.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240223181226.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 21283,
+      "exportedPath": "lib/media/pasted-image-20240223181226.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240221210637.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 55853,
+      "exportedPath": "lib/media/pasted-image-20240221210637.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-02-22-at-21.37.15.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 28792,
+      "exportedPath": "lib/media/screenshot-2024-02-22-at-21.37.15.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-02-22-at-21.35.21.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 28581,
+      "exportedPath": "lib/media/screenshot-2024-02-22-at-21.35.21.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418150204.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 192228,
+      "exportedPath": "lib/media/pasted-image-20240418150204.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240220112708.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 38244,
+      "exportedPath": "lib/media/pasted-image-20240220112708.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240222121754.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 75933,
+      "exportedPath": "lib/media/pasted-image-20240222121754.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240222122240.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 192830,
+      "exportedPath": "lib/media/pasted-image-20240222122240.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240222122924.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 84671,
+      "exportedPath": "lib/media/pasted-image-20240222122924.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240222123440.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 75086,
+      "exportedPath": "lib/media/pasted-image-20240222123440.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240222124840.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 56110,
+      "exportedPath": "lib/media/pasted-image-20240222124840.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240222125131.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 158071,
+      "exportedPath": "lib/media/pasted-image-20240222125131.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240221211650.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 85159,
+      "exportedPath": "lib/media/pasted-image-20240221211650.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240202172732.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 80379,
+      "exportedPath": "lib/media/pasted-image-20240202172732.png",
+      "dependencies": []
+    },
+    "lib/media/power+functions.pdf": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 533211,
+      "exportedPath": "lib/media/power+functions.pdf",
+      "dependencies": []
+    },
+    "lib/media/diagram-6.svg": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 111809,
+      "exportedPath": "lib/media/diagram-6.svg",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240223172631.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 268869,
+      "exportedPath": "lib/media/pasted-image-20240223172631.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240206203239.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 18281,
+      "exportedPath": "lib/media/pasted-image-20240206203239.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418150047.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 109515,
+      "exportedPath": "lib/media/pasted-image-20240418150047.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240209114129.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 19756,
+      "exportedPath": "lib/media/pasted-image-20240209114129.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240418130529.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 114804,
+      "exportedPath": "lib/media/pasted-image-20240418130529.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240115082811.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 14844,
+      "exportedPath": "lib/media/pasted-image-20240115082811.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240928112240.png": {
+      "modifiedTime": 1730751532528,
+      "sourceSize": 164226,
+      "exportedPath": "lib/media/pasted-image-20240928112240.png",
       "dependencies": []
     }
   }
