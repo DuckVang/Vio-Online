@@ -1,4 +1,218 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vio]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://duckvang.github.io/Vio-Online/</link><image><url>https://duckvang.github.io/Vio-Online/lib/media/favicon.png</url><title>Vio</title><link>https://duckvang.github.io/Vio-Online/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 04 Nov 2024 21:07:42 GMT</lastBuildDate><atom:link href="https://duckvang.github.io/Vio-Online/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 04 Nov 2024 21:07:42 GMT</pubDate><copyright><![CDATA[Nguyen Duc Minh]]></copyright><ttl>60</ttl><dc:creator>Nguyen Duc Minh</dc:creator><item><title><![CDATA[Absolutní hodnota komplexního čísla]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vio]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://duckvang.github.io/Vio-Online/</link><image><url>https://duckvang.github.io/Vio-Online/lib/media/favicon.png</url><title>Vio</title><link>https://duckvang.github.io/Vio-Online/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 04 Nov 2024 21:47:53 GMT</lastBuildDate><atom:link href="https://duckvang.github.io/Vio-Online/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 04 Nov 2024 21:47:44 GMT</pubDate><copyright><![CDATA[Nguyen Duc Minh]]></copyright><ttl>60</ttl><dc:creator>Nguyen Duc Minh</dc:creator><item><title><![CDATA[Lineární prostory nad tělesem reálných čísel R]]></title><description><![CDATA[ 
+ <br>Definice (Lineární prostor nad tělesem reálných čísel)
+Lineární prostor nad  je trojice (), kde  je množina (typickém prvku v  říkáme vector  a značíme ),  jsou funkce typu
+
+Pro které platí následující <a data-tooltip-position="top" aria-label="Lineární prostory nad tělesem reálných čísel R > Axiomy" data-href="Lineární prostory nad tělesem reálných čísel R#Axiomy" href="https://duckvang.github.io/Vio-Online/Lineární prostory nad tělesem reálných čísel R#Axiomy" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomy</a><a data-tooltip-position="top" aria-label="Lineární prostory nad tělesem reálných čísel R > Axiomy" data-href="Lineární prostory nad tělesem reálných čísel R#Axiomy" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-prostory-nad-tělesem-reálných-čísel-r.html#Axiomy" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomy</a>
+<br><br><br>Axiom (Vlastnosti sčítání)
+
+<br>Existuje  tak, že pro vš.  platí <br>
+(existence nulového vektoru)
+<br>Pro vš.  platí: <br>
+(asociativita sčítání vektorů)
+<br>Pro vš.  platí: <br>
+(komutativita sčítání vektorů)
+<br>Pro vš.  existuje právě jeden , tak že <br>
+(existence opačného vektoru, značíme )
+
+<br>Axiom (Vlastnosti násobení skalárem)
+
+<br>Pro vš.  platí: <br>
+(násobení jednoduchým skalárem)
+<br>Pro vš.  a vš.  platí: <br>
+(asociativitaa násobení skalárem)
+
+<br>Axiom (Distributivní zákony)
+
+<br>Pro vš.  a vš.  platí <br>
+(distributivita součtu skalárů)
+<br>Pro vš.  a vš.  platí: <br>
+(distributivita součtu vektorů)
+
+<br><br><br>Fakt 1 (Nulový vektor je jednoznačně určen)
+Důkaz<br>
+Ať existuje  tak že pro vš.  platí:
+ a  Pak 
+□
+<br>Fakt 2 (Pro vš.  platí: )
+Důkaz<br>
+Pro vš.  platí:<br>
+. Tudiž  musí být nulový vektor
+□
+<br>Fakt 3 (Opačný vektor k  je vektor )
+Důkaz<br>
+Platí: 
+□
+<br>Fakt 4 (Pro vš.  platí: )
+Důkaz<br>
+Platí: 
+□
+<br><br>Ať je  je lineární prostor, . Pak  právě tehdy když  nebo <br>Důkaz<br>Díky předchozímu stačí dokázat pouze implikaci zleva doprava. Ať  a . Potom existuje. Tudíž  
+□<br>Povšimněte si, čeho využívá předchozí tvrzení:
+Pro vš.  platí:  existuje, jakmile 
+<br><br><br>Příklad
+. Operace sčítání vektorů . Násobení skalárem: . Pak L je linární prostor
+<br>Příklad
+ je jakákoliv jednoprvková množina. Pak  (splu s evidentími operacemi) je lineární prostor. Říkáme mu triviální lineární prostor. Nutně 
+<br>Příklad
+. Operace: .     Nejde o lineární prostor (komutativní zákon)
+<br><br>Role reálných skalárů
+Lze   nahradit jiným "číselným oborem"?
+Se skaláry je třeba umět následující: rozumné sčítání, násobení.
+Abstraktní pojem: skaláry musí tvořit strukturu , které se říká <a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Vio-Online/Těleso (Division ring)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">těleso</a><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">těleso</a>, check out <a data-href="Lineární prostory nad obecným tělesem F" href="https://duckvang.github.io/Vio-Online/Lineární prostory nad obecným tělesem F" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Lineární prostory nad obecným tělesem F</a><a data-href="Lineární prostory nad obecným tělesem F" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-prostory-nad-obecným-tělesem-f.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Lineární prostory nad obecným tělesem F</a>
+<br>Poznámka
+Abstrakce v lineární algebře má tedy dva stupně:
+
+<br>Lineární prostor nad  abstrahuje (například) prostor orientovaných úseček
+<br>Lineární prostor nad  abstrahuje dále: roli skalárů převezmou prvky tělesa 
+
+]]></description><link>https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-prostory-nad-tělesem-reálných-čísel-r.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární prostory nad tělesem reálných čísel R.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 21:30:15 GMT</pubDate></item><item><title><![CDATA[Lineární prostory nad obecným tělesem F]]></title><description><![CDATA[ 
+ <br> Lineární prostor nad   je soci větší zobecnění pojmu lineární prostor nad , splňuje tedy podmínky stejných operací, sčítání () a násobení () a případné <a data-tooltip-position="top" aria-label="Lineární prostory nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostory nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/Vio-Online/Lineární prostory nad tělesem reálných čísel R#Axiomy lineárního prostoru" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomy</a><a data-tooltip-position="top" aria-label="Lineární prostory nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostory nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-prostory-nad-tělesem-reálných-čísel-r.html#Axiomy_lineárního_prostoru" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomy</a><br><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Vio-Online/Těleso (Division ring)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Těleso</a><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Těleso</a>  je jako zobecnění reálných čísel <br>Definice (Lineární prostor nad obecným tělesem )
+Lineární prostor nad tělesem  je množina  spolu se dvěma funkcemi 
+
+Pro které platí následující <a data-tooltip-position="top" aria-label="Lineární prostory nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostory nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/Vio-Online/Lineární prostory nad tělesem reálných čísel R#Axiomy lineárního prostoru" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomy</a><a data-tooltip-position="top" aria-label="Lineární prostory nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostory nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-prostory-nad-tělesem-reálných-čísel-r.html#Axiomy_lineárního_prostoru" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomy</a>
+Definice je formálně stejná pro <a data-href="Lineární prostory nad tělesem reálných čísel R" href="https://duckvang.github.io/Vio-Online/Lineární prostory nad tělesem reálných čísel R" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Lineární prostory nad tělesem reálných čísel R</a><a data-href="Lineární prostory nad tělesem reálných čísel R" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-prostory-nad-tělesem-reálných-čísel-r.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Lineární prostory nad tělesem reálných čísel R</a>. Jediná změna: těleso  je nahrazeno obecným tělesem 
+<br><br>Příklad ()
+Prostory  nad . Vektory jsou uspořádané -tice prvků , psané do sloupce. Skaláry jsou prvky tělesa .
+Například: v  je vektor , v  je vektor , v  je vektor , atd
+<br>Příklad ()
+Prostory  polynomů v neurčité  s koeficienty z tělesa . Skaláry jsou prvky tělesa , vektory jsou jednotlivé polynomy. Sčítání a násobení je definováno analogicky jako v . Například v  platí:
+
+]]></description><link>https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-prostory-nad-obecným-tělesem-f.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární prostory nad obecným tělesem F.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 21:30:15 GMT</pubDate></item><item><title><![CDATA[Lineární podprostor]]></title><description><![CDATA[ 
+ <br>Definice (Lineární podprostor)
+Ať  je podmnožina lineárního prostoru . Řekneme, že  je lineární podprostor lineárního prostoru L, když platí .
+<br>Slogan – Podprostor je "dobrá" podmnožina prostoru. Žádnou linární kombinaci nelze z lineárního podprostoru "utéct"<br><br>Fakt
+
+<br> je vždy lineární podprostor. Jde o nejmenší podprostor, který obsahuje množinu  
+<br>Každá lineární kombinace prvků  je opět prvek 
+<br>Množina  je lineární podprostor právě tehdy, když  tj. je lineárně uzavřená podmnžoina prostoru  <br>
+
+<br>Důkaz
+(iii) M je lin. podprostor →  →    □<br><br>Fakt (Ať  je lineární prostor. Podmnožina  je lineárním podprostorem prostoru  právě tehdy, když platí )
+
+<br> je prvkem  (Uzavřenost W na nulový vector)
+<br> je prvkem , pro každé  (uzavřenost W na součet vektorů)
+<br> je prvkem , pro každé  a každé  (uzavřenost W na skalární násobek)
+
+<br>Důkaz
+Doplnit
+□<br>Slogan – Lineární podprostor vždy obsahuje nulový vector a "vydrží" operacee součtu a skalárního násobku<br><br>Důležité
+Ať  je lineární podprostor lineárního prostoru . Potom množina  sama o sobě je lineárním prostorem, pokud sčítání vektorů ve  a násobení vektoru skalárem ve  definujeme stejně jako v prostoru 
+Obrácené tvrzení ale neplatí: například  není lineárním podprostorem . Ale množina  spolu s operacemi
+
+tvoří lineární prostor nad 
+<br><br><br>Příklad (Běžné)
+
+<br>Každý lineární prostor je sám svým podprostorem
+<br>Množina  je vždy lineárním podprostorem
+<br>Pro každé  je  lineární podprostor lineárního prostoru 
+
+<br>Příklad (Polynomy)
+Označme jako  množinu všech reálných polynomů stupně maximálně 3 a jako  množinu všech reálných polynomů stupně maximálně 136. Potom  je lineární podrpostor lineárního prostoru  
+Obeněji: ať  je těleso. Označme jako  množinu všech polynomů nad  stupně maximálně . Jakmile , je  lineární podprostor  lineárního prostoru 
+<br>Příklad ( je lineárním prostor (operace jsou definovány po složkách))
+
+<br>
+ je lineárním podprostorem 
+
+<br>
+ není lineárním podprostorem 
+
+
+Pozor! Na množině  lze definovat strukturu lineárního prostoru (triviální podprostor)
+<br><br><br>Ať  je lineární prostor <br>
+<br>Průnik libobolného systému  podprostoru  je lineárním podprostorem prostoru L. (1.6.7)
+<br>Sjednocení systému  lineárních podprostorů prostoru  obecně lineárním podprostorem  není (1.6.8)
+<br>Důkaz<br><a class="original-internal-link" data-href="AKLA.pdf#page=39" href="https://duckvang.github.io/Vio-Online/AKLA.pdf#page=39" target="_blank" rel="noopener nofollow" style="display: none;">Důkaz průniku a sjednocení stránka 39</a><a class="internal-link mathLink-internal-link" data-href="AKLA.pdf#page=39" href="https://duckvang.github.io/Vio-Online/pdf/akla.pdf#page=39" target="_self" rel="noopener nofollow">Důkaz průniku a sjednocení stránka 39</a>
+□<br>Definice (Spojení lineárních podprostorů)
+Ať  je systém lineárníh podprostorů L. Lineárnímu podprostoru  prostoru říkáme spojení podprostorů , a značíme jej 
+
+V případě dvou podprostorů používáme i značení 
+<br><br>Klasifikace lineárních podprostorů 
+Všechny podprostory  jsou buď 
+
+<br>Jednoprovková množina obsahující pouze počátek
+<br>Každá přímka procházející počátkem 
+<br>Každá rovina procházející počátkem 
+<br>Celá množina 
+
+<br><br><br>Fakt 1.6.7 ( Průnik systému lineárních podprostorů je lineární podprostor)
+Ať , je jakýkoli systém lineárních podprostor lineárního prostoru L. Potom  je opět lineární podprostor lineárniho prostoru .
+<br><br>Důkaz<br>Označme . Protože pro každé i platí , platí i  pro každé . Pro každé  také platí . Tudiž pro každé  platí span . To znamená, že plati  inkluse<br><br>   a to jsme chtěli dokázat.
+□]]></description><link>https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-podprostor.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární podprostor.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 21:24:31 GMT</pubDate></item><item><title><![CDATA[Lineární obal (span)]]></title><description><![CDATA[ 
+ <br>Definice (Lineární obal množiny vektorů)
+Ať  je jakákoli množina vektorů lineárního prostoru . Lineární obal množiny vektorů  je množina , definovaná takto<a data-footref="0" href="https://duckvang.github.io/Vio-Online/#fn-1-5caed63ea316009e" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>: 
+
+pro nějaké , nějaká  a nějaká 
+<br> Ujasnění si definice :
+ právě tehdy, když existuje nějaký seznam  vektorů z množiny  tak, že  je roven nějaké <a data-tooltip-position="top" aria-label="Lineární kombinace" data-href="Lineární kombinace" href="https://duckvang.github.io/Vio-Online/Lineární kombinace" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineární kombinaci</a><a data-tooltip-position="top" aria-label="Lineární kombinace" data-href="Lineární kombinace" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-kombinace.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineární kombinaci</a> <a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/Vio-Online/Seznam (Set)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">seznamu</a><a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/seznam-(set).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">seznamu</a> . 
+To jest: span(M) je množina všech možných lineárních kombinací, které lze z M utvořit tj. 
+<br><br><br>Fakt (Je-li , potom )
+Důkaz<br>
+Předpokládejme, že  je ve . To znamená, že , kde každé  je v množině  a množina  je konečná. Protože , je , kde každé , je množině  a množina  je končná. To znamená, že  je v množině 
+□
+<br>Fakt (Pro vš.  platí: .)
+Důkaz<br>
+Ať  je množině . Potom platí . Proto je  v množině 
+□
+<br>Fakt (Pro vš.  platí: )
+Důkaz<br>
+Předpokládejme, že  je v  množině . To znamená, že , kde každé  je v množině  a množina  je konečná. Pro každé  napíšeme , kde každé  je v množině  a množina  je konečná. Celkově platí
+
+Součin  je nenulový pouze pro konečně mnoho dvojic . To znamená, že  je v množině 
+□
+<br>Slogan - Lineární kombinací tvoříme "rovné kusy"  lineárního prostoru. Množina span(M) je tedy "zabalení" množiny M tak, aby výsledkem byl "co nejmenší rovný kus". který obsahuje M<br><br><br>Cvičení 3.3.1 (Problém Rozhodněte, zda pro libovolné podmnožiny  a  lineárního prostoru  platí rovnosti:)
+
+<br>, 
+<br>
+
+Pokud rovnosti obecně neplatí, platí v nich obecně alespoň některé inkluse?
+<br>
+<br>
+<br>Pozor prázdné lineární kombinace je rovna vektoru <a href="https://duckvang.github.io/Vio-Online/#fnref-1-5caed63ea316009e" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-obal-(span).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární obal (span).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 21:47:13 GMT</pubDate></item><item><title><![CDATA[Lineární kombinace]]></title><description><![CDATA[ 
+ <br>V matematice se pojmem lineární kombinace označuje jeden z nejzákladnějších konceptů studovaných <a data-tooltip-position="top" aria-label="Lineární algebra" data-href="Lineární algebra" href="https://duckvang.github.io/Vio-Online/Lineární algebra" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineární algebrou</a><a data-tooltip-position="top" aria-label="Lineární algebra" data-href="Lineární algebra" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-algebra.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineární algebrou</a>. Jedná se v jistém smyslu o zobecnění pojmu násobení a sčítání pro čísla. Pomocí pojmu lineární kombinace se definují další důležité objekty lineární algebry jako je <a data-tooltip-position="top" aria-label="Lineární obal (span)" data-href="Lineární obal (span)" href="https://duckvang.github.io/Vio-Online/Lineární obal (span)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineární obal</a><a data-tooltip-position="top" aria-label="Lineární obal (span)" data-href="Lineární obal (span)" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-obal-(span).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineární obal</a>, lineární nezávislost a podobně.<br><br>Definice (Lineární kombinace -tice vektorů (konečného seznamu vektorů))
+Ať  je <a data-tooltip-position="top" aria-label="I-tice vektorů" data-href="I-tice vektorů" href="https://duckvang.github.io/Vio-Online/I-tice vektorů" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">I-tice vektorů</a><a data-tooltip-position="top" aria-label="I-tice vektorů" data-href="I-tice vektorů" href="https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/i-tice-vektorů.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">I-tice vektorů</a> (seznamu). Její lineární kombinace je vektor
+
+kde  (tzv. koeficienty linární kombinace) jsou z  a množina 
+<br>
+<br> definujeme  jako jeho (jedinou možnou) lineární kombinaci (s prázdným seznamem koeficientů)
+<br> je vektor  jeho lineární kombinace (se seznamem koeficientů )
+<br>Lineární kombinace obecné -tice vektorů je tedy vektor, zapsaný ve tvaru , kde "téměř všechny" koeficienty  (tj. všechny koeficienty, až na konečnou množinu) jsou rovny nule<br><br>Příklad (Geometrický význam lineární kombinace (Přímka))
+Pro seznam  v <br>
+<img alt="invertb" src="https://duckvang.github.io/Vio-Online/lib/media/screenshot-2024-10-06-at-17.58.00.png">
+a seznam  reálných čísel je
+<img alt="invertb" src="https://duckvang.github.io/Vio-Online/lib/media/screenshot-2024-10-06-at-18.01.26.png">
+lineární kombinace.
+Všechny možné lineární kombinace vektoru  vytvářejí v  přímku procházející počátkem (se směrem )
+<br>Příklad (Geometrický význam lineární kombinace (Rovina))
+Pro sezname  v <br>
+<img alt="invertb" src="https://duckvang.github.io/Vio-Online/lib/media/screenshot-2024-10-06-at-18.05.01.png">
+A seznam  reálných čísel je
+<img alt="invertb" src="https://duckvang.github.io/Vio-Online/lib/media/screenshot-2024-10-06-at-18.05.34.png">
+Všechny možné lineární kombinace seznamu  vytvářejí v  rovinu procházející počátkem (se směrem )
+<br>Příklad (Lineární kombinace a soustavy rovnic)
+Existují koeficienty  v  tak, že v  platí rovnost
+
+Dva pohledy na tento problém:
+
+<br>
+Hledáme prvky  tak, že platí
+
+To znamená: koeficienty lineární kombinace jsou řešením jisté soustavy lineárnich rovnic nad .
+
+<br>
+Pro zadané vektory<br><br>
+<img alt="Screenshot 2024-11-04 at 22.42.48.png" src="https://duckvang.github.io/Vio-Online/lib/media/screenshot-2024-11-04-at-22.42.48.png"><br>
+hledáme „natažení" cervených vektoru tak, aby modrý vektor byl úhlopřičckou čtyřúhelnika:<br>
+<img alt="Screenshot 2024-11-04 at 22.44.12.png" src="https://duckvang.github.io/Vio-Online/lib/media/screenshot-2024-11-04-at-22.44.12.png"><br>
+Pozor: výše uvedený obrázek je „slogan"! Pracujeme totiž v .
+
+
+<br><br>Slogan (Význam lineárních kombinací)
+At  je lineární prostor nad .<br>
+Lineární kombinace seznamu (  v  vytvářejí "rovný kus" prostoru .
+Tento "rovný kus" prostoru L prochází počátkem  a má "směr" .
+]]></description><link>https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-kombinace.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární kombinace.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 21:45:39 GMT</pubDate><enclosure url="https://duckvang.github.io/Vio-Online/lib/media/screenshot-2024-10-06-at-17.58.00.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://duckvang.github.io/Vio-Online/lib/media/screenshot-2024-10-06-at-17.58.00.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Absolutní hodnota komplexního čísla]]></title><description><![CDATA[ 
  <br>Absolutní hodnota reálného čísla představuje jeho vzdálenost od nuly. Podobně zavádíme absolutní hodnotu čísla <a data-tooltip-position="top" aria-label="Komplexní čísla" data-href="Komplexní čísla" href="https://duckvang.github.io/Vio-Online/Komplexní čísla" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">komplexního</a><a data-tooltip-position="top" aria-label="Komplexní čísla" data-href="Komplexní čísla" href="https://duckvang.github.io/Vio-Online/math/maturita/komplexní-čísla.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">komplexního</a>. <br>Příklady s absolutní hodnotou, <a data-href="Množina bodů v komplexní rovině" href="https://duckvang.github.io/Vio-Online/Množina bodů v komplexní rovině" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Množina bodů v komplexní rovině</a><a data-href="Množina bodů v komplexní rovině" href="https://duckvang.github.io/Vio-Online/math/maturita/množina-bodů-v-komplexní-rovině.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Množina bodů v komplexní rovině</a><br>Definice (Absolutní hodnota komplexního čísla)
 Absolutní hodnota komplexního čísla  je vzdálenost jeho obrazu<br>
 od počátku  v komplexní rovině. Značíme ji 
@@ -1843,52 +2057,7 @@ Necht́ . Uvažujme soustavu rovnic<br><br>Jestliže jsou všechna čísla  po d
 <br>Pro každé  najděte inverzní ćíslo  vzhledem k násobení modulo .
 <br>Necht . Množina všech řešení soustavy je .
 ]]></description><link>https://duckvang.github.io/Vio-Online/math/vysoká-škola/diskrétní-matematika/rovnice-nad-z-(v-celých-čísel).html</link><guid isPermaLink="false">Math/Vysoká škola/Diskrétní matematika/Rovnice nad Z (v celých čísel).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 28 Oct 2024 18:13:23 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
- <br>Welcome to the page]]></description><link>https://duckvang.github.io/Vio-Online/index.html</link><guid isPermaLink="false">index.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 18:12:11 GMT</pubDate></item><item><title><![CDATA[Lineární podprostor]]></title><description><![CDATA[ 
- <br>Definice (Lineární podprostor)
-Ať  je podmnožina lineárního prostoru . Řekneme, že  je lineární podprostor lineárního prostoru L, když platí .
-<br>Slogan – Podprostor je "dobrá" podmnožina prostoru. Žádnou linární kombinaci nelze z lineárního podprostoru "utéct"<br><br>Fakt 1 ( je vždy lineární podprostor. Jde o nejmenší podprostor, který obsahuje množinu )<br>Fakt (Každá lineární kombinace prvků  je opět prvek )<br>Fakt (Množina  je lineární podprostor právě tehdy, když  tj. je lineárně uzavřená podmnžoina prostoru )
-Důkaz<br>
-(i) M je lin. podprostor →  → <br>
-□
-<br>Fakt (Ať  je lineární prostor. Podmnožina  je lineárním podprostorem prostoru  právě tehdy, když platí )
-
-<br> je prvkem  (Uzavřenost W na nulový vector)
-<br> je prvkem , pro každé  (uzavřenost W na součet vektorů)
-<br> je prvkem , pro každé  a každé  (uzavřenost W na skalární násobek)
-
-<br>Důkaz
-Doplnit
-□<br>Slogan – Lineární podprostor vždy obsahuje nulový vector a "vydrží" operacee součtu a skalárního násobku<br>Important
-Ať  je lineární podprostor lineárního prostoru . Potom množina  sama o sobě je lineárním prostorem, pokud sčítání vektorů ve  a násobení vektoru skalárem ve  definujeme stejně jako v prostoru 
-Obrácené tvrzení ale neplatí: například  není lineárním podprostorem . Ale množina  spolu s operacemi
-
-tvoří lineární prostor nad 
-<br><br>Příklad (Každý lineární prostor je sám svým podprostorem)<br>Příklad (Množina  je vždy lineárním podprostorem)<br>Příklad (Pro každé  je  lineární podprostor lineárního prostoru )<br>Příklad (Označme jako  množinu všech reálných polynomů stupně maximálně 3 a jako  množinu všech reálných polynomů stupně maximálně 136. Potom  je lineární podrpostor lineárního prostoru  )
-Obeněji: ať  je těleso. Označme jako  množinu všech polynomů nad  stupně maximálně . Jakmile , je  lineární podprostor  lineárního prostoru 
-<br>Příklad ( je lineárním prostor (operace jsou definovány po složkách))
- je lineárním podprostorem 
- není lineárním podprostorem 
-Pozor! Na množině  lze definovat strukturu lineárního prostoru (triviální podprostor)
-<br><br>Ať  je lineární prostor <br>
-<br>Průnik libobolného systému  podprostoru  je lineárním podprostorem prostoru L. (1.6.7)
-<br>Sjednocení systému  lineárních podprostorů prostoru  obecně lineárním podprostorem  není (1.6.8)
-<br>Důkaz<br><a class="original-internal-link" data-href="AKLA.pdf#page=39" href="https://duckvang.github.io/Vio-Online/AKLA.pdf#page=39" target="_blank" rel="noopener nofollow" style="display: none;">Důkaz průniku a sjednocení stránka 39</a><a class="internal-link mathLink-internal-link" data-href="AKLA.pdf#page=39" href="https://duckvang.github.io/Vio-Online/pdf/akla.pdf#page=39" target="_self" rel="noopener nofollow">Důkaz průniku a sjednocení stránka 39</a>
-□<br>Definice (Spojení lineárních podprostorů)
-Ať  je systém lineárníh podprostorů L. Lineárnímu podprostoru  prostoru říkáme spojení podprostorů , a značíme jej 
-
-V případě dvou podprostorů používáme i značení 
-<br><br>Klasifikace lineárních podprostorů 
-Všechny podprostory  jsou buď 
-
-<br>Jednoprovková množina obsahující pouze počátek
-<br>Každá přímka procházející počátkem 
-<br>Každá rovina procházející počátkem 
-<br>Celá množina 
-
-<br><br><br>Fakt 1.6.7 ( Průnik systému lineárních podprostorů je lineární podprostor)
-Ať , je jakýkoli systém lineárních podprostor lineárního prostoru L. Potom  je opět lineární podprostor lineárniho prostoru .
-<br><br>Důkaz<br>Označme . Protože pro každé i platí , platí i  pro každé . Pro každé  také platí . Tudiž pro každé  platí span . To znamená, že plati  inkluse<br><br>   a to jsme chtěli dokázat.
-□]]></description><link>https://duckvang.github.io/Vio-Online/math/vysoká-škola/lineární-algebra/lineární-podprostor.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární podprostor.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 20:07:20 GMT</pubDate></item><item><title><![CDATA[Algebra matic]]></title><description><![CDATA[ 
+ <br>Welcome to the page]]></description><link>https://duckvang.github.io/Vio-Online/index.html</link><guid isPermaLink="false">index.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 18:12:11 GMT</pubDate></item><item><title><![CDATA[Algebra matic]]></title><description><![CDATA[ 
  <br> Již víme:  je lineární prostor nad .
 Jak se operace v  projeví na "manipulaci s tabulkami"? Použijeme sloupcový zápis matic.<br>Pro  (← tohle je sloupcový zápis) a  a skalár a z  je:<br>
 <br> matice se sloupcovým zápisem . Zápis  čteme součet matic  a .
@@ -2371,146 +2540,11 @@ Lineární prostor  má dimensi  (značíme:  ), když existuje <a data-tooltip-
 Ať  je n-tice vektorů tvořící uspořádánou bázi lineárního prostoru . Jednoznačně určenému vektoru 
 
 v prostoru  s vlastností  říkáme vektor souřadnic vektoru  vzhledem k bázi 
- ]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-algebra-definice.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární algebra - definice.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 14:52:36 GMT</pubDate></item><item><title><![CDATA[Lineární kombinace]]></title><description><![CDATA[ 
- <br>V matematice se pojmem lineární kombinace označuje jeden z nejzákladnějších konceptů studovaných <a data-tooltip-position="top" aria-label="Lineární algebra" data-href="Lineární algebra" href="https://duckvang.github.io/Lineární algebra" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineární algebrou</a><a data-tooltip-position="top" aria-label="Lineární algebra" data-href="Lineární algebra" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-algebra.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineární algebrou</a>. Jedná se v jistém smyslu o zobecnění pojmu násobení a sčítání pro čísla. Pomocí pojmu lineární kombinace se definují další důležité objekty lineární algebry jako je <a data-tooltip-position="top" aria-label="Lineární obal (span)" data-href="Lineární obal (span)" href="https://duckvang.github.io/Lineární obal (span)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineární obal</a><a data-tooltip-position="top" aria-label="Lineární obal (span)" data-href="Lineární obal (span)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-obal-(span).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineární obal</a>, lineární nezávislost a podobně.<br><br>Definice (Lineární kombinace -tice vektorů (konečného seznamu vektorů))
-Ať  je <a data-tooltip-position="top" aria-label="I-tice vektorů" data-href="I-tice vektorů" href="https://duckvang.github.io/I-tice vektorů" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">I-tice vektorů</a><a data-tooltip-position="top" aria-label="I-tice vektorů" data-href="I-tice vektorů" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/i-tice-vektorů.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">I-tice vektorů</a> (seznamu). Její lineární kombinace je vektor
-
-kde  (tzv. koeficienty linární kombinace) jsou z  a množina 
-Lineární kombinace obecné -tice vektorů je tedy vektor, zapsaný ve tvaru , kde "téměř všechny" koeficienty  (tj. všechny koeficienty, až na konečnou množinu) jsou rovny nule
-
-
-<br>() definujeme  jako jeho (jedinou možnou) lineární kombinaci (s prázdným seznamem koeficientů)
-<br> je vektor  jeho lineární kombinace (se seznamem koeficientů )
-
-<br><br>Příklad (Geometrický význam lineární kombinace (Přímka))
-Pro seznam  v <br>
-<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-17.58.00.png">
-a seznam  reálných čísel je
-<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-18.01.26.png">
-lineární kombinace.
-Všechny možné lineární kombinace vektoru  vytvářejí v  přímku procházející počátkem (se směrem )
-<br>Příklad (Geometrický význam lineární kombinace (Rovina))
-Pro sezname  v <br>
-<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-18.05.01.png">
-A seznam  reálných čísel je
-<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-18.05.34.png">
-Všechny možné lineární kombinace seznamu  vytvářejí v  rovinu procházející počátkem (se směrem )
-<br><br>Cvičení (Ať L je lineární prostor nad , ať )<br><br>Cvičení (Přemýšlíme o "směru roviny" v )
- pro žádné 
-<br><br>Jak se definuje rovina v <br><br>Cvičení (Ať  je lineární prostor nad , ať .)
-
-<br><br>Nepřímý důkaz chci ne( ) ← ne[ ]<br><br>]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-kombinace.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární kombinace.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sat, 26 Oct 2024 12:16:23 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-17.58.00.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-17.58.00.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Lineární obal (span)]]></title><description><![CDATA[ 
- <br>Definice (Lineární obal množiny vektorů)
-Ať  je jakákoli množina vektorů lineárního prostoru . Lineární obal množiny vektorů  je množina , definovaná takto<a data-footref="0" href="https://duckvang.github.io/#fn-1-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>: 
-
-pro nějaké , nějaká  a nějaká 
-
-Ujasnění si definice :
- právě tehdy, když existuje nějaký seznam  vektorů z množiny  tak, že  je roven nějaké <a data-tooltip-position="top" aria-label="Lineární kombinace" data-href="Lineární kombinace" href="https://duckvang.github.io/Lineární kombinace" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineární kombinaci</a><a data-tooltip-position="top" aria-label="Lineární kombinace" data-href="Lineární kombinace" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-kombinace.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineární kombinaci</a> <a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/Seznam (Set)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">seznamu</a><a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/seznam-(set).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">seznamu</a> . 
-To jest: span(M) je množina všech možných lineárních kombinací, které lze z M utvořit tj. 
-<br><br><br>Fakt (Je-li , potom )
-Důkaz<br>
-Předpokládejme, že  je ve . To znamená, že , kde každé  je v množině  a množina  je konečná. Protože , je , kde každé , je množině  a množina  je končná. To znamená, že  je v množině 
-□
-<br>Fakt (Pro vš.  platí: .)
-Důkaz<br>
-Ať  je množině . Potom platí . Proto je  v množině 
-□
-<br>Fakt (Pro vš.  platí: )
-Důkaz<br>
-Předpokládejme, že  je v  množině . To znamená, že , kde každé  je v množině  a množina  je konečná. Pro každé  napíšeme , kde každé  je v množině  a množina  je konečná. Celkově platí
-
-Součin  je nenulový pouze pro konečně mnoho dvojic . To znamená, že  je v množině 
-□
-<br><br>Slogan - Lineární kombinací tvoříme "rovné kusy"  lineárního prostoru. Množina span(M) je tedy "zabalení" množiny M tak, aby výsledkem byl "co nejmenší rovný kus". který obsahuje M<br><br><br>Cvičení 3.3.1 (Problém Rozhodněte, zda pro libovolné podmnožiny  a  lineárního prostoru  platí rovnosti 1) , 2) )
-Pokud rovnosti obecně neplatí, platí v nich obecně alespoň některé inkluse?
-<br>
-<br>
-<br>Pozor prázdné lineární kombinace je rovna vektoru <a href="https://duckvang.github.io/#fnref-1-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
-]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-obal-(span).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární obal (span).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 29 Oct 2024 17:09:22 GMT</pubDate></item><item><title><![CDATA[Lineární prostor (Vektorový prostor)]]></title><description><![CDATA[ 
+ ]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-algebra-definice.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární algebra - definice.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 14:52:36 GMT</pubDate></item><item><title><![CDATA[Lineární prostor (Vektorový prostor)]]></title><description><![CDATA[ 
  <br> Lineární prostor , též Vektorový prostor je (velmi zhruba) soubor prvků, kterým říkáme <a data-tooltip-position="top" aria-label="Vektor" data-href="Vektor" href="https://duckvang.github.io/Vektor" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">vektory</a><a data-tooltip-position="top" aria-label="Vektor" data-href="Vektor" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/vektor.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">vektory</a>, více specificky jedná se zobecnění množin <a data-tooltip-position="top" aria-label="Reaálná čísla" data-href="Reaálná čísla" href="https://duckvang.github.io/Reaálná čísla" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">reálných</a><a data-tooltip-position="top" aria-label="Reaálná čísla" data-href="Reaálná čísla" href="https://duckvang.github.io/math/vysoká-škola/diskrétní-matematika/reaálná-čísla.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">reálných</a> resp. <a data-tooltip-position="top" aria-label="Komplexní čísla" data-href="Komplexní čísla" href="https://duckvang.github.io/Komplexní čísla" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">komplexních</a><a data-tooltip-position="top" aria-label="Komplexní čísla" data-href="Komplexní čísla" href="https://duckvang.github.io/math/maturita/komplexní-čísla.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">komplexních</a> čísel. <br>Vektor abstrakně je nějaký prvek množiny, nemá velikost a směr, je to prvek, ve fyzice představuje veličinu která má velikost a směr a orientaci<br> Podobně jako v těchto množinách je i ve vektorovém prostoru definována operace sčítání a násobení s jistými přirozenými omezeními jako je <a data-tooltip-position="top" aria-label="Komutativita" data-href="Komutativita" href="https://duckvang.github.io/Komutativita" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">komutativita</a><a data-tooltip-position="top" aria-label="Komutativita" data-href="Komutativita" href="https://duckvang.github.io/math/vysoká-škola/diskrétní-matematika/komutativita.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">komutativita</a>, <a data-tooltip-position="top" aria-label="Asociativita" data-href="Asociativita" href="https://duckvang.github.io/Asociativita" class="internal-link" target="_self" rel="noopener nofollow">asociativita</a> či <a data-tooltip-position="top" aria-label="Distributivita" data-href="Distributivita" href="https://duckvang.github.io/Distributivita" class="internal-link" target="_self" rel="noopener nofollow">distributivita</a> <br>Lineární prostor je v podstatě (zobecněno) to že dovolíme <a data-tooltip-position="top" aria-label="Vektor" data-href="Vektor" href="https://duckvang.github.io/Vektor" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">vektory</a><a data-tooltip-position="top" aria-label="Vektor" data-href="Vektor" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/vektor.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">vektory</a> v prostoru "natahovat" se obecnými <a data-tooltip-position="top" aria-label="Scalar" data-href="Scalar" href="https://duckvang.github.io/Scalar" class="internal-link" target="_self" rel="noopener nofollow">skaláry</a>. <br><br>Lineární prostor vs <a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Těleso (Division ring)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">těleso</a><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">těleso</a>
 Můžeme to pochopit tak že lineární (vektorový) prostor je cosi taková speciální <a data-tooltip-position="top" aria-label="Grupa" data-href="Grupa" href="https://duckvang.github.io/Grupa" class="internal-link" target="_self" rel="noopener nofollow">grupa</a> (tvořena vektory, což jsou jejich speciální elementy), ale aby skupina byla lineární prostor tak musí "spolupracovat" s tělesem skaláru
 Pak říkáme , že se jedná o lineární prostor nad tím či oním tělesem
-]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-(vektorový-prostor).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární prostor (Vektorový prostor).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 22 Oct 2024 19:32:58 GMT</pubDate></item><item><title><![CDATA[Lineární prostor nad obecným tělesem F]]></title><description><![CDATA[ 
- <br> Lineární prostor nad   je soci větší zobecnění pojmu lineární prostor nad , splňuje tedy podmínky stejných operací, sčítání () a násobení () a případné <a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomy</a><a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html#Axiomy_lineárního_prostoru" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomy</a><br><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Těleso (Division ring)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Těleso</a><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Těleso</a>  je jako zobecnění reálných čísel <br>Definice (Lineární prostor nad obecným tělesem )
-Lineární prostor nad tělesem  je množina  spolu se dvěma funkcemi 
-
-Pro které platí následující <a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomy</a><a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html#Axiomy_lineárního_prostoru" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomy</a>
-Definice je formálně stejná pro <a data-href="Lineární prostor nad tělesem reálných čísel R" href="https://duckvang.github.io/Lineární prostor nad tělesem reálných čísel R" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Lineární prostor nad tělesem reálných čísel R</a><a data-href="Lineární prostor nad tělesem reálných čísel R" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Lineární prostor nad tělesem reálných čísel R</a>. Jediná změna: těleso  je nahrazeno obecným tělesem 
-<br><br>Příklad ()
-Prostory  nad . Vektory jsou uspořádané -tice prvků , psané do sloupce. Skaláry jsou prvky tělesa .
-Například: v  je vektor , v  je vektor , v  je vektor , atd
-<br>Příklad ()
-Prostory  polynomů v neurčité  s koeficienty z tělesa . Skaláry jsou prvky tělesa , vektory jsou jednotlivé polynomy. Sčítání a násobení je definováno analogicky jako v . Například v  platí:
-
-]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-obecným-tělesem-f.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární prostor nad obecným tělesem F.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 22 Oct 2024 19:34:25 GMT</pubDate></item><item><title><![CDATA[Lineární prostor nad tělesem reálných čísel R]]></title><description><![CDATA[ 
- <br>Definice (Lineární prostor nad tělesem reálných čísel)
-Lineární prostor nad  je trojice (), kde  je množina (typickém prvku v  říkáme vector  a značíme ),  jsou funkce typu
-
-Pro které platí následující <a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy" href="https://duckvang.github.io/Lineární prostor nad tělesem reálných čísel R#Axiomy" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomy</a><a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html#Axiomy" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomy</a>
-<br><br><br>Axiom (Vlastnosti sčítání)
-
-<br>Existuje  tak, že pro vš.  platí <br>
-(existence nulového vektoru)
-<br>Pro vš.  platí: <br>
-(asociativita sčítání vektorů)
-<br>Pro vš.  platí: <br>
-(komutativita sčítání vektorů)
-<br>Pro vš.  existuje právě jeden , tak že <br>
-(existence opačného vektoru, značíme )
-
-<br>Axiom (Vlastnosti násobení skalárem)
-
-<br>Pro vš.  platí: <br>
-(násobení jednoduchým skalárem)
-<br>Pro vš.  a vš.  platí: <br>
-(asociativitaa násobení skalárem)
-
-<br>Axiom (Distributivní zákony)
-
-<br>Pro vš.  a vš.  platí <br>
-(distributivita součtu skalárů)
-<br>Pro vš.  a vš.  platí: <br>
-(distributivita součtu vektorů)
-
-<br><br><br>Fakt 1 (Nulový vektor je jednoznačně určen)
-Důkaz<br>
-Ať existuje  tak že pro vš.  platí:
- a  Pak 
-□
-<br>Fakt 2 (Pro vš.  platí: )
-Důkaz<br>
-Pro vš.  platí:<br>
-. Tudiž  musí být nulový vektor
-□
-<br>Fakt 3 (Opačný vektor k  je vektor )
-Důkaz<br>
-Platí: 
-□
-<br>Fakt 4 (Pro vš.  platí: )
-Důkaz<br>
-Platí: 
-□
-<br><br>Ať je  je lineární prostor, . Pak  právě tehdy když  nebo <br>Důkaz<br>Díky předchozímu stačí dokázat pouze implikaci zleva doprava. Ať  a . Potom existuje. Tudíž  
-□<br>Povšimněte si, čeho využívá předchozí tvrzení:
-Pro vš.  platí:  existuje, jakmile 
-<br><br><br>Příklad
-. Operace sčítání vektorů . Násobení skalárem: . Pak L je linární prostor
-<br>Příklad
- je jakákoliv jednoprvková množina. Pak  (splu s evidentími operacemi) je lineární prostor. Říkáme mu triviální lineární prostor. Nutně 
-<br>Příklad
-. Operace: .     Nejde o lineární prostor (komutativní zákon)
-<br><br>Role reálných skalárů
-Lze   nahradit jiným "číselným oborem"?
-Se skaláry je třeba umět následující: rozumné sčítání, násobení.
-Abstraktní pojem: skaláry musí tvořit strukturu , které se říká <a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Těleso (Division ring)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">těleso</a><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">těleso</a>, check out <a data-href="Lineární prostor nad obecným tělesem F" href="https://duckvang.github.io/Lineární prostor nad obecným tělesem F" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Lineární prostor nad obecným tělesem F</a><a data-href="Lineární prostor nad obecným tělesem F" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-obecným-tělesem-f.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Lineární prostor nad obecným tělesem F</a>
-<br>Poznámka
-Abstrakce v lineární algebře má tedy dva stupně:
-
-<br>Lineární prostor nad  abstrahuje (například) prostor orientovaných úseček
-<br>Lineární prostor nad  abstrahuje dále: roli skalárů převezmou prvky tělesa 
-
-]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární prostor nad tělesem reálných čísel R.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sat, 05 Oct 2024 18:55:51 GMT</pubDate></item><item><title><![CDATA[Lineární závislost a nezávislost]]></title><description><![CDATA[ 
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-(vektorový-prostor).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární prostor (Vektorový prostor).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 22 Oct 2024 19:32:58 GMT</pubDate></item><item><title><![CDATA[Lineární závislost a nezávislost]]></title><description><![CDATA[ 
  <br>Definice (Lineární závislost a nezávislost seznamu vektorů)
 Řekneme, že <a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/Seznam (Set)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">seznam</a><a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/seznam-(set).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">seznam</a>  vektorů je lineárně nezávislý, pokud platí jedna z podmínek:
 
