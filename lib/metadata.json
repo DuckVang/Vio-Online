@@ -1,0 +1,1053 @@
+{
+  "vaultName": "Vio",
+  "lastExport": 1730739162659,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title math-booster-preview-enabled code-styler code-styler-style-inline code-styler-gutter-highlight ctp-latte ctp-frappe ctp-accent-light-yellow ctp-accent-yellow anuppuccin-accent-toggle anp-current-line-border anp-callout-sleek anp-list-toggle anp-table-toggle anp-table-width anp-table-auto anp-table-checkered anp-toggle-metadata anp-toggle-scrollbars anp-h1-red anp-h1-divider anp-h2-peach anp-h2-divider anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-decoration-toggle anp-bold-red anp-italic-green anp-highlight-yellow anp-simple-rainbow-color-toggle anp-simple-rainbow-collapse-icon-toggle anp-simple-rainbow-indentation-toggle callout-no-metadata callout-no-quote infobox-enabled infobox-hide-thead",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "Math/Vysoká škola/Lineární Algebra/Příklady/0.3.1 Příklad - důkaz se sporem.md",
+    "Math/Vysoká škola/Lineární Algebra/Příklady/3.4.6 Příklad - podprostor a spojení.md",
+    "Math/Vysoká škola/Lineární Algebra/Příklady/4.1.1 Příklad - spoje.md",
+    "Math/Vysoká škola/Lineární Algebra/Příklady/4.2.2 Příklad - cyklická báze.md",
+    "Math/Vysoká škola/Lineární Algebra/Příklady/6.1.3 Příklad - dokaž báze Lin(F,F).md",
+    "Math/Vysoká škola/Lineární Algebra/Příklady/Příklad - lin. zobrazení, jádro, obraz a Px.md",
+    "Math/Vysoká škola/Lineární Algebra/Algebra matic.md",
+    "Math/Vysoká škola/Lineární Algebra/Axiom.md",
+    "Math/Vysoká škola/Lineární Algebra/Báze (Basis).md",
+    "Math/Vysoká škola/Lineární Algebra/Defekt a hodnost lineárního zobrazení.md",
+    "Math/Vysoká škola/Lineární Algebra/Definice (Definition).md",
+    "Math/Vysoká škola/Lineární Algebra/Dimense.md",
+    "Math/Vysoká škola/Lineární Algebra/Gaussova eliminační metoda.md",
+    "Math/Vysoká škola/Lineární Algebra/GEM a soustavy lineárních rovnic.md",
+    "Math/Vysoká škola/Lineární Algebra/Hypotéza (Hypothesis).md",
+    "Math/Vysoká škola/Lineární Algebra/I-tice vektorů.md",
+    "Math/Vysoká škola/Lineární Algebra/Inkluse v lineární algebře.md",
+    "Math/Vysoká škola/Lineární Algebra/Inverzní prvek.md",
+    "Math/Vysoká škola/Lineární Algebra/Komutativní diagram.md",
+    "Math/Vysoká škola/Lineární Algebra/Konečné a nekonečné množiny.md",
+    "Math/Vysoká škola/Lineární Algebra/Lemma (Pomocné tvrzení).md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární algebra.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární algebra - definice.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární kombinace.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární obal (span).md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární podprostor.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární prostor (Vektorový prostor).md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární prostor nad obecným tělesem F.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární prostor nad tělesem reálných čísel R.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární závislost a nezávislost.md",
+    "Math/Vysoká škola/Lineární Algebra/Lineární zobrazení (Lineární transformace).md",
+    "Math/Vysoká škola/Lineární Algebra/Malá Fermatova věta.md",
+    "Math/Vysoká škola/Lineární Algebra/Matice zobrazení.md",
+    "Math/Vysoká škola/Lineární Algebra/Množina generátorů.md",
+    "Math/Vysoká škola/Lineární Algebra/Neutralní prvek.md",
+    "Math/Vysoká škola/Lineární Algebra/Obraz a jádro lineárního zobrazení.md",
+    "Math/Vysoká škola/Lineární Algebra/Opačné číslo.md",
+    "Math/Vysoká škola/Lineární Algebra/Polynom.md",
+    "Math/Vysoká škola/Lineární Algebra/Přirozená čísla.md",
+    "Math/Vysoká škola/Lineární Algebra/Seznam (Set).md",
+    "Math/Vysoká škola/Lineární Algebra/Skalár.md",
+    "Math/Vysoká škola/Lineární Algebra/Souřadnice vzhledem k uspořádané bázi.md",
+    "Math/Vysoká škola/Lineární Algebra/Speciální vlastnosti lineárních zobrazení.md",
+    "Math/Vysoká škola/Lineární Algebra/Těleso (Division ring).md",
+    "Math/Vysoká škola/Lineární Algebra/Test zkušební.md",
+    "Math/Vysoká škola/Lineární Algebra/Transformace souřadnic.md",
+    "Math/Vysoká škola/Lineární Algebra/Triviální a netriviální lineární kombinace.md",
+    "Math/Vysoká škola/Lineární Algebra/Úsudek (Assumption).md",
+    "Math/Vysoká škola/Lineární Algebra/Vektor.md",
+    "Math/Vysoká škola/Lineární Algebra/Věta (Theorem).md",
+    "Math/Vysoká škola/Lineární Algebra/Výrok.md",
+    "Math/Vysoká škola/Lineární Algebra/Zobrazení (funkce).md",
+    "lib/media/pasted-image-20241012115802.png",
+    "lib/media/pasted-image-20241027200508.png",
+    "lib/media/pasted-image-20241030144130.png",
+    "lib/media/pasted-image-20241030144136.png",
+    "lib/media/screenshot-2024-10-06-at-17.58.00.png",
+    "lib/media/screenshot-2024-10-06-at-18.01.26.png",
+    "lib/media/screenshot-2024-10-06-at-18.05.01.png",
+    "lib/media/screenshot-2024-10-06-at-18.05.34.png",
+    "lib/media/screenshot-2024-10-27-at-19.05.56.png",
+    "lib/media/screenshot-2024-10-27-at-19.10.01.png",
+    "lib/media/pasted-image-20241016171040.png",
+    "lib/media/pasted-image-20241016171356.png",
+    "lib/media/pasted-image-20241029163354.png",
+    "lib/media/screenshot-2024-10-29-at-16.35.47.png",
+    "lib/media/pasted-image-20241029165646.png",
+    "lib/media/pasted-image-20241029170750.png",
+    "lib/media/pasted-image-20241029171002.png",
+    "lib/media/pasted-image-20241029165243.png",
+    "lib/media/screenshot-2024-10-29-at-16.42.02.png",
+    "lib/media/pasted-image-20241029171730.png",
+    "lib/media/pasted-image-20241029145526.png",
+    "lib/media/pasted-image-20241016182810.png",
+    "lib/media/pasted-image-20241028200857.png",
+    "lib/media/pasted-image-20241028193045.png",
+    "lib/media/pasted-image-20241028193217.png",
+    "lib/media/pasted-image-20241028195341.png",
+    "lib/media/pasted-image-20241030101533.png",
+    "lib/media/pasted-image-20241030101650.png",
+    "lib/media/pasted-image-20241030102948.png",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css",
+    "lib/styles/snippets.css"
+  ],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css",
+    "lib/styles/snippets.css"
+  ],
+  "fileInfo": {
+    "Math/Vysoká škola/Lineární Algebra/Příklady/0.3.1 Příklad - důkaz se sporem.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1206,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/příklady/0.3.1-příklad-důkaz-se-sporem.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Příklady/3.4.6 Příklad - podprostor a spojení.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1160,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/příklady/3.4.6-příklad-podprostor-a-spojení.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Příklady/4.1.1 Příklad - spoje.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 723,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/příklady/4.1.1-příklad-spoje.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Příklady/4.2.2 Příklad - cyklická báze.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 5190,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/příklady/4.2.2-příklad-cyklická-báze.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Příklady/6.1.3 Příklad - dokaž báze Lin(F,F).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1350,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/příklady/6.1.3-příklad-dokaž-báze-lin(f,f).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Příklady/Příklad - lin. zobrazení, jádro, obraz a Px.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 287,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/příklady/příklad-lin.-zobrazení,-jádro,-obraz-a-px.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Algebra matic.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 16305,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/algebra-matic.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Axiom.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 771,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/axiom.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Báze (Basis).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 4846,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/báze-(basis).html",
+      "dependencies": [
+        "lib/media/pasted-image-20241012115802.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Defekt a hodnost lineárního zobrazení.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 953,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/defekt-a-hodnost-lineárního-zobrazení.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Definice (Definition).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1903,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/definice-(definition).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Dimense.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 12660,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/dimense.html",
+      "dependencies": [
+        "lib/media/pasted-image-20241027200508.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Gaussova eliminační metoda.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 144,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/gaussova-eliminační-metoda.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/GEM a soustavy lineárních rovnic.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 17567,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/gem-a-soustavy-lineárních-rovnic.html",
+      "dependencies": [
+        "lib/media/pasted-image-20241030144130.png",
+        "lib/media/pasted-image-20241030144136.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Hypotéza (Hypothesis).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 507,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/hypotéza-(hypothesis).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/I-tice vektorů.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1170,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/i-tice-vektorů.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Inkluse v lineární algebře.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 143,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/inkluse-v-lineární-algebře.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Inverzní prvek.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 473,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/inverzní-prvek.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Komutativní diagram.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1176,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/komutativní-diagram.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Konečné a nekonečné množiny.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1730,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/konečné-a-nekonečné-množiny.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lemma (Pomocné tvrzení).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 597,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lemma-(pomocné-tvrzení).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lineární algebra.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 234,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lineární-algebra.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lineární algebra - definice.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 849,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lineární-algebra-definice.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lineární kombinace.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 4042,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lineární-kombinace.html",
+      "dependencies": [
+        "lib/media/screenshot-2024-10-06-at-17.58.00.png",
+        "lib/media/screenshot-2024-10-06-at-18.01.26.png",
+        "lib/media/screenshot-2024-10-06-at-18.05.01.png",
+        "lib/media/screenshot-2024-10-06-at-18.05.34.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lineární obal (span).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 3558,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lineární-obal-(span).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lineární podprostor.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 5638,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lineární-podprostor.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lineární prostor (Vektorový prostor).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1452,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lineární-prostor-(vektorový-prostor).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lineární prostor nad obecným tělesem F.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 2210,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lineární-prostor-nad-obecným-tělesem-f.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lineární prostor nad tělesem reálných čísel R.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 5275,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lineární závislost a nezávislost.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 6798,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lineární-závislost-a-nezávislost.html",
+      "dependencies": [
+        "lib/media/screenshot-2024-10-27-at-19.05.56.png",
+        "lib/media/screenshot-2024-10-27-at-19.10.01.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Lineární zobrazení (Lineární transformace).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 11741,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/lineární-zobrazení-(lineární-transformace).html",
+      "dependencies": [
+        "lib/media/pasted-image-20241016171040.png",
+        "lib/media/pasted-image-20241016171356.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Malá Fermatova věta.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 427,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/malá-fermatova-věta.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Matice zobrazení.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 5769,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/matice-zobrazení.html",
+      "dependencies": [
+        "lib/media/pasted-image-20241029163354.png",
+        "lib/media/screenshot-2024-10-29-at-16.35.47.png",
+        "lib/media/pasted-image-20241029165646.png",
+        "lib/media/pasted-image-20241029170750.png",
+        "lib/media/pasted-image-20241029171002.png",
+        "lib/media/pasted-image-20241029165243.png",
+        "lib/media/screenshot-2024-10-29-at-16.42.02.png",
+        "lib/media/pasted-image-20241029171730.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Množina generátorů.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1667,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/množina-generátorů.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Neutralní prvek.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 794,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/neutralní-prvek.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Obraz a jádro lineárního zobrazení.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1226,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/obraz-a-jádro-lineárního-zobrazení.html",
+      "dependencies": [
+        "lib/media/pasted-image-20241029145526.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Opačné číslo.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 917,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/opačné-číslo.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Polynom.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 191,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/polynom.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Přirozená čísla.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 217,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/přirozená-čísla.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Seznam (Set).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 745,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/seznam-(set).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Skalár.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 651,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/skalár.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Souřadnice vzhledem k uspořádané bázi.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 4542,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/souřadnice-vzhledem-k-uspořádané-bázi.html",
+      "dependencies": [
+        "lib/media/pasted-image-20241016182810.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Speciální vlastnosti lineárních zobrazení.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 4236,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/speciální-vlastnosti-lineárních-zobrazení.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Těleso (Division ring).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 4391,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/těleso-(division-ring).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Test zkušební.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 177,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/test-zkušební.html",
+      "dependencies": [
+        "lib/media/pasted-image-20241028200857.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Transformace souřadnic.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 12477,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/transformace-souřadnic.html",
+      "dependencies": [
+        "lib/media/pasted-image-20241028193045.png",
+        "lib/media/pasted-image-20241028193217.png",
+        "lib/media/pasted-image-20241028195341.png",
+        "lib/media/pasted-image-20241030101533.png",
+        "lib/media/pasted-image-20241030101650.png",
+        "lib/media/pasted-image-20241030102948.png"
+      ]
+    },
+    "Math/Vysoká škola/Lineární Algebra/Triviální a netriviální lineární kombinace.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1059,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/triviální-a-netriviální-lineární-kombinace.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Úsudek (Assumption).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1777,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/úsudek-(assumption).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Vektor.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 536,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/vektor.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Věta (Theorem).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 2023,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/věta-(theorem).html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Výrok.md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 450,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/výrok.html",
+      "dependencies": []
+    },
+    "Math/Vysoká škola/Lineární Algebra/Zobrazení (funkce).md": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 2438,
+      "exportedPath": "math/vysoká-škola/lineární-algebra/zobrazení-(funkce).html",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241012115802.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 10325,
+      "exportedPath": "lib/media/pasted-image-20241012115802.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241027200508.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 35302,
+      "exportedPath": "lib/media/pasted-image-20241027200508.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241030144130.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 75591,
+      "exportedPath": "lib/media/pasted-image-20241030144130.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241030144136.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 73827,
+      "exportedPath": "lib/media/pasted-image-20241030144136.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-10-06-at-17.58.00.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 6475,
+      "exportedPath": "lib/media/screenshot-2024-10-06-at-17.58.00.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-10-06-at-18.01.26.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 9459,
+      "exportedPath": "lib/media/screenshot-2024-10-06-at-18.01.26.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-10-06-at-18.05.01.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 8822,
+      "exportedPath": "lib/media/screenshot-2024-10-06-at-18.05.01.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-10-06-at-18.05.34.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 22077,
+      "exportedPath": "lib/media/screenshot-2024-10-06-at-18.05.34.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-10-27-at-19.05.56.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 27593,
+      "exportedPath": "lib/media/screenshot-2024-10-27-at-19.05.56.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-10-27-at-19.10.01.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 28031,
+      "exportedPath": "lib/media/screenshot-2024-10-27-at-19.10.01.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241016171040.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 31673,
+      "exportedPath": "lib/media/pasted-image-20241016171040.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241016171356.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 41903,
+      "exportedPath": "lib/media/pasted-image-20241016171356.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241029163354.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 16439,
+      "exportedPath": "lib/media/pasted-image-20241029163354.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-10-29-at-16.35.47.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 20981,
+      "exportedPath": "lib/media/screenshot-2024-10-29-at-16.35.47.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241029165646.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 49933,
+      "exportedPath": "lib/media/pasted-image-20241029165646.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241029170750.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 39822,
+      "exportedPath": "lib/media/pasted-image-20241029170750.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241029171002.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 37863,
+      "exportedPath": "lib/media/pasted-image-20241029171002.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241029165243.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 317647,
+      "exportedPath": "lib/media/pasted-image-20241029165243.png",
+      "dependencies": []
+    },
+    "lib/media/screenshot-2024-10-29-at-16.42.02.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 238930,
+      "exportedPath": "lib/media/screenshot-2024-10-29-at-16.42.02.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241029171730.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 48423,
+      "exportedPath": "lib/media/pasted-image-20241029171730.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241029145526.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 141117,
+      "exportedPath": "lib/media/pasted-image-20241029145526.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241016182810.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 65913,
+      "exportedPath": "lib/media/pasted-image-20241016182810.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241028200857.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 135808,
+      "exportedPath": "lib/media/pasted-image-20241028200857.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241028193045.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 45647,
+      "exportedPath": "lib/media/pasted-image-20241028193045.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241028193217.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 45216,
+      "exportedPath": "lib/media/pasted-image-20241028193217.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241028195341.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 17943,
+      "exportedPath": "lib/media/pasted-image-20241028195341.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241030101533.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 14624,
+      "exportedPath": "lib/media/pasted-image-20241030101533.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241030101650.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 37832,
+      "exportedPath": "lib/media/pasted-image-20241030101650.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20241030102948.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 57865,
+      "exportedPath": "lib/media/pasted-image-20241030102948.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_zero.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1368,
+      "exportedPath": "lib/fonts/mathjax_zero.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 34160,
+      "exportedPath": "lib/fonts/mathjax_main-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-bold.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 34464,
+      "exportedPath": "lib/fonts/mathjax_main-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_math-italic.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 19360,
+      "exportedPath": "lib/fonts/mathjax_math-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-italic.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 20832,
+      "exportedPath": "lib/fonts/mathjax_main-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_math-bolditalic.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 19776,
+      "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size1-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 5792,
+      "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size2-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 5464,
+      "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size3-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 3244,
+      "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size4-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 5148,
+      "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_ams-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 40808,
+      "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_calligraphic-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 9600,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_calligraphic-bold.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 9908,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_fraktur-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 21480,
+      "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_fraktur-bold.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 22340,
+      "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 12660,
+      "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-bold.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 15944,
+      "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-italic.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 14628,
+      "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_script-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 11852,
+      "exportedPath": "lib/fonts/mathjax_script-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_typewriter-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 17604,
+      "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_vector-regular.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1136,
+      "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_vector-bold.woff": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1116,
+      "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 23895,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 5716,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 131034,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/other-plugins.css": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 61298,
+      "exportedPath": "lib/styles/other-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 271569,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 437,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/supported-plugins.css": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 32063,
+      "exportedPath": "lib/styles/supported-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/snippets.css": {
+      "modifiedTime": 1730739162659,
+      "sourceSize": 201410,
+      "exportedPath": "lib/styles/snippets.css",
+      "dependencies": []
+    }
+  }
+}

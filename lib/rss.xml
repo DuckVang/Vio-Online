@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vio]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://duckvang.github.io/</link><image><url>https://duckvang.github.io/lib/media/favicon.png</url><title>Vio</title><link>https://duckvang.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 04 Nov 2024 16:54:11 GMT</lastBuildDate><atom:link href="https://duckvang.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 04 Nov 2024 16:52:42 GMT</pubDate><copyright><![CDATA[Nguyen Duc Minh]]></copyright><ttl>60</ttl><dc:creator>Nguyen Duc Minh</dc:creator><item><title><![CDATA[0.3.1 Příklad - důkaz se sporem]]></title><description><![CDATA[ 
+ <br>Cvičení (Dokažte, že neexistuje kladné racionální číslo  s vlastností )
+Důkaz<br>
+Budeme postupovat sporem. Předpokládejme, že  je kladné racionální číslo, pro které platí  to znamená, že existuje nesoudělná kladná přirození čísla  takováže platí . Protože , víme, že platí rovnost . To znamená, že přirozené číslo  je sudé. Podle problému 0.2.1 je tedy  sudé přirozené číslo. To znamená, že pro nějaké přirozené číslo  platí rovnost .
+Protože platí rovnost  a , musí platit . Protože  je přirozené číslo, ukázali jsme, že  je sudé číslo. Podle problému 0.2.1 je tedy sudé přirozené číslo. 
+Ukázali jsme, že  a  jsou obě sudá přirozená čísla, která jsou nesoudělná. To je spor.
+Důkaz hotov. dokázali jsme, že neexistuje kladné racionální číslo  s vlastností 
+□
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/příklady/0.3.1-příklad-důkaz-se-sporem.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Příklady/0.3.1 Příklad - důkaz se sporem.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Thu, 10 Oct 2024 20:51:00 GMT</pubDate></item><item><title><![CDATA[3.4.6 Příklad - podprostor a spojení]]></title><description><![CDATA[ 
+ <br>Cvičení 3.4.6 (Problém At  a  jsou lineárni podprostory lineárniho prostoru  nad . At platéí, že  je lineární podprostor lineárního prostoru . Ukažte, že potom platí  nebo .)<br>Důkaz
+Návod k řešení problému 3.4.6 Postupujte sporem: at  je lineární podprostor lineárního prostoru  a at neplati ani  ani .<br>Protože neplatí ani  ani , zvolte  a . Potom , protože  je lineárni podprostor ( nebo ).<br>Nastane jedna ze dvou možností:<br>
+<br>. Potom rovnost  ukazuje, že . To je spor.
+<br>. Potom rovnost  ukazuje, že . To je spor.
+<br>□]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/příklady/3.4.6-příklad-podprostor-a-spojení.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Příklady/3.4.6 Příklad - podprostor a spojení.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Fri, 25 Oct 2024 20:53:11 GMT</pubDate></item><item><title><![CDATA[4.1.1 Příklad - spoje]]></title><description><![CDATA[ 
+ <br>Cvičení (Ať  a  jsou konečně generované lineární podprostory lineárního prostoru . Ukažte, že  je konečně generovaný lineárního podprostor prostoru )<br>Důkaz
+Označme jako  a  konečně množiny takové, že platí<br><br>Ukážeme, že platí rovnost <br><br>Protože  je konečná množina, bude tím důkaz hotov. <br>Rovnost dvou množin dokážeme jako platnost dvou inklusí:<br>□]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/příklady/4.1.1-příklad-spoje.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Příklady/4.1.1 Příklad - spoje.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Fri, 11 Oct 2024 07:40:19 GMT</pubDate></item><item><title><![CDATA[4.2.2 Příklad - cyklická báze]]></title><description><![CDATA[ 
+ <br>Cvičení 4.2.2 – sbírka (Problém At  je uspořádaná báze lineárního prostoru  nad . Rozhodněte, pro která  je seznam)
+
+   opět bází prostoru .
+<br><br> (1) Pro sudé , kde , seznam  není uspořádanou bází prostoru .
+(2) Pro liché , kde , je seznam  uspořádanou bází prostoru .<br> Důkaz<br> Komentář k problému 4.2.2 Seznam  obsahuje přesně  vektorů. To znamená, že  je báze lineárního prostoru  právě tehdy, když vektory z  jsou lineárně nezávislé. Zvolme tedy skaláry  tak, že platí<br><br> Chceme využít fakt, že  je uspořádaná báze. To znamená, že přepíšeme výše uvedenou lineární kombinaci jako kombinaci vektorů  :<br><br> Musí tedy platit rovnosti<br><br> Výpočet rozdělíme na dvě části:<br>
+<br>
+Číslo  je sudé. Definujme  pro . Tato čísla splňují rovnosti
+
+To znamená, že pro sudé  seznam  není uspořádanou bází prostoru .
+
+<br>
+Číslo  je liché. Sudý počet rovností
+
+ je splněn právě tehdy, když  pro všechna lichá  a  pro všechna sudá . Rovnost  je tedy splněna právě tehdy, když . To znamená, že  pro všechna . <br>
+To znamená, že pro liché  seznam  je uspořádanou bází prostoru .
+□
+
+<br><br> Důležité: U problémů tohoto typu bývá vhodné si uvědomit, co se odehrává pro „malé" hodnoty <br>
+<br>. To je lineárně závislý seznam (obsahuje totiž dva stejné vektory). Platí:
+<br><br>
+<br>. To je lineárně nezávislý seznam: jestliže
+<br><br> neboli<br><br> potom<br><br> Z posledních dvou rovnic plyne, že . Z první rovnice plyne . To znamená, že  (díky poslední rovnici).<br>
+<br>. To je lineárně závislý seznam:
+<br><br>
+<br>. To je lineárně nezávislý seznam: jestliže
+<br><br> neboli<br><br> potom<br><br> Z posledních čtyř rovnic plyne, že  a . Z první rovnice plyne . To znamená, že .<br> Nyní by mělo vzniknout podezření, že  není báze pro sudá  a že  je báze pro lichá . Toto podezření ovšem není důkaz!
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/příklady/4.2.2-příklad-cyklická-báze.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Příklady/4.2.2 Příklad - cyklická báze.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Thu, 17 Oct 2024 12:07:47 GMT</pubDate></item><item><title><![CDATA[6.1.3 Příklad - dokaž báze Lin(F,F)]]></title><description><![CDATA[ 
+ <br>Cvičení 6.1.3 (Rozhodněte zda matice)
+
+tvoří bázi lineárního prostoru  nad .
+<br>Zobecnění: 
+ nad  má usp. bázi
+
+tudíž  
+<br><a class="original-internal-link" data-href="LAGS.pdf#page=77" href="https://duckvang.github.io/LAGS.pdf#page=77" target="_blank" rel="noopener nofollow" style="display: none;">Důkaz</a><a class="internal-link mathLink-internal-link" data-href="LAGS.pdf#page=77" href="https://duckvang.github.io/pdf/lags.pdf#page=77" target="_self" rel="noopener nofollow">Důkaz</a>]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/příklady/6.1.3-příklad-dokaž-báze-lin(f,f).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Příklady/6.1.3 Příklad - dokaž báze Lin(F,F).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 16:18:22 GMT</pubDate></item><item><title><![CDATA[Příklad - lin. zobrazení, jádro, obraz a Px]]></title><description><![CDATA[ 
+ <br>Cvičení (Máme lin. zobrazení , )]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/příklady/příklad-lin.-zobrazení,-jádro,-obraz-a-px.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Příklady/Příklad - lin. zobrazení, jádro, obraz a Px.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 30 Oct 2024 12:53:31 GMT</pubDate></item><item><title><![CDATA[Algebra matic]]></title><description><![CDATA[ 
+ <br>Již víme:  je lineární prostor nad .
+Jak se operace  projeví na ,manipulaci s tabulkami"? Použijeme sloupcový zápis matic.
+<br>Pro  (← tohle je sloupcový zápis) a  a skalár a z  je:<br>
+<br> matice se sloupcovým zápisem . Zápis  čteme součet matic  a .
+<br> je matice se sloupcovým zápisem . Zápis  čteme součin skaláru  a matice A.
+<br>Nulový vektor <a data-footref="0" href="https://duckvang.github.io/#fn-1-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a> lineárním prostoru  je matice
+, kde o je nulový vektor v .<br><br><br>Příklad (výpočty v )
+(1) Příklad součtu:
+
+(2) Příklad skalárního násobku:
+
+(3) Nulový vektor  je:
+
+<br><br><br>Sčítání matic a skalární násobení skalárem jsou operace v lineárním prostoru . Přirozená čísla  a  jsou pevná. Proto:<br>
+<br>
+Sčítat můžeme pouze matice stejných rozměrů. Pro matice různých rozměrů není sčítání definováno. <br> <br>Sloupcový zápis součtu
+
+dává okamžitě „položkový návod": chcete-li sečíst dvě matice stejných rozměrů, sečtěte položky na odpovídajících posicích.<br><br>
+
+<br>
+Sloupcový zápis skalárního násobku
+
+dává okamžitě ,,položkový návod": chcete-li matici vynásobit skalárem, vynásobte tímto skalárem každou položku matice.
+
+<br>Věta (Vlastnosti součtu matic a skalárního násobku matic)
+Protože Lin  je lineární prostor nad , platí:
+
+<br>, pro vš.  z .
+<br>, pro vš.  z .
+<br>, pro vš.  z .
+<br>Pro každé  z  existuje právě jedno<a data-footref="1" href="https://duckvang.github.io/#fn-2-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[2]</a>  z  tak, že .
+<br> pro vš. .
+<br> pro vš.  a vš. .
+<br> pro vš.  a pro vš.  .
+<br> pro vš.  a pro vš.  .
+
+<br><br><br>Matice  se sloupcovým zápisem  je lineární zobrazení z  do , dané předpisem<br><br>Princip superposice dává<br><br>Pro  značíme  jako .
+Proto
+<br><br><br>Definice 2 (Poznámka – princip superposice)
+f :  je lineární právě tehdy, když platí rovnost
+
+pro vš.  z  a vš.  z .
+ <br>zopakovat co kurva dělá ta superposice<br><br>Definice (součin matic)<br>Pro situaci <a data-footref="2" href="https://duckvang.github.io/#fn-3-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[3]</a><br><br>je B  A matice, <a data-footref="3" href="https://duckvang.github.io/#fn-4-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[4]</a> jejiž -tý sloupec je , kde  je -tý sloupec matice . Ve sloupcovém zápisu tedy platí
+.<br>Matici B  A říkáme součin matic  a .<br><br><br><br>Příklad (matice složených lineárních transformací v  )
+Projekce () na osu x: , rotace (o úhel  ): .
+Součin matic
+
+je matice lineárního zobrazení ,nejprve otočte o úhel , potom spočtěte projekci na osu .<br>
+Součin matic
+
+je matice lineárního zobrazení () „nejprve spočtěte projekci na osu , potom otočte o úhel .
+<br>Příklad (reflexe podle osy, která svírá úhel  s osou )
+Jde o složené zobrazení: nejdříve rotace o úhel , potom reflexe, nakonec rotace o úhel .
+
+<br><br>Analogicky lze vytvořit matice základních lineárních transformací . Aplikace: matematická analýza, fyzika, grafika. 
+ Důležité: projděte si podrobně Příklady 4.1 .6 a 4.2 .9 skript.<br>Příklad (Vlastnosti rotací)<br><br><br>proste uprav to pak <br><br>Věta (Vlastnosti operací s maticemi)
+
+<br>Pro součin platí asociativní zákon , kdykoli jsou jednotlivé součiny definovány.
+<br>Obecně neplatí komutativní zákon  (i když jsou oba součiny definovány).
+<br>Pro každé  definujeme jednotkovou matici <a data-footref="4" href="https://duckvang.github.io/#fn-5-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[5]</a>  takto: , kde  jsou vektory kanonické báze .<br>
+<br>Potom pro každou matici  platí:
+
+
+
+<br><br><br><br><br>Důkaz
+Okamžitě z vlastností <a data-tooltip-position="top" aria-label="Lineární zobrazení (Lineární transformace) > ^e356ad" data-href="Lineární zobrazení (Lineární transformace)#^e356ad" href="https://duckvang.github.io/Lineární zobrazení (Lineární transformace)#^e356ad" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineárních zobrazení</a><a data-tooltip-position="top" aria-label="Lineární zobrazení (Lineární transformace) > ^e356ad" data-href="Lineární zobrazení (Lineární transformace)#^e356ad" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-zobrazení-(lineární-transformace).html#^e356ad" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineárních zobrazení</a> .
+□<br><br>hledáme  tak, že <br>hledáme x, y tak, že <br>find more about obraz další prezentace im(P) = množina všech funkčních hodnot<br><br><br>Příklad (popis obrazu projekce na osu  )
+At  je projekce na osu , ztotožněná s maticí
+.
+Zajímá nás, zda vektor  je projekcí nějakého vektoru
+. To Ize zjistit algebrou matic:<br><br>Žádný vektor , jehož projekce na osu x je vektor , neexistuje.
+To ale znamená: soustava rovnic  nemá řešení!<br>Příklad (popis vzoru projekce na osu  v  )
+At  je projekce na osu , ztotožněná s maticí
+.
+Pro vektor  nás zajímají všechny vektory , které
+se na b projekcí zobrazí. To Ize zjistit algebrou matic:<br><br>Řešením soustavy rovnic  je množina všech vektorů  tvaru , kde  je libovolné reálné číslo. 
+ Řešení lze napsat i ve tvaru . Jak uvidíme, tento druhý způsob zápisu řešení bude mít mnohé výhody.<br><br>At  je projekce na osu , ztotožněná s maticí
+.
+Existují matice  a  takové, že
+<img src="https://cdn.mathpix.com/cropped/2024_10_18_4fd4f7122faa70c3f578g-14.jpg?height=141&amp;width=905&amp;top_left_y=447&amp;top_left_x=114" referrerpolicy="no-referrer"><br>Intuice: žádné takové matice neexistují, protože matice jsou lineární zobrazení.<br>Jak intuici dokázat? Algebrou matic!<br>Příklad (projekce na osu  není invertibilní, pokrač.)
+Ptáme se, zda existují matice  takové, že platí rovnosti
+ a 
+Takové matice neexistují, protože<br><br><br>Nenulovost čtvercové matice  typu  nezaručuje existenci matic  a , které by řešily rovnice  a .<br><br>Otázka řešitelnosti obecných maticových rovnic  a  je důležitá. Proč?
+Jde o zobecnění řešení soustav lineárních rovnic.<br><br><br><br><br>je vektor lineární<br>
+<br>
+<br> Tomuto jednoznačně určenému  říkáme opačná matice  matici  a značíme ji -A.<a href="https://duckvang.github.io/#fnref-1-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+<br>Tomuto jednoznacne urcenemu B rıkame opacna matice k matici A a
+značíıme ji −A<a href="https://duckvang.github.io/#fnref-2-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+<br>Diagram okamžitě dává rozměrovou zkoušku pro součin matic B  A: počet řádků matice  musí být roven počtu sloupců matice . Jindy součin matic nedefinujeme, protože by skládání nedávalo smysl.<a href="https://duckvang.github.io/#fnref-3-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+<br>Položkový zápis součinu B  A: pro  a  je B  A matice s položkami , kde<a href="https://duckvang.github.io/#fnref-4-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+<br>Matice  je maticí identického lineárního zobrazení id : .<a href="https://duckvang.github.io/#fnref-5-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/algebra-matic.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Algebra matic.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 23 Oct 2024 09:17:27 GMT</pubDate><enclosure url="https://cdn.mathpix.com/cropped/2024_10_18_4fd4f7122faa70c3f578g-14.jpg?height=141&amp;width=905&amp;top_left_y=447&amp;top_left_x=114" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://cdn.mathpix.com/cropped/2024_10_18_4fd4f7122faa70c3f578g-14.jpg?height=141&amp;width=905&amp;top_left_y=447&amp;top_left_x=114&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Axiom]]></title><description><![CDATA[ 
+ <br>Axiom je univerzální pravda, která kvůli svým důkazům důkaz nepotřebuje. <br>Jsou to jakési „základní kameny“ teorie, které chceme budovat. Budeme-li se např. zabývat výstavbou geometrie, budeme pravděpodobně využívat axiomu:<br>$<br>\text{„Každými dvěma body v rovině je určena právě jedna přímka.“}<br>$<br><br>Příklad (Příklad axiomu pro přirozená čísla)
+V teorii, kde bychom chtěli používat přirozená čísla, bychom mohli použít např. axiom:<br>
+
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/axiom.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Axiom.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 09 Oct 2024 18:57:01 GMT</pubDate></item><item><title><![CDATA[Báze (Basis)]]></title><description><![CDATA[ 
+ <br>Definice (Báze )
+Lineárně <a data-tooltip-position="top" aria-label="Lineární závislost a nezávislost" data-href="Lineární závislost a nezávislost" href="https://duckvang.github.io/Lineární závislost a nezávislost" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">nezávislé množině</a><a data-tooltip-position="top" aria-label="Lineární závislost a nezávislost" data-href="Lineární závislost a nezávislost" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-závislost-a-nezávislost.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">nezávislé množině</a> , která <a data-tooltip-position="top" aria-label="Množina generátorů" data-href="Množina generátorů" href="https://duckvang.github.io/Množina generátorů" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">generuje</a><a data-tooltip-position="top" aria-label="Množina generátorů" data-href="Množina generátorů" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/množina-generátorů.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">generuje</a> prostor , říkáme báze prostoru . Je-li  konečná, pak seznamu prvků  říkáme uspořádaná báze.
+<br>Slogan – Báze prostoru je „nejúspornější množina <a data-tooltip-position="top" aria-label="Množina generátorů" data-href="Množina generátorů" href="https://duckvang.github.io/Množina generátorů" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">generátorů</a><a data-tooltip-position="top" aria-label="Množina generátorů" data-href="Množina generátorů" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/množina-generátorů.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">generátorů</a>.<br><br>Příklad (  je báze triviálního prostoru .)<br>Příklad (Každá z množin  tvoří bázi prostoru .)<br>Příklad (Množina  tvoří bázi prostoru  všech reálných polynomů.)<br>Příklad !!! (kanonická báze  prostoru      )
+At'  je jakékoli těleso. Označme jako  následující seznam vektorů v  :
+
+Potom  je uspořádaná báze prostoru .<br>
+Této uspořádané bázi  říkáme kanonická báze prostoru . (Také: standardní báze.)
+Příklad: kanonická báze  v .
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241012115802.png" style="width: 200px; max-width: 100%;">
+
+<br><br><br>Fakt (Existence báze pro konečně generované prostory)
+Každý konečně generovaný prostor  má konečnou bázi. Navíc: všechny možné báze prostoru  mají stejný počet prvků.
+<br><br>První tvrzení: víme, že , kde  je konečná. Lze postupovat dvěma způsoby:<br>
+<br>„Přidávat" do prázdné množiny „důležité" vektory z G.
+<br>„Ubírat" z G „zbytečné" vektory.
+<br>Druhé tvrzení: <a data-href="Exchange Lemma" href="https://duckvang.github.io/Exchange Lemma" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Exchange Lemma</a><a data-href="Exchange Lemma" href="https://duckvang.github.io/exchange-lemma.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Exchange Lemma</a> (viz skripta, Lemma 3.2.10 a cvičení).<br>Důkaz
+Označme jako  konečnou množinu generátorú prostoru . Rozlišíme dva případy:<br>(1) Množina  je prázdná. Pak ale  je lineámě nezávislá množina. Tudíž  tvoří bázi . (A prostor  je nutně triviální prostor  podle Lemmatu 1.5.8.)<br>(2) Množina  je neprázdná. Dále definujme  jako systém všech lineárně nezávislých podmnožin množiny G:<br><br>Protože systém  je konečný (jedná se o podmnožiny konečné množiny  ), existuje  alespoň jedna množina, která má maximální počet prvků. Označme takovou množinu jako . Ukážeme, že  tvoří bázi prostoru . Protože  je lineárně nezávislá množina, stačí ukázat, že  generuje . Máme tedy ukázat, že  .<br>Kdybychom věděli, že , byl by důkaz u konce. Skutečně: z  plyne (s využitím Tvrzení 1.5.11) . Protože platí span , dokázali bychom <br>Dokažme tedy . Vezměme libovolný prvek  v . Rozlišíme opět dva připady:<br>
+<br> je . Protože , je  množině span . Hotovo.
+<br> není v . Pak je ale množina  lineárně závislá. A proto existuje netriviální nulová lineární kombinace
+
+Musí platit  (jinak by wsechny  byly rovay 0 a my bychom neméli netriviálni kombinaci). Protože  existuje, platí
+
+a my jsme ukázali, že  je v množině span . Hotovo.
+<br>Důkaz skončil: každý konečně generovaný prostor má bázi.
+□<br><br><br><br><br>Cvičení 4.2.2 – sbírka (Problém At  je uspořádaná báze lineárního prostoru  nad . Rozhodněte, pro která  je seznam)
+
+   opět bází prostoru .
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/báze-(basis).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Báze (Basis).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sat, 02 Nov 2024 11:32:59 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/pasted-image-20241012115802.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/pasted-image-20241012115802.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Defekt a hodnost lineárního zobrazení]]></title><description><![CDATA[ 
+ <br>Definice (Defekt a hodnost lineárního zobrazení)
+At  je lineární zobrazení, at prostor  má konečnou dimensi. Číslu  říkáme defekt lineárního zobrazení  a číslu  říkáme hodnost (také: rank) lineárního zobrazení f.
+<br>Věta (Věta o dimensi jádra a obrazu)
+At  je lineární zobrazení, ať prostor  má konečnou dimensi. .
+<br>Důkaz<br><a class="original-internal-link" data-href="AKLA.pdf#page=83" href="https://duckvang.github.io/AKLA.pdf#page=83" target="_blank" rel="noopener nofollow" style="display: none;">Stránka 83</a><a class="internal-link mathLink-internal-link" data-href="AKLA.pdf#page=83" href="https://duckvang.github.io/pdf/akla.pdf#page=83" target="_self" rel="noopener nofollow">Stránka 83</a>
+□]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/defekt-a-hodnost-lineárního-zobrazení.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Defekt a hodnost lineárního zobrazení.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 29 Oct 2024 14:23:14 GMT</pubDate></item><item><title><![CDATA[Definice (Definition)]]></title><description><![CDATA[ 
+ <br>Definice je nejpřesnější ohraničení či vymezení daného pojmu. Říká věci přesně tak, jak jsou. K tomu, aby některé části definice byly jasné, je nutné znát základní pojmy, které se dané definice týkají. <br>Příklad (Definice sudých čísel)
+= Všechna celá čísla, jejichž zbytek po dělení dvěma je roven nule.
+Potřebujeme tedy vědět, co to jsou: 
+
+<br>Všechna celá čísla ()
+<br>Zbytek po dělení ()
+<br>Rovnost 
+<br>Nula
+
+Nejprve tedy musíme umět definovat, jaká jsou všechna celá čísla, co to je zbytek po dělení, rovnost a nula, až pak můžeme definovat, co jsou to sudá čísla.
+<br>Matematické definice občas působí nesrozumitelně, je to ale právě proto, že musí být naprosto neoddiskutovatelné a přesné a pokrývají všechny teoretické možnosti, aby dané věci nešlo "okecat" nebo "obejít".<br>Definice se nevyužívají jen v matematice, ale například i v programování, právu, školním řádu, způsobu, jak vás mohu a nemohu klasifikovat a téměř všude kolem vás.<br>Matematické definice (a ty v programování logicky taky) bývají ale nejpřesnější a proto jsou tak složité.<br>Souhrn
+Tedy definice je nějaké vymezení pojmu, se kterým hodláme v budoucnu pracovat. Jakožto každé vymezení  pojmu, by každá definice měla obsahovat dvě části:
+
+<br>Název zavadeného pojmu 
+<br>Charakteristickou vlastnost zaváděného pojmu.
+
+<br><br><br>Cvičení (Definice čtverce)
+Řešení: Pravidelný čtyřúhelník, jehož všechny strany jsou stejně dlouhé a každý jeho úhel má přesně 90°.
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/definice-(definition).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Definice (Definition).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 09 Oct 2024 18:57:54 GMT</pubDate></item><item><title><![CDATA[Dimense]]></title><description><![CDATA[ 
+ <br>Definice (prostor konečné dimense)
+Lineární prostor  má dimensi  (značíme:  ), když existuje <a data-tooltip-position="top" aria-label="Báze (Basis)" data-href="Báze (Basis)" href="https://duckvang.github.io/Báze (Basis)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">báze</a><a data-tooltip-position="top" aria-label="Báze (Basis)" data-href="Báze (Basis)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/báze-(basis).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">báze</a>  prostoru , která má  prvků,<a data-footref="1" href="https://duckvang.github.io/#fn-1-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a> kde  je přirozené číslo.
+<br><br>Poznámka
+At́  a at́  je podmnožina , která má  prvků.
+
+<br>Je-li  lineárně nezávislá, pak .
+<br>At́  je lineárně nezávislá právě tehdy, když platí .
+
+<br><br><br>Příklad (Platí:  )<br>Příklad (Obecněji: pro jakékoli těleso  platí  )<br>Příklad (Platí:  )<br>Příklad (Prostor  všech reálných polynomů nemá konečnou dimensi )<br>Příklad (Podprostor  (polynomy stupně nejvýše 3) prostoru  má dimensi 4.  Uspořádaná báze je např. .)<br><br>Důsledek (klasifikace lineárních podprostorů  )
+Lineární podprostory prostoru  jsou přesně tvaru , kde  (zaměření podprostoru) je lineárně nezávislá podmnožina  :
+
+<br>Počátek  (když  má nula prvků).
+<br>Prímky procházející počátkem (když  má jeden prvek).
+<br>Roviny procházející počátkem (když  má dva prvky).
+<br>Celé  (když  má tři prvky).
+
+Zobecnění: klasifikace<a data-footref="0" href="https://duckvang.github.io/#fn-2-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[2]</a> lineárních podprostorů prostoru  (dokonce na lineární podprostory prostoru  ).
+<br><br><br><br>Připomenutí:  Podprostoru  říkáme <a data-tooltip-position="top" aria-label="Lineární podprostor > ^aa00d4" data-href="Lineární podprostor#^aa00d4" href="https://duckvang.github.io/Lineární podprostor#^aa00d4" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">spojení</a><a data-tooltip-position="top" aria-label="Lineární podprostor > ^aa00d4" data-href="Lineární podprostor#^aa00d4" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-podprostor.html#^aa00d4" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">spojení</a> podprostorů  a . Značení: .<br>Věta (rovnost dvou lineárních podprostorů)
+At'  jsou lineární podprostory prostoru  konečné dimense.<br>
+Potom  právě tehdy, když platí rovnost 
+<br>Důkaz<br>
+<br>
+At́ . Potom . Tudíz platí rovnost 
+
+<br>
+At . Protože  a aba podprostory mají stejnou dimensi, platí .
+Rovnost  se dokáže analogicky.
+Celkově: , hotovo.
+
+<br>□<br>Důsledek (důsledek rovnosti dvou lienárních podprostorů)
+At  je lineární podprostor prostoru  konečné dimense. Pro vektor  jsou následující podmínky ekvivalentní:
+
+<br>
+<br>
+
+<br>Důkaz<br>
+<br>Dokažte:  iff  iff .
+<br>Použijte větu z předchozí stránky:  iff
+důležitý pro Frobeniovu větu, téma 6A
+
+
+<br>Měl by pomoci obrázek situace, kdy  :<br><img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241027200508.png"><br>□<br><br><br>Připomenutí (princip inkluse a exkluse) 
+At'  a  jsou konečné množiny. Obecnou polohu těchto množin můžeme znázornit následujícím Vennovým diagramem.<br>
+<img src="https://cdn.mathpix.com/cropped/2024_10_11_41e72f494f6053ad3917g-13.jpg?height=221&amp;width=318&amp;top_left_y=320&amp;top_left_x=471" referrerpolicy="no-referrer">
+Označíme-li počet prvků množin  a  jako  a , potom platí rovnost
+
+Které se říká princip inkluse a exkluse pro konečné množiny. Princip inkluse se dokáže velmi snadno. Pokud označíme , potom existují přirozená čísla  a  tak, že , 
+<br>Věta 3.3.4 (Věta o dimensi spojení a průniku)
+At̉ je  lineární prostor konečné dimense. Potom, pro libovolné lineární podprostory , platí rovnost .
+<br>Důkaz<br>Protože podle <a data-tooltip-position="top" aria-label="Lineární podprostor > ^202f98" data-href="Lineární podprostor#^202f98" href="https://duckvang.github.io/Lineární podprostor#^202f98" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Tvrzení 1.6.7</a><a data-tooltip-position="top" aria-label="Lineární podprostor > ^202f98" data-href="Lineární podprostor#^202f98" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-podprostor.html#^202f98" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Tvrzení 1.6.7</a>  je  lineární podprostor prostoru konečné dimense, můžeme oznacit jako  bázi podprostoru . Protože jak  tak  mají konečnou dimensi, existuji podle Důsledku 3.2.15 prirozená čisla  a vektory  tak, že<br><br>Nejprve ukážeme, že<br><br>Protože evidentně platí<br><br>stači ukázat, že vektory  jsou lineárně nezávislé. Aí tedy platí<br><br>Chceme ukázat, že  pro všechna  pro všechna  a  pro vsechna . Uvédomme si, že  je ve  ve  a  ve .
+(1) Protože , je  ve . To plyne  toho, že  je ve ,  je ve  a  je lineární podprostor. Tudiz̃  leži v prostoru . Platí tedy rovnost<br><br>pro nĕjaké skaláry , protože  tvoři bázi prostoru . Odtud plyne rovnost<br><br>a musí se jednat o triviální kombinaci, protože  tvoři bázi . Speciálné platí  pro všechna .
+(2)  pro všechna  se dokáže analogicky, protože  je ve .
+(3) Z výše dokázaného vyplývá, że , a tudiz̃  pro všechna .<br>Proto vektory  twoři bázi , a plati:<br><br>a to jsme chtěli dokázat.
+□<br>Slogan pro větu o dimensi spojení a průniku Jde o „princip inkluse a exkluse" pro lineární prostory konečné dimense. Dimense hraje roli počtu prvků. <br><br><br>Pozor: stejný prostor nad různými tělesy má různé vlastnosti
+
+<br>Množina  všech komplexních čísel je
+
+<br>lineární prostor dimense 1 nad tělesem ,
+<br>lineární prostor dimense 2 nad tělesem .
+
+
+<br>Množina  všech reálných čísel je
+
+<br>lineární prostor dimense 1 nad tělesem ,
+<br>lineární prostor nekonečné dimense nad tělesem .<a data-footref="2" href="https://duckvang.github.io/#fn-3-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[3]</a> 
+
+
+
+<br><br>Důsledek: měli bychom vždy psát, nad jakým tělesem o lineárním prostoru mluvíme!<br><br><br>Cvičení (Rozhodněte podle definice jestli se to jedná o bázi prostoru )<br>DCV Máme  nad ,  je těleso
+Je  us. báze  nad ?<br>Cvičení 4.2.1 – sbírka (O následujicích seznamech rozhodněte, zda jsou uspořádanými bázemi lineárního prostoru  nad . Smíte využít faktu, že )
+
+<br>Seznam ..
+
+Důkaz
+(1) Ukázeme, że vektory  jsou lineárne nezávislé. To lze udělat mnoha zpúsoby. Ukážeme dva takové zpusoby.
+
+<br>
+Píedvádime "nejelegantnèjsi" zpúsob. Vektory  jsou zjevně lineárnê nezávislé. A pro vektor  plati
+
+protože každý vektor ze span( ) musí mít na druhé a třetí položce reálná čísla tvaru  a 3a pro nêjaké reálné číslo a. Rovnosti  a  však nemají společné řešení.<br>
+proto je množina lineárně nezávislá, protože dim , je  uspořádanou bází prostoru  nad .
+□
+
+<br>
+Předvádíme „standardni" zpúsob, tj. dủkaz z definice. Předpokládejme tedy, że pro reálná čisla  plati rovnost
+
+Pokud ukážeme, że , jsou zadané vektory lineárné nezávislé.
+Výse uvedená rovnost je ekvivalentní následujici soustavé rovnic
+
+Poslední dvě rovnice mají pouze triviálni řešení . Díky první rovnici pak platí i . Proto je  uspořádanou bázi prostoru  nad .
+
+
+<br>DCV situace v (b) pro sudý počet vektorů (4.2.2)<br>možna pro dimensi
+4.3.3<br>Pro spojení doplnit <br><br>rpo něj  a <br>takže ez udělat <br>
+<br>
+<br>A tudíž, podle předchozího, všechny báze prostoru  mají  prvků.<a href="https://duckvang.github.io/#fnref-1-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+<br>To je náročnější na představu, ale geometrický význam je podobný jako pro lineární podprostory prostoru .<a href="https://duckvang.github.io/#fnref-2-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+<br>Nepovinné: takzvaná Hamelova báze reálných čísel, viz Příklad 3.6 .5 skript.<a href="https://duckvang.github.io/#fnref-3-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/dimense.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Dimense.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 11:27:20 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/pasted-image-20241027200508.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/pasted-image-20241027200508.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gaussova eliminační metoda]]></title><description><![CDATA[ 
+ ]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/gaussova-eliminační-metoda.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Gaussova eliminační metoda.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 30 Oct 2024 09:20:44 GMT</pubDate></item><item><title><![CDATA[GEM a soustavy lineárních rovnic]]></title><description><![CDATA[ 
+ <br><br>Zápis , kde  je matice typu  nad  je  a  je , kóduje soustavu lineárních rovnic nad .<br>Terminologie:  je matice soustavy,  je pravá strana rovnice,  je vektor neznámých. Matice (A | b) (také:  ) je rozšířená matice soustavy.
+Například<br><br>je zápis soustavy<br><br>nad .<br>Poznámka
+<img alt="Pasted image 20241030144130.png" src="https://duckvang.github.io/lib/media/pasted-image-20241030144130.png"><img alt="Pasted image 20241030144136.png" src="https://duckvang.github.io/lib/media/pasted-image-20241030144136.png">
+
+Ize (1) převést isomorfismem na (2)
+
+Koeficienty lineární kombinace situace napravo se najdou snadno.
+Gaussova eliminační metoda je přesně postupné převádění vhodnými isomorfismy do příjemné polohy!
+<br><br>Definice (Horní blokový tvar matice)
+Matice  je v horním blokovém tvaru, jsou-li splněny následující dvě podmínky: <br>
+(1) Každý nenulový řádek matice  je nad jakýmkoli řádkem samých nul.
+(2) Každý pivot (tj. nenulová položka první zleva) jakéhokoli nenulového řádku matice  je vždy více napravo než pivot předchozího řádku.
+ Pozorování:  je v horním blokovém tvaru iff (  ) je v horním blokovém tvaru.
+<br><br><br>Je v horním blokovém tvaru. Není v horním blokovém tvaru.<br>Věta (Gaussova eliminační metoda (GEM) nad  ) Jakoukoli matici  nad  Ize konečným počtem tzv. řádkových elementárních úprav převést na horní blokový tvar. Řádkové elementární úpravy jsou tří typů:
+(I) Přičtení skalárního násobku řádku matice k jinému řádku matice.
+(II) Prohození dvou řádků v matici.
+(III) Vynásobení ráadku matice nenulovým skalárem.<br><br>Nebudeme dělat (viz skripta, Věta 6.3.10.).<br><br>GEM: použití řádkových elementárních úprav dané matice s cílem zapsat danou matici v horním blokovém tvaru. Při dosažení tohoto tvaru říkáme, že GEM skončila.<br>Příklad (Přičtení skalárního násobku řádku k řádku)
+At  a at .
+Platí<br><br>Tudíž: přičtení skalárního násobku řádku  danému řádku je dáno isomorfismem , aplikovaným na čtveřici vektorů .<br><br>At  a at .
+Platí<br><br>Tudíž: prohození dvou řádků je dáno isomorfismem , aplikovaným na čtveřici vektorů  z .<br>Příklad (Vynásobení řádku matice nenulovým skalárem)
+At  a at .
+Platí
+
+Tudíž: vynásobení řádku matice nenulovým skalárem je dáno isomorfismem , aplikovaným na čtveřici vektorů .<br>Definice (ekvivalentní soustavy)
+Řekneme, že soustavy  a  rovnic o  neznámých jsou ekvivalentnía (značení: (A  ), když pro každý vektor  platí:  právě tehdy, když .<br><a data-footref="0" href="https://duckvang.github.io/#fn-1-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>At  je jakýkoli isomorfismus. Potom platí
+(1) .
+(2) .<br>Důkaz.
+Přednáška.<br><br>At  je jakákoli nad  o  řádcích. Potom platí:
+(1) Každá elementární úprava matice  je dána součinem  pro vhodný „elementární" isomorfismus .
+(2) Je-li matice  horním blokovým tvarem  matice , pak
+(1) Existuje isomorfismus  tak, že  a , kde  je nějaké přirozené číslo a  jsou „elementární" isomorfismy.
+(2) Platí  a .<br>Speciálně: pro  ve tvaru  Ize elementárními úpravami převést každou soustavu na horní blokový . Navíc platí .<br><a data-footref="1" href="https://duckvang.github.io/#fn-2-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[2]</a><br><br>(1) Pro každou matici  platí  je transponovaná matice  matici .
+(2) Hodnost matice  je rovna počtu nenulových řádků v horním blokovém tvaru po skončení GEM.
+(3) Defekt matice  je roven počtu sloupců matice  mínus hodnost matice .
+ Matice  má jako své sloupce původní řádky matice  zapsané ve stejném pořadí. Například pro<br><br>je<br><br><br>Věta (Frobeniova věta)
+(1) Soustava  má řešení právě tehdy, když platí rovnost .
+(2) Pokud  má řešení, potom Ize říci následující:<br>
+Zvolme jakékoli , splňující rovnost . Potom  platí právě tehdy, když  pro nějaké .
+<br>Budeme pouzıvat i zkraceny a prehledny zapis: mnozinu vsech resenı lze
+   napsat jako , kde .
+<br><br>(1)  má řešení právě tehdy, když  je . To nastane právě tehdy,  str 12, téma 3A.
+(2) Triviální.<br><br>(1)  je lineární podprostor prostoru . Tudíž pro vyřešení  stačí najít bázi . Tato báze má přesně  prvků.<br>Jakékoli bázi prostoru ker(A) budeme říkat fundamentální systém soustavy s maticí .
+(2) Soustavě  budeme říkat homogenní soustava příslušná k matici .<br>Jakékoli řešení homogenní soustavy je tedy lineární kombinací prvků fundamentálního systému.
+(3) Jakékoli řešení soustavy Ize vyjádřít ve tvaru , kde  je  a  je jakékoli řešení původní soustavy (takzvané partikulární řešení).<br>Jak vyřešit homogenní soustavu (  )
+(1) GEM: .
+(2) Víme:  a matice  je v horním blokovém tvaru. Tudíz známe defekt matice  :
+.
+(3) Báze prostoru  musí mít  prvkủ. Tudíz  hodnot v každém řešení lze zvolit (jde o posice, na kterých nejsou pivoty matice  ). Touto volbou zajistíme lineární nezávislost. Dalších  hodnot lze spočíst z nenulových rovnic  soustavě  zpětným dosazením.
+Jak nalézt partikulární řešení soustavy 
+(1) GEM: .
+(2)  hodnot v partikulárním řešení lze zvolit (jde o posice, na kterých nejsou pivoty matice  ).
+(3) Zpětné dopočtení z nenulových rovnic soustavy .<br><br>Nad  vyřešte:  (maticově:  ). Pro matici soustavy  platí rovnosti  a . Pivot je na první posici: volit budeme vždy druhou a třetí položku, první položku dopočteme.
+(1) Příslušná homogenní rovnice: .<br>Fundamentální systém: .
+(2) Partikulární řešení pro .
+(3) Celkové řešení: .<br><br>Rovnice  popisuje rovinu  prostoru . Tato rovina  je  obecné poloze (rovina  neprochází počátkem, protože  ).
+(1) Homogenní rovnice  je paralelní posunutí roviny  tak, aby výsledná rovina  procházela počátkem.<br>Fundamentální systém  je systém souřadnic v rovině .
+(2) Partikulární řešení rovnice  je libovolný bod  původní rovině .
+(3) Zápis  obecného řešení vyjadřuje opětovné paralelní posunutí roviny  zpět do roviny .<br><br>Stejnou geometrickou představu je třeba mít pro řešení obecné soustavy  nad .<br>Příklad (systematické řešení komplikovanější soustavy nad  )
+
+Důležité: povšimněme si značení řádkových úprav; úpravy budeme vždy takto vyznačovat.
+Po skončení GEM  jsou pivoty na čtvrté, druhé a první posici. Tyto položky v řešení budeme dopočítávat, třetí položku řešení budeme volit.<br>
+Řešení je: , kde .
+Zkrácený zápis: .
+Řešením soustavy je přímka .
+<br><br><br><br>
+<br>
+<br> Slogan: Ekvivalentní soustavy stejných rozměrů mají stejná řešení.
+Tvrzení (základní vlastnosti ekvivalence soustav)
+Platí:
+(1) .
+(2) Jestliže , pak .
+(3) Jestliže  a , pak .<a href="https://duckvang.github.io/#fnref-1-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+<br> Důležité: nikdy jsme neříkali, že při elementárních úpravách Ize vyškrtávat nulové řádky. Vyškrtávat nulové řádky při GEM nebudeme; matice  a  musí mít stejné rozměry!<a href="https://duckvang.github.io/#fnref-2-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/gem-a-soustavy-lineárních-rovnic.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/GEM a soustavy lineárních rovnic.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 30 Oct 2024 15:02:58 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/pasted-image-20241030144130.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/pasted-image-20241030144130.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Hypotéza (Hypothesis)]]></title><description><![CDATA[ 
+ <br>Hypotéza (řecky ϋπόθεσις hypo-thesis, podklad, princip, předpoklad) znamená výpověď (statement), jejiž platnost se pouze předpokládá, ale zároveň formulovaná tak, aby ji bylo možno potvrdit nebo vyvrátit.<br>má formu <a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/Úsudek (Assumption)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">úsudku</a><a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/úsudek-(assumption).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">úsudku</a><br>Jaký je rozdíl mezi úsudkem ]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/hypotéza-(hypothesis).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Hypotéza (Hypothesis).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 09 Oct 2024 18:58:03 GMT</pubDate></item><item><title><![CDATA[I-tice vektorů]]></title><description><![CDATA[ 
+ <br>Definice (I-tice vektorů)
+Ať  je lineární prostor nad , ať  je jakákoli množina. Funkci  říkáme I-tice vektorů v . Budeme ji značit 
+<br><br>
+<br>V obecné I-tici  záleží na pořadí vektorů. Přesněji pro  platí  právě tehdy, když existuje tak, že 
+<br>V obecné I-tici  se vektory mohou opakovat. Extrémním případem je I-tice , kde , pro každé . Taková I-tice je zadána funkcí , kde , pro každé 
+<br>V případě že množina  je konečná, mluvíme často o <a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/Seznam (Set)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">seznamu/skupině vektorů</a><a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/seznam-(set).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">seznamu/skupině vektorů</a>. Prázdný seznam značíme (), seznam délky  značíme 
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/i-tice-vektorů.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/I-tice vektorů.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sun, 06 Oct 2024 15:55:24 GMT</pubDate></item><item><title><![CDATA[Inkluse v lineární algebře]]></title><description><![CDATA[ 
+ ]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/inkluse-v-lineární-algebře.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Inkluse v lineární algebře.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sat, 26 Oct 2024 14:45:57 GMT</pubDate></item><item><title><![CDATA[Inverzní prvek]]></title><description><![CDATA[ 
+ <br>Inverzní prvek v <a data-tooltip-position="top" aria-label="Lineární algebra" data-href="Lineární algebra" href="https://duckvang.github.io/Lineární algebra" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">algebře</a><a data-tooltip-position="top" aria-label="Lineární algebra" data-href="Lineární algebra" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-algebra.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">algebře</a> k prvku  je (vzhledem k operaci ) takový prvek y, pro který se xy rovná <a data-tooltip-position="top" aria-label="Neutralní prvek" data-href="Neutralní prvek" href="https://duckvang.github.io/Neutralní prvek" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">neutrálnímu prvku</a><a data-tooltip-position="top" aria-label="Neutralní prvek" data-href="Neutralní prvek" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/neutralní-prvek.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">neutrálnímu prvku</a>. Prvek se nazývá invertibilní, existuje-li pro něj inverzní prvek.]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/inverzní-prvek.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Inverzní prvek.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 09 Oct 2024 18:58:15 GMT</pubDate></item><item><title><![CDATA[Komutativní diagram]]></title><description><![CDATA[ 
+ <br><br>(a) Komutativní trojúhelník:
+<img src="https://cdn.mathpix.com/cropped/2024_10_16_21278bccb0af59201053g-11.jpg?height=189&amp;width=312&amp;top_left_y=214&amp;top_left_x=511" referrerpolicy="no-referrer">
+znamená , tj.  pro všechna .
+(3) Komutativní čtverec:
+<img src="https://cdn.mathpix.com/cropped/2024_10_16_21278bccb0af59201053g-11.jpg?height=213&amp;width=210&amp;top_left_y=535&amp;top_left_x=562" referrerpolicy="no-referrer">
+znamená , tj.  pro všechna .<br><br>(6) „Slepování" komutativních diagramů:a
+<img src="https://cdn.mathpix.com/cropped/2024_10_16_21278bccb0af59201053g-12.jpg?height=580&amp;width=981&amp;top_left_y=216&amp;top_left_x=175" referrerpolicy="no-referrer"><br>1<br><br>(3) „Trhání" komutativních diagramů:a
+<img src="https://cdn.mathpix.com/cropped/2024_10_16_21278bccb0af59201053g-13.jpg?height=553&amp;width=792&amp;top_left_y=196&amp;top_left_x=268" referrerpolicy="no-referrer">
+komutativní být nemusí.
+ Důležité: projděte si podrobně Příklady 2.2.1-2.2.3 skript.]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/komutativní-diagram.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Komutativní diagram.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 16 Oct 2024 18:28:32 GMT</pubDate><enclosure url="https://cdn.mathpix.com/cropped/2024_10_16_21278bccb0af59201053g-11.jpg?height=189&amp;width=312&amp;top_left_y=214&amp;top_left_x=511" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://cdn.mathpix.com/cropped/2024_10_16_21278bccb0af59201053g-11.jpg?height=189&amp;width=312&amp;top_left_y=214&amp;top_left_x=511&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Konečné a nekonečné množiny]]></title><description><![CDATA[ 
+ <br>Definice (Konečná/Nekonečná množina)
+
+<br>
+Množina M je konečná, když má přesně  prvků, kde  je nějaké přirozené číslo.<br>
+To znamená:  je konečná, když buď<br>
+→  (množina  má 0 prvků)
+nebo<br>
+→ , kde  je přirozené číslo (v tom případě má množina   prvků)  
+
+<br>
+Množina  je nekonečná, když není konečná
+
+
+
+Například  jsou nekonečné množiny. Množina  je nekonečná
+<br><br><br>Definice (Konečná množina)
+Množina  je konečná, pokud existuje přirozené číslo  a bijektivní zobrazení . Bijektivní zobrazení  znamená dvě následující podmínky.
+
+<br>Zobrazení  je injektivní (prosté): jestliže , potom i = j
+<br>Zobrazení  je surjektivní (na): pro každé  existuje , tak že 
+
+ Řečeno lapidárně: zobrazení  indexuje všechny prvky množiny . Zobrazení  žádný prvek množiny  „nevynechává" (tj. zobrazení  je surjektivní) a žádný prvek množiny  "nepočítá dvakrát" (tj. zobrazení  je injektivni). Množinu  tedy můžeme zapsat výčtem takto . To znamená, že množina  je bud prázdná (pokud  ), nebo má přesně  prvků (v případně  ).
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/konečné-a-nekonečné-množiny.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Konečné a nekonečné množiny.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sat, 26 Oct 2024 14:40:25 GMT</pubDate></item><item><title><![CDATA[Lemma (Pomocné tvrzení)]]></title><description><![CDATA[ 
+ <br>V matematice značí lemma (nebo lema) dokázané tvrzení, používané jako mezikrok k důkazu nějakého složitějšího tvrzení. Z toho důvodu se v češtině někdy používá název pomocné tvrzení.<br>obecně: pomocná věta malé důležitosti<br>Z formálního hlediska není rozdíl mezi lemmatem a <a data-tooltip-position="top" aria-label="Věta (Theorem)" data-href="Věta (Theorem)" href="https://duckvang.github.io/Věta (Theorem)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">větou</a><a data-tooltip-position="top" aria-label="Věta (Theorem)" data-href="Věta (Theorem)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/věta-(theorem).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">větou</a>.]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lemma-(pomocné-tvrzení).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lemma (Pomocné tvrzení).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 09 Oct 2024 19:00:16 GMT</pubDate></item><item><title><![CDATA[Lineární algebra]]></title><description><![CDATA[ 
+ <br>Přirozená čísla začínají od nuly tady]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-algebra.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární algebra.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 09 Oct 2024 19:00:22 GMT</pubDate></item><item><title><![CDATA[Lineární algebra - definice]]></title><description><![CDATA[<a class="tag" href="https://duckvang.github.io/?query=tag:flashcards/Definition-LAG" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#flashcards/Definition-LAG</a> 
+ <br><a href="https://duckvang.github.io?query=tag:flashcards/Definition-LAG" class="tag" target="_blank" rel="noopener nofollow">#flashcards/Definition-LAG</a> <br>Lineární kombinace
+?
+<br><br>Definice 1 (Lineární kombinace -tice vektorů (konečného seznamu vektorů))
+Ať  je <a data-tooltip-position="top" aria-label="I-tice vektorů" data-href="I-tice vektorů" href="https://duckvang.github.io/I-tice vektorů" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">I-tice vektorů</a><a data-tooltip-position="top" aria-label="I-tice vektorů" data-href="I-tice vektorů" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/i-tice-vektorů.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">I-tice vektorů</a> (seznamu). Její lineární kombinace je vektor
+
+kde  (tzv. koeficienty linární kombinace) jsou z  a množina 
+Lineární kombinace obecné -tice vektorů je tedy vektor, zapsaný ve tvaru , kde "téměř všechny" koeficienty  (tj. všechny koeficienty, až na konečnou množinu) jsou rovny nule
+
+
+<br>() definujeme  jako jeho (jedinou možnou) lineární kombinaci (s prázdným seznamem koeficientů)
+<br> je vektor  jeho lineární kombinace (se seznamem koeficientů )
+
+ <br>Lineární nezávislost a závislost
+?
+<br><br>Definice 1 (Lineární závislost a nezávislost **seznamu** vektorů)
+Řekneme, že <a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/Seznam (Set)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">seznam</a><a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/seznam-(set).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">seznam</a>  vektorů je lineárně nezávislý, pokud platí jedna z podmínek:
+
+<br>Seznam  je prázdný.
+<br>Seznam  je tvaru  a platí: kdykoli , pak 
+
+Řekneme, že seznam  je lineárně závislý, pokud není lineárně nezávislý.
+ <br>Lineární obal
+?
+<br><br>Definice 1 (Lineární obal množiny vektorů)
+Ať  je jakákoli množina vektorů lineárního prostoru . Lineární obal množiny vektorů  je množina , definovaná takto0: 
+
+pro nějaké , nějaká  a nějaká 
+
+Ujasnění si definice :
+ právě tehdy, když existuje nějaký seznam  vektorů z množiny  tak, že  je roven nějaké <a data-tooltip-position="top" aria-label="Lineární kombinace" data-href="Lineární kombinace" href="https://duckvang.github.io/Lineární kombinace" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineární kombinaci</a><a data-tooltip-position="top" aria-label="Lineární kombinace" data-href="Lineární kombinace" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-kombinace.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineární kombinaci</a> <a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/Seznam (Set)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">seznamu</a><a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/seznam-(set).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">seznamu</a> . 
+To jest: span(M) je množina všech možných lineárních kombinací, které lze z M utvořit tj. 
+ <br>Lineární podprostor
+?
+<br><br>Definice 1 (Lineární podprostor)
+Ať  je podmnožina lineárního prostoru . Řekneme, že  je lineární podprostor lineárního prostoru L, když platí .
+ <br>Spojení lineárních podprostorů
+?
+<br><br>Definice 10 (Spojení lineárních podprostorů)
+Ať  je systém lineárníh podprostorů L. Lineárnímu podprostoru  prostoru říkáme spojení podprostorů , a značíme jej 
+
+V případě dvou podprostorů používáme i značení 
+ <br>Množina generátorů
+?
+<br><br>Definice 1 (Množina generátorů)
+Ať  je lineární podprostor . Řekneme, že množina  generuje , když platí . Říkáme také:  je množina generátorů podprostoru 
+ <br>Konečně generovaný podporstor
+?
+<br><br>Definice 2 (konečně generovaný podporostor)
+ Řekneme, že lineární podprostor  prostoru  je konečně generovaný, když existuje <a data-tooltip-position="top" aria-label="Konečné a nekonečné množiny" data-href="Konečné a nekonečné množiny" href="https://duckvang.github.io/Konečné a nekonečné množiny" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">konečná množina</a><a data-tooltip-position="top" aria-label="Konečné a nekonečné množiny" data-href="Konečné a nekonečné množiny" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/konečné-a-nekonečné-množiny.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">konečná množina</a> jeho generátorů. (To jest, když platí  pro nějakou konečnou množinu .)<br>
+
+ <br>Báze
+?
+<br><br>Definice 1 (Báze)
+Lineárně <a data-tooltip-position="top" aria-label="Lineární závislost a nezávislost" data-href="Lineární závislost a nezávislost" href="https://duckvang.github.io/Lineární závislost a nezávislost" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">nezávislé množině</a><a data-tooltip-position="top" aria-label="Lineární závislost a nezávislost" data-href="Lineární závislost a nezávislost" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-závislost-a-nezávislost.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">nezávislé množině</a> , která <a data-tooltip-position="top" aria-label="Množina generátorů" data-href="Množina generátorů" href="https://duckvang.github.io/Množina generátorů" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">generuje</a><a data-tooltip-position="top" aria-label="Množina generátorů" data-href="Množina generátorů" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/množina-generátorů.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">generuje</a> prostor , říkáme báze prostoru . Je-li  konečná, pak seznamu prvků  říkáme uspořádaná báze.
+ <br>Dimenze
+?
+<br><br>Definice 1 (prostor konečné dimense)
+Lineární prostor  má dimensi  (značíme:  ), když existuje <a data-tooltip-position="top" aria-label="Báze (Basis)" data-href="Báze (Basis)" href="https://duckvang.github.io/Báze (Basis)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">báze</a><a data-tooltip-position="top" aria-label="Báze (Basis)" data-href="Báze (Basis)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/báze-(basis).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">báze</a>  prostoru , která má  prvků,1 kde  je přirozené číslo.
+ <br>Souřadnice
+?
+<br><br>Definice (Souřadnice  vzhledem k uspořádané bázi)
+Ať  je n-tice vektorů tvořící uspořádánou bázi lineárního prostoru . Jednoznačně určenému vektoru 
+
+v prostoru  s vlastností  říkáme vektor souřadnic vektoru  vzhledem k bázi 
+ ]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-algebra-definice.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární algebra - definice.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 14:52:36 GMT</pubDate></item><item><title><![CDATA[Lineární kombinace]]></title><description><![CDATA[ 
+ <br>V matematice se pojmem lineární kombinace označuje jeden z nejzákladnějších konceptů studovaných <a data-tooltip-position="top" aria-label="Lineární algebra" data-href="Lineární algebra" href="https://duckvang.github.io/Lineární algebra" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineární algebrou</a><a data-tooltip-position="top" aria-label="Lineární algebra" data-href="Lineární algebra" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-algebra.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineární algebrou</a>. Jedná se v jistém smyslu o zobecnění pojmu násobení a sčítání pro čísla. Pomocí pojmu lineární kombinace se definují další důležité objekty lineární algebry jako je <a data-tooltip-position="top" aria-label="Lineární obal (span)" data-href="Lineární obal (span)" href="https://duckvang.github.io/Lineární obal (span)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineární obal</a><a data-tooltip-position="top" aria-label="Lineární obal (span)" data-href="Lineární obal (span)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-obal-(span).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineární obal</a>, lineární nezávislost a podobně.<br><br>Definice (Lineární kombinace -tice vektorů (konečného seznamu vektorů))
+Ať  je <a data-tooltip-position="top" aria-label="I-tice vektorů" data-href="I-tice vektorů" href="https://duckvang.github.io/I-tice vektorů" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">I-tice vektorů</a><a data-tooltip-position="top" aria-label="I-tice vektorů" data-href="I-tice vektorů" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/i-tice-vektorů.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">I-tice vektorů</a> (seznamu). Její lineární kombinace je vektor
+
+kde  (tzv. koeficienty linární kombinace) jsou z  a množina 
+Lineární kombinace obecné -tice vektorů je tedy vektor, zapsaný ve tvaru , kde "téměř všechny" koeficienty  (tj. všechny koeficienty, až na konečnou množinu) jsou rovny nule
+
+
+<br>() definujeme  jako jeho (jedinou možnou) lineární kombinaci (s prázdným seznamem koeficientů)
+<br> je vektor  jeho lineární kombinace (se seznamem koeficientů )
+
+<br><br>Příklad (Geometrický význam lineární kombinace (Přímka))
+Pro seznam  v <br>
+<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-17.58.00.png">
+a seznam  reálných čísel je
+<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-18.01.26.png">
+lineární kombinace.
+Všechny možné lineární kombinace vektoru  vytvářejí v  přímku procházející počátkem (se směrem )
+<br>Příklad (Geometrický význam lineární kombinace (Rovina))
+Pro sezname  v <br>
+<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-18.05.01.png">
+A seznam  reálných čísel je
+<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-18.05.34.png">
+Všechny možné lineární kombinace seznamu  vytvářejí v  rovinu procházející počátkem (se směrem )
+<br><br>Cvičení (Ať L je lineární prostor nad , ať )<br><br>Cvičení (Přemýšlíme o "směru roviny" v )
+ pro žádné 
+<br><br>Jak se definuje rovina v <br><br>Cvičení (Ať  je lineární prostor nad , ať .)
+
+<br><br>Nepřímý důkaz chci ne( ) ← ne[ ]<br><br>]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-kombinace.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární kombinace.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sat, 26 Oct 2024 12:16:23 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-17.58.00.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/screenshot-2024-10-06-at-17.58.00.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Lineární obal (span)]]></title><description><![CDATA[ 
+ <br>Definice (Lineární obal množiny vektorů)
+Ať  je jakákoli množina vektorů lineárního prostoru . Lineární obal množiny vektorů  je množina , definovaná takto<a data-footref="0" href="https://duckvang.github.io/#fn-1-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>: 
+
+pro nějaké , nějaká  a nějaká 
+
+Ujasnění si definice :
+ právě tehdy, když existuje nějaký seznam  vektorů z množiny  tak, že  je roven nějaké <a data-tooltip-position="top" aria-label="Lineární kombinace" data-href="Lineární kombinace" href="https://duckvang.github.io/Lineární kombinace" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineární kombinaci</a><a data-tooltip-position="top" aria-label="Lineární kombinace" data-href="Lineární kombinace" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-kombinace.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineární kombinaci</a> <a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/Seznam (Set)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">seznamu</a><a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/seznam-(set).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">seznamu</a> . 
+To jest: span(M) je množina všech možných lineárních kombinací, které lze z M utvořit tj. 
+<br><br><br>Fakt (Je-li , potom )
+Důkaz<br>
+Předpokládejme, že  je ve . To znamená, že , kde každé  je v množině  a množina  je konečná. Protože , je , kde každé , je množině  a množina  je končná. To znamená, že  je v množině 
+□
+<br>Fakt (Pro vš.  platí: .)
+Důkaz<br>
+Ať  je množině . Potom platí . Proto je  v množině 
+□
+<br>Fakt (Pro vš.  platí: )
+Důkaz<br>
+Předpokládejme, že  je v  množině . To znamená, že , kde každé  je v množině  a množina  je konečná. Pro každé  napíšeme , kde každé  je v množině  a množina  je konečná. Celkově platí
+
+Součin  je nenulový pouze pro konečně mnoho dvojic . To znamená, že  je v množině 
+□
+<br><br>Slogan - Lineární kombinací tvoříme "rovné kusy"  lineárního prostoru. Množina span(M) je tedy "zabalení" množiny M tak, aby výsledkem byl "co nejmenší rovný kus". který obsahuje M<br><br><br>Cvičení 3.3.1 (Problém Rozhodněte, zda pro libovolné podmnožiny  a  lineárního prostoru  platí rovnosti 1) , 2) )
+Pokud rovnosti obecně neplatí, platí v nich obecně alespoň některé inkluse?
+<br>
+<br>
+<br>Pozor prázdné lineární kombinace je rovna vektoru <a href="https://duckvang.github.io/#fnref-1-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-obal-(span).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární obal (span).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 29 Oct 2024 17:09:22 GMT</pubDate></item><item><title><![CDATA[Lineární podprostor]]></title><description><![CDATA[ 
+ <br>Definice (Lineární podprostor)
+Ať  je podmnožina lineárního prostoru . Řekneme, že  je lineární podprostor lineárního prostoru L, když platí .
+<br>Slogan – Podprostor je "dobrá" podmnožina prostoru. Žádnou linární kombinaci nelze z lineárního podprostoru "utéct"<br><br>Fakt 1 ( je vždy lineární podprostor. Jde o nejmenší podprostor, který obsahuje množinu )<br>Fakt (Každá lineární kombinace prvků  je opět prvek )<br>Fakt (Množina  je lineární podprostor právě tehdy, když  tj. je lineárně uzavřená podmnžoina prostoru )
+Důkaz<br>
+(i) M je lin. podprostor →  → <br>
+□
+<br>Fakt (Ať  je lineární prostor. Podmnožina  je lineárním podprostorem prostoru  právě tehdy, když platí )
+
+<br> je prvkem  (Uzavřenost W na nulový vector)
+<br> je prvkem , pro každé  (uzavřenost W na součet vektorů)
+<br> je prvkem , pro každé  a každé  (uzavřenost W na skalární násobek)
+
+<br>Důkaz
+Doplnit
+□<br>Slogan – Lineární podprostor vždy obsahuje nulový vector a "vydrží" operacee součtu a skalárního násobku<br>Important
+Ať  je lineární podprostor lineárního prostoru . Potom množina  sama o sobě je lineárním prostorem, pokud sčítání vektorů ve  a násobení vektoru skalárem ve  definujeme stejně jako v prostoru 
+Obrácené tvrzení ale neplatí: například  není lineárním podprostorem . Ale množina  spolu s operacemi
+
+tvoří lineární prostor nad 
+<br><br>Příklad (Každý lineární prostor je sám svým podprostorem)<br>Příklad (Množina  je vždy lineárním podprostorem)<br>Příklad (Pro každé  je  lineární podprostor lineárního prostoru )<br>Příklad (Označme jako  množinu všech reálných polynomů stupně maximálně 3 a jako  množinu všech reálných polynomů stupně maximálně 136. Potom  je lineární podrpostor lineárního prostoru  )
+Obeněji: ať  je těleso. Označme jako  množinu všech polynomů nad  stupně maximálně . Jakmile , je  lineární podprostor  lineárního prostoru 
+<br>Příklad ( je lineárním prostor (operace jsou definovány po složkách))
+ je lineárním podprostorem 
+ není lineárním podprostorem 
+Pozor! Na množině  lze definovat strukturu lineárního prostoru (triviální podprostor)
+<br><br>Ať  je lineární prostor <br>
+<br>Průnik libobolného systému  podprostoru  je lineárním podprostorem prostoru L. (1.6.7)
+<br>Sjednocení systému  lineárních podprostorů prostoru  obecně lineárním podprostorem  není (1.6.8)
+<br>Důkaz<br><a class="original-internal-link" data-href="AKLA.pdf#page=39" href="https://duckvang.github.io/AKLA.pdf#page=39" target="_blank" rel="noopener nofollow" style="display: none;">Důkaz průniku a sjednocení stránka 39</a><a class="internal-link mathLink-internal-link" data-href="AKLA.pdf#page=39" href="https://duckvang.github.io/pdf/akla.pdf#page=39" target="_self" rel="noopener nofollow">Důkaz průniku a sjednocení stránka 39</a>
+□<br>Definice (Spojení lineárních podprostorů)
+Ať  je systém lineárníh podprostorů L. Lineárnímu podprostoru  prostoru říkáme spojení podprostorů , a značíme jej 
+
+V případě dvou podprostorů používáme i značení 
+<br><br>Klasifikace lineárních podprostorů 
+Všechny podprostory  jsou buď 
+
+<br>Jednoprovková množina obsahující pouze počátek
+<br>Každá přímka procházející počátkem 
+<br>Každá rovina procházející počátkem 
+<br>Celá množina 
+
+<br><br><br>Fakt 1.6.7 ( Průnik systému lineárních podprostorů je lineární podprostor)
+Ať , je jakýkoli systém lineárních podprostor lineárního prostoru L. Potom  je opět lineární podprostor lineárniho prostoru .
+<br><br>Důkaz<br>Označme . Protože pro každé i platí , platí i  pro každé . Pro každé  také platí . Tudiž pro každé  platí span . To znamená, že plati  inkluse<br><br>   a to jsme chtěli dokázat.
+□]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-podprostor.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární podprostor.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Fri, 01 Nov 2024 18:15:25 GMT</pubDate></item><item><title><![CDATA[Lineární prostor (Vektorový prostor)]]></title><description><![CDATA[ 
+ <br> Lineární prostor , též Vektorový prostor je (velmi zhruba) soubor prvků, kterým říkáme <a data-tooltip-position="top" aria-label="Vektor" data-href="Vektor" href="https://duckvang.github.io/Vektor" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">vektory</a><a data-tooltip-position="top" aria-label="Vektor" data-href="Vektor" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/vektor.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">vektory</a>, více specificky jedná se zobecnění množin <a data-tooltip-position="top" aria-label="Reaálná čísla" data-href="Reaálná čísla" href="https://duckvang.github.io/Reaálná čísla" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">reálných</a><a data-tooltip-position="top" aria-label="Reaálná čísla" data-href="Reaálná čísla" href="https://duckvang.github.io/math/vysoká-škola/diskrétní-matematika/reaálná-čísla.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">reálných</a> resp. <a data-tooltip-position="top" aria-label="Komplexní čísla" data-href="Komplexní čísla" href="https://duckvang.github.io/Komplexní čísla" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">komplexních</a><a data-tooltip-position="top" aria-label="Komplexní čísla" data-href="Komplexní čísla" href="https://duckvang.github.io/math/maturita/komplexní-čísla.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">komplexních</a> čísel. <br>Vektor abstrakně je nějaký prvek množiny, nemá velikost a směr, je to prvek, ve fyzice představuje veličinu která má velikost a směr a orientaci<br> Podobně jako v těchto množinách je i ve vektorovém prostoru definována operace sčítání a násobení s jistými přirozenými omezeními jako je <a data-tooltip-position="top" aria-label="Komutativita" data-href="Komutativita" href="https://duckvang.github.io/Komutativita" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">komutativita</a><a data-tooltip-position="top" aria-label="Komutativita" data-href="Komutativita" href="https://duckvang.github.io/math/vysoká-škola/diskrétní-matematika/komutativita.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">komutativita</a>, <a data-tooltip-position="top" aria-label="Asociativita" data-href="Asociativita" href="https://duckvang.github.io/Asociativita" class="internal-link" target="_self" rel="noopener nofollow">asociativita</a> či <a data-tooltip-position="top" aria-label="Distributivita" data-href="Distributivita" href="https://duckvang.github.io/Distributivita" class="internal-link" target="_self" rel="noopener nofollow">distributivita</a> <br>Lineární prostor je v podstatě (zobecněno) to že dovolíme <a data-tooltip-position="top" aria-label="Vektor" data-href="Vektor" href="https://duckvang.github.io/Vektor" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">vektory</a><a data-tooltip-position="top" aria-label="Vektor" data-href="Vektor" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/vektor.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">vektory</a> v prostoru "natahovat" se obecnými <a data-tooltip-position="top" aria-label="Scalar" data-href="Scalar" href="https://duckvang.github.io/Scalar" class="internal-link" target="_self" rel="noopener nofollow">skaláry</a>. <br><br>Lineární prostor vs <a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Těleso (Division ring)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">těleso</a><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">těleso</a>
+Můžeme to pochopit tak že lineární (vektorový) prostor je cosi taková speciální <a data-tooltip-position="top" aria-label="Grupa" data-href="Grupa" href="https://duckvang.github.io/Grupa" class="internal-link" target="_self" rel="noopener nofollow">grupa</a> (tvořena vektory, což jsou jejich speciální elementy), ale aby skupina byla lineární prostor tak musí "spolupracovat" s tělesem skaláru
+Pak říkáme , že se jedná o lineární prostor nad tím či oním tělesem
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-(vektorový-prostor).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární prostor (Vektorový prostor).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 22 Oct 2024 19:32:58 GMT</pubDate></item><item><title><![CDATA[Lineární prostor nad obecným tělesem F]]></title><description><![CDATA[ 
+ <br> Lineární prostor nad   je soci větší zobecnění pojmu lineární prostor nad , splňuje tedy podmínky stejných operací, sčítání () a násobení () a případné <a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomy</a><a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html#Axiomy_lineárního_prostoru" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomy</a><br><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Těleso (Division ring)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Těleso</a><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Těleso</a>  je jako zobecnění reálných čísel <br>Definice (Lineární prostor nad obecným tělesem )
+Lineární prostor nad tělesem  je množina  spolu se dvěma funkcemi 
+
+Pro které platí následující <a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomy</a><a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy lineárního prostoru" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy lineárního prostoru" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html#Axiomy_lineárního_prostoru" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomy</a>
+Definice je formálně stejná pro <a data-href="Lineární prostor nad tělesem reálných čísel R" href="https://duckvang.github.io/Lineární prostor nad tělesem reálných čísel R" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Lineární prostor nad tělesem reálných čísel R</a><a data-href="Lineární prostor nad tělesem reálných čísel R" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Lineární prostor nad tělesem reálných čísel R</a>. Jediná změna: těleso  je nahrazeno obecným tělesem 
+<br><br>Příklad ()
+Prostory  nad . Vektory jsou uspořádané -tice prvků , psané do sloupce. Skaláry jsou prvky tělesa .
+Například: v  je vektor , v  je vektor , v  je vektor , atd
+<br>Příklad ()
+Prostory  polynomů v neurčité  s koeficienty z tělesa . Skaláry jsou prvky tělesa , vektory jsou jednotlivé polynomy. Sčítání a násobení je definováno analogicky jako v . Například v  platí:
+
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-obecným-tělesem-f.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární prostor nad obecným tělesem F.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 22 Oct 2024 19:34:25 GMT</pubDate></item><item><title><![CDATA[Lineární prostor nad tělesem reálných čísel R]]></title><description><![CDATA[ 
+ <br>Definice (Lineární prostor nad tělesem reálných čísel)
+Lineární prostor nad  je trojice (), kde  je množina (typickém prvku v  říkáme vector  a značíme ),  jsou funkce typu
+
+Pro které platí následující <a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy" href="https://duckvang.github.io/Lineární prostor nad tělesem reálných čísel R#Axiomy" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomy</a><a data-tooltip-position="top" aria-label="Lineární prostor nad tělesem reálných čísel R > Axiomy" data-href="Lineární prostor nad tělesem reálných čísel R#Axiomy" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html#Axiomy" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomy</a>
+<br><br><br>Axiom (Vlastnosti sčítání)
+
+<br>Existuje  tak, že pro vš.  platí <br>
+(existence nulového vektoru)
+<br>Pro vš.  platí: <br>
+(asociativita sčítání vektorů)
+<br>Pro vš.  platí: <br>
+(komutativita sčítání vektorů)
+<br>Pro vš.  existuje právě jeden , tak že <br>
+(existence opačného vektoru, značíme )
+
+<br>Axiom (Vlastnosti násobení skalárem)
+
+<br>Pro vš.  platí: <br>
+(násobení jednoduchým skalárem)
+<br>Pro vš.  a vš.  platí: <br>
+(asociativitaa násobení skalárem)
+
+<br>Axiom (Distributivní zákony)
+
+<br>Pro vš.  a vš.  platí <br>
+(distributivita součtu skalárů)
+<br>Pro vš.  a vš.  platí: <br>
+(distributivita součtu vektorů)
+
+<br><br><br>Fakt 1 (Nulový vektor je jednoznačně určen)
+Důkaz<br>
+Ať existuje  tak že pro vš.  platí:
+ a  Pak 
+□
+<br>Fakt 2 (Pro vš.  platí: )
+Důkaz<br>
+Pro vš.  platí:<br>
+. Tudiž  musí být nulový vektor
+□
+<br>Fakt 3 (Opačný vektor k  je vektor )
+Důkaz<br>
+Platí: 
+□
+<br>Fakt 4 (Pro vš.  platí: )
+Důkaz<br>
+Platí: 
+□
+<br><br>Ať je  je lineární prostor, . Pak  právě tehdy když  nebo <br>Důkaz<br>Díky předchozímu stačí dokázat pouze implikaci zleva doprava. Ať  a . Potom existuje. Tudíž  
+□<br>Povšimněte si, čeho využívá předchozí tvrzení:
+Pro vš.  platí:  existuje, jakmile 
+<br><br><br>Příklad
+. Operace sčítání vektorů . Násobení skalárem: . Pak L je linární prostor
+<br>Příklad
+ je jakákoliv jednoprvková množina. Pak  (splu s evidentími operacemi) je lineární prostor. Říkáme mu triviální lineární prostor. Nutně 
+<br>Příklad
+. Operace: .     Nejde o lineární prostor (komutativní zákon)
+<br><br>Role reálných skalárů
+Lze   nahradit jiným "číselným oborem"?
+Se skaláry je třeba umět následující: rozumné sčítání, násobení.
+Abstraktní pojem: skaláry musí tvořit strukturu , které se říká <a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Těleso (Division ring)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">těleso</a><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">těleso</a>, check out <a data-href="Lineární prostor nad obecným tělesem F" href="https://duckvang.github.io/Lineární prostor nad obecným tělesem F" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Lineární prostor nad obecným tělesem F</a><a data-href="Lineární prostor nad obecným tělesem F" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-obecným-tělesem-f.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Lineární prostor nad obecným tělesem F</a>
+<br>Poznámka
+Abstrakce v lineární algebře má tedy dva stupně:
+
+<br>Lineární prostor nad  abstrahuje (například) prostor orientovaných úseček
+<br>Lineární prostor nad  abstrahuje dále: roli skalárů převezmou prvky tělesa 
+
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-nad-tělesem-reálných-čísel-r.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární prostor nad tělesem reálných čísel R.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sat, 05 Oct 2024 18:55:51 GMT</pubDate></item><item><title><![CDATA[Lineární závislost a nezávislost]]></title><description><![CDATA[ 
+ <br>Definice (Lineární závislost a nezávislost seznamu vektorů)
+Řekneme, že <a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/Seznam (Set)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">seznam</a><a data-tooltip-position="top" aria-label="Seznam (Set)" data-href="Seznam (Set)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/seznam-(set).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">seznam</a>  vektorů je lineárně nezávislý, pokud platí jedna z podmínek:
+
+<br>Seznam  je prázdný.
+<br>Seznam  je tvaru  a platí: kdykoli , pak 
+
+Řekneme, že seznam  je lineárně závislý, pokud není lineárně nezávislý.
+<br>Příklady
+
+<br>Prázdný seznam  je vždy lineárně nezávislý
+<br>Seznam  je vždy lineárně závislý
+<br>Seznam, ve kterím se opakuje vektor, je vždy lineárně závislý
+
+<br>Příklad (Lineární závislost (!prohozená proměnné))
+Nulová lineární kombinace  v , kde 
+
+kóduje soustavu  lineárních rovnic
+
+o  neznámých nad 
+Seznam  je lineárně nezávislý právě tehdy, když tato soustava má pouze <a data-tooltip-position="top" aria-label="Triviální a netriviální lineární kombinace" data-href="Triviální a netriviální lineární kombinace" href="https://duckvang.github.io/Triviální a netriviální lineární kombinace" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">triviální</a><a data-tooltip-position="top" aria-label="Triviální a netriviální lineární kombinace" data-href="Triviální a netriviální lineární kombinace" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/triviální-a-netriviální-lineární-kombinace.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">triviální</a> řešení 
+<br><br><br>Definice (Lineární nezávislost množiny vektorů)
+Ať  je množina vektorů v lineárním prostoru . Řekneme, že  je lineárně nezávislá, pokud platí jedna z následujících podmínek:
+
+<br>Množina  je prázdná.
+<br> je neprázdná konečná množina a navíc platí: kdykoli , pak .
+<br> je nekonežná množina a každá její konežná podmnožina je lineárně nezávislá.
+
+Řekneme, že množina  je lineárně závislá, pokud není lineárne nezávislá.
+<br><br>Příklad (  je lineárně závislá množina v jakémkoli lineárním prostoru L.)
+Obecněji: at , potom  je lineárně závislá množina.
+<br>Příklad (Množina  je lineárně nezávislá množina v .)
+Obecněji: definujte pro , vektor  jako -tici mající na -té posici 1 a všude jinde 0 . Potom  je lineárnê nezávislá množina v .
+<br>Příklad (Nekonežná množina  je lineárně nezávislá množina v prostoru polynomů .)<br>Příklad (Množina  je lineárně závislá množina )
+Důvod:<br>
+
+<br><br>Fakt (At  je lineárně nezávislá množina vektorů v lineárním prostoru . Jakmile , je i  lineárně nezávislá množina vektorủ.)<br>   Důkaz
+Důkaz
+Máme M které je lineárně nez. a  a chceme že dokázat že N je lin. nezávislá.<br>Máme dvě možnosti pro M, buď je M konečné tak<br>
+<br> a  což je lin. nez. důkaz je hotový
+<br>nebo  pro něj  , kde nastanou dva připady
+
+<br>, důkaz hotov
+<br> a to tedy znamená že z těch původních prvků  vybral některé a vybírám si nějaké koeficienty pomocí kterých nakombinuji nulový vektor, a proto že koeficienty pochází od původní množiny tak to znamená že víme že všechny koefiecienty v M pro ty dané prvky jsou nulové (tohle stejné můžeme uplatnit pro nekončnou) je to hotový 
+
+
+<br>Nekonečnou
+-  →  →  →  →  → hotovo
+□
+<br>Slogan – Ubereme-li z lineárně nezávislé množiny vektorů nějaké vektory, je výsledná množina opět lineárně nezávislá.<br>Věta (Charakterisace lineárně nezávislých množin)
+Pro množinu  vektorů z lineárniho prostoru  jsou následujicí podmínky ekvivalentní:
+
+<br>Množina  je lineárně nezávislá.
+<br>Pro každý vektor  je množina  lineárně nezávislá.<br>
+<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-27-at-19.05.56.png" style="width: 300px; max-width: 100%;">
+
+<br>Důkaz
+No fuking idea bro <a data-tooltip-position="top" aria-label="https://youtu.be/2IiWuyD-pl0?list=PLQL6z4JeTTQnNU26jFe4R2889mBcEPWlh&amp;t=5163" rel="noopener nofollow" class="external-link" href="https://youtu.be/2IiWuyD-pl0?list=PLQL6z4JeTTQnNU26jFe4R2889mBcEPWlh&amp;t=5163" target="_blank">video</a>
+□<br><br>Fakt (At  je lineárně závislá množina vektorů v lineárním prostoru . Jakmile  je množina vektorů z  a platí , je i  lineárně závislá množina vektorů.)<br>Důkaz
+M je lin. závislá množina →  (pro něj. , ) a seznam koefiecientů je netriviální to znamená že dokážeme zkombinovat jakkýkoliv prvek v množině M a množina   → hotov N lin. závislá
+□<br>Slogan – Pridáme-li do lineárně závislé množiny vektorủ nějaké vektory, je výsledná množina opět lineárně závislá.<br>Věta (charakterisace lineárně závislých množin)
+Pro množinu  vektorủ z lineárního prostoru  jsou následující podmínky ekvivalentni:
+
+<br>Množina  je lineárně závislá.
+<br>Existuje  tak, že .
+
+<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-27-at-19.10.01.png" style="width: 300px; max-width: 100%;">
+<br>Důkaz
+No fukin idea <a data-tooltip-position="top" aria-label="https://youtu.be/2IiWuyD-pl0?list=PLQL6z4JeTTQnNU26jFe4R2889mBcEPWlh&amp;t=5163" rel="noopener nofollow" class="external-link" href="https://youtu.be/2IiWuyD-pl0?list=PLQL6z4JeTTQnNU26jFe4R2889mBcEPWlh&amp;t=5163" target="_blank">video</a>
+□]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-závislost-a-nezávislost.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární závislost a nezávislost.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sun, 27 Oct 2024 18:53:00 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/screenshot-2024-10-27-at-19.05.56.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/screenshot-2024-10-27-at-19.05.56.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Lineární zobrazení (Lineární transformace)]]></title><description><![CDATA[ 
+ <br><br>Lineární zobrazení nemusí být nezávislý<br>Definice (Lineární zobrazení)
+Ať  a  jsou lineární prostory nad . Zobrazení  nazveme lineární, pokud pro všechny vektory  z  a pro všechny skaláry  z  platí rovnosti:
+
+<br>
+<br><a data-tooltip-position="top" aria-label="Základní vlastnosti lineárních zobrazení" data-href="#Základní vlastnosti lineárních zobrazení" href="https://duckvang.github.io/#Základní vlastnosti lineárních zobrazení" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Základní vlastnosti lineárních zobrazení</a><a data-tooltip-position="top" aria-label="Základní vlastnosti lineárních zobrazení" data-href="#Základní vlastnosti lineárních zobrazení" href="https://duckvang.github.io/#Základní_vlastnosti_lineárních_zobrazení" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Základní vlastnosti lineárních zobrazení</a>
+<br><a data-tooltip-position="top" aria-label="Lin. zobrazení a hodnoty na bázi" data-href="#Lin. zobrazení a hodnoty na bázi" href="https://duckvang.github.io/#Lin. zobrazení a hodnoty na bázi" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Lin. zobrazení a hodnoty na bázi</a><a data-tooltip-position="top" aria-label="Lin. zobrazení a hodnoty na bázi" data-href="#Lin. zobrazení a hodnoty na bázi" href="https://duckvang.github.io/#Lin._zobrazení_a_hodnoty_na_bázi" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Lin. zobrazení a hodnoty na bázi</a>
+<br><a data-tooltip-position="top" aria-label="Matice" data-href="#Matice" href="https://duckvang.github.io/#Matice" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Matice</a><a data-tooltip-position="top" aria-label="Matice" data-href="#Matice" href="https://duckvang.github.io/#Matice" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Matice</a>
+
+<br><a data-tooltip-position="top" aria-label="Matice > příklady" data-href="#Matice#příklady" href="https://duckvang.github.io/#Matice#příklady" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">příklady</a><a data-tooltip-position="top" aria-label="Matice > příklady" data-href="#Matice#příklady" href="https://duckvang.github.io/#Matice#příklady" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">příklady</a>
+
+
+<br><a data-tooltip-position="top" aria-label="Co Už Nyní Víme?" data-href="#Co Už Nyní Víme?" href="https://duckvang.github.io/#Co Už Nyní Víme" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Co Už Nyní Víme?</a><a data-tooltip-position="top" aria-label="Co Už Nyní Víme?" data-href="#Co Už Nyní Víme?" href="https://duckvang.github.io/#Co_Už_Nyní_Víme" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Co Už Nyní Víme?</a>
+<br><a data-tooltip-position="top" aria-label="Výpočty matic a vektorů" data-href="#Výpočty matic a vektorů" href="https://duckvang.github.io/#Výpočty matic a vektorů" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Výpočty matic a vektorů</a><a data-tooltip-position="top" aria-label="Výpočty matic a vektorů" data-href="#Výpočty matic a vektorů" href="https://duckvang.github.io/#Výpočty_matic_a_vektorů" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Výpočty matic a vektorů</a>
+<br><a data-tooltip-position="top" aria-label="Poznámka (další Význam Zápisu $\mathbf{A} \cdot \mathbf{x}=\mathbf{b}$ )" data-href="#Poznámka (další Význam Zápisu $\mathbf{A} \cdot \mathbf{x}=\mathbf{b}$ )" href="https://duckvang.github.io/#Poznámka (další Význam Zápisu $/mathbf{A} /cdot /mathbf{x}=/mathbf{b}$ )" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Poznámka (další Význam Zápisu $\mathbf{A} \cdot \mathbf{x}=\mathbf{b}$ )</a><a data-tooltip-position="top" aria-label="Poznámka (další Význam Zápisu $\mathbf{A} \cdot \mathbf{x}=\mathbf{b}$ )" data-href="#Poznámka (další Význam Zápisu $\mathbf{A} \cdot \mathbf{x}=\mathbf{b}$ )" href="https://duckvang.github.io/#Poznámka_(další_Význam_Zápisu_$/mathbf{A}_/cdot_/mathbf{x}=/mathbf{b}$_)" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Poznámka (další Význam Zápisu  )</a>
+<br><a data-tooltip-position="top" aria-label="Příklady" data-href="#Příklady" href="https://duckvang.github.io/#Příklady" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Příklady</a><a data-tooltip-position="top" aria-label="Příklady" data-href="#Příklady" href="https://duckvang.github.io/#Příklady" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">příklady</a>
+<br>Příklady
+
+<br>At  má uspořádanou bázi  o n prvcích. Zobrazení  je lineární. (<a data-href="coord" href="https://duckvang.github.io/coord" class="internal-link" target="_self" rel="noopener nofollow">coord</a>)
+<br>řada dalších …
+
+<br>Definice (Poznámka – princip superposice)
+f :  je lineární právě tehdy, když platí rovnost
+
+pro vš.  z  a vš.  z .
+<br><br>Fakt (základní algebraické vlastnosti lineárních zobrazení))
+
+<br>Složení lineárních zobrazení je lineární. Identita je lineární zobrazení.
+<br>Jsou-li  a  lineární zobrazení, pak i zobrazení
+
+<br> je lineární, kde .
+<br> je lineární  je skalár , kde .
+
+
+
+<br>Důkaz<br>
+<br>Důkaz 1 DCV
+<br>Důkaz 2
+<br><br>□<br>Důsledek (lineární prostor lineárních zobrazení)
+Pro pevné lineární prostory  a  nad  je množina všech lineárních zobrazení z  do  lineární prostor nad . Tento prostor značíme .
+<br><br>Věta (lineární zobrazení je určeno hodnotami na bázi)
+ať  je báze <a data-footref="1" href="https://duckvang.github.io/#fn-1-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a> lineárního prostoru , at  je libovolný lineární prostor. Pak zadat
+
+<br>libovolné zobrazení ,
+
+je totéž jako zadat
+
+<br>lineární zobrazení .
+
+<br>Důkaz<br>Pro prostory konečné dimense: princip superposice.<br>Pro obecné prostory: mírně složitější.
+□<br>Příklad (popis libovolného lineárního zobrazení  )
+Připomenutí:  je kanonická báze prostoru . Zadat lineární zobrazení  znamená zadat seznam  (ne nutně různých) hodnot<br>
+
+v lineárním prostoru .
+Tomuto seznamu říkáme matice (o r řádcích a s sloupcích).
+<br><br>Definice (Matice)
+Matice A nad  o  řádcích a  sloupcích je tabulka <a data-footref="2" href="https://duckvang.github.io/#fn-2-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[2]</a>
+
+<br><br>Nebudeme používat: matice typu , rozměrů , atd., případně ještě horší značení . (Nebo  ?) <br>Poznámka
+Matici  o  řádcích a  sloupcích budeme ztotožňovat s lineárním zobrazením
+
+z prostoru  do prostoru , a budeme psát .
+<br><br>Příklad (matice základních lineárních transformací v  )
+Kanonická báze . Matice některých lineárních zobrazení z  do  (vzhledem ke  ) jsou ():
+
+<br>Projekce na osu  je ztotožněna s maticí .<br>
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241016171040.png">
+Analogicky: projekce na osu y je ztotožněna s maticí 
+
+<br>Příklad (matice základních lineárních transformací v , pokrač.)
+
+<br>Rotace (o úhel  ) je ztotožněna s maticí .
+
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241016171356.png">
+
+<br>Změna měřítka  a  je ztotožněna s maticí . Pro  dostaneme reflexi: .
+
+<br>Příklad (matice základních lineárních transformací v , pokrač.)
+
+<br>Zkosení<a data-footref="4" href="https://duckvang.github.io/#fn-3-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[3]</a> (také: shear) je ztotožněno s maticí
+
+kde 
+
+<br><br><br><br>Například diagram<br><br>znamená následující: nejprve otočte o úhel , potom provedte projekci na osu x.<br>Značit se to musí   (jde o skládání lineárních zobrazení). Co ale „násobení tabulek" znamená? Odpověd': jde o novou matici.<br>Jak novou matici najít?<br><br>
+<br>Násobení (skládání) matic: příští přednáška (téma 4B).
+<br>Zbytek dnešní přednášky: jak obecná matice  „zachází s obecným vektorem z prostoru  ?
+<br><br><br>Fakt (výpočet hodnoty matice  v obecném vektoru x))
+Pro matici  se sloupcovým zápisem  a pro<br>
+vector  platí
+
+<br>Důkaz
+Protože A : , tak .
+□<br>Značení (násobení matice vektorem)
+Vector  značíme .
+<br>Příklad (rotace vektoru v  )
+Rotace (o úhel  ): . Potom součin
+
+dává výsledek otočení vektoru  o úhel .<br>
+Například pro  :
+
+<br><br><br>Zápis  pro  v , kóduje hodnotu lineárního zobrazení
+ v bodě .<br>Zvolme pevné  v . Hledejme všechna  v  taková, že
+. Na tento problém se lze dívat dvěma způsoby:<br>
+<br>Hledáme vzor bodu b při lineárním zobrazení .
+<br>Řešíme soustavu lineárních rovnic.
+Počet sloupců matice  je počet neznámých, počet řádků matice  je počet rovnic v soustavě.
+<br>Příklad
+
+<br><br><br><br><br><br>Příklad (DCV - grafika)<br><br>co se stane když složíme dvě hyperbolické rotace (jako v případě rotace), vynásob matice<br><br>
+<br>
+<br>Připomenutí (téma  ): každý lineární prostor má bázi.<a href="https://duckvang.github.io/#fnref-1-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+<br>Budeme také používat položkový zápis  nebo sloupcový zápis <a href="https://duckvang.github.io/#fnref-2-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+<br>Speciální typy zkosení (nad <a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Těleso (Division ring)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">obecným tělesem</a><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">obecným tělesem</a>)budou hrát důležitou roli při řešení soustav rovnic)<a href="https://duckvang.github.io/#fnref-3-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-zobrazení-(lineární-transformace).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Lineární zobrazení (Lineární transformace).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 30 Oct 2024 20:41:40 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/pasted-image-20241016171040.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/pasted-image-20241016171040.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Malá Fermatova věta]]></title><description><![CDATA[ 
+ <br>Věta (malá Fermatova věta)
+Nechť  je <a data-tooltip-position="top" aria-label="Prvočísla" data-href="Prvočísla" href="https://duckvang.github.io/Prvočísla" class="internal-link" target="_self" rel="noopener nofollow">prvočíslo</a>. Je-li  nesoudělné s , pak platí <br>
+Pro každé  platí 
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/malá-fermatova-věta.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Malá Fermatova věta.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sun, 06 Oct 2024 19:31:45 GMT</pubDate></item><item><title><![CDATA[Matice zobrazení]]></title><description><![CDATA[ 
+ <br><br>Definice (matice lineárního zobrazení)
+At  je lineární zobrazení, at  a  jsou uspořádané báze prostorů  a . Matice zobrazení  (vzhledem k  a  ) je taková matice , pro kterou platí<br>
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241029163354.png" style="width: 300px; max-width: 100%;">
+neboli:
+<img alt="invertb" src="https://duckvang.github.io/lib/media/screenshot-2024-10-29-at-16.35.47.png" style="width: 400px; max-width: 100%;">
+pro každý vektor .
+<br>Fakt (výpočet matice lineárního zobrazení)
+At  je lineární zobrazení, at  a  jsou uspořádané báze prostorů  a . Potom matice  má  řádkủ a  sloupců. Navíc -tý sloupec matice  je tvořen souřadnicemi , zapsanými do sloupce.
+Důkaz
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241029165646.png" style="width: 350px; max-width: 100%;"><br>
+□
+<br>Věta (matice složeného zobrazení)
+At̉  mají uspořádané báze ,<br>
+ a . At  a  jsou lineární zobrazení s maticemi  (vzhledem  a  ) a  (vzhledem k  a  ). Potom  má matici  (vzhledem k  a  ).
+Důkaz
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241029170750.png" style="width: 350px; max-width: 100%;">
+□
+<br>Věta (matice isomorfismu)
+At̉  mají uspořádané báze ,<br>
+. At́ lineární zobrazení  je isomorfismus s maticí zobrazení  (vzhledem k  a  ). Potom existuje jednoznačně určená matice  splňující rovnosti . Matice  je matice  inversního zobrazení  (vzhledem k  a  ). 
+tj. regulární (invertibilní) matice jsou přesně matice isomorfismů.
+Důkaz
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241029171002.png" style="width: 350px; max-width: 100%;">
+□
+Proto . Druhá rovnost analogicky.
+<br><br>Příklad (výpočet matice pro derivování)
+ je prostor polynomů stupně  nad tělesem . Báze . Zobrazení
+
+
+je lineární a má následující matici vzhledem k  :
+
+Matice pro druhou derivaci: spočítáme součin , atd.
+Velebil
+<img alt="Pasted image 20241029165243.png" src="https://duckvang.github.io/lib/media/pasted-image-20241029165243.png"><br>
+<img alt="Screenshot 2024-10-29 at 16.42.02.png" src="https://duckvang.github.io/lib/media/screenshot-2024-10-29-at-16.42.02.png">
+
+<br>Příklad (matice zobrazení vzhledem k nekanonické bázi)
+Lineární zobrazení  je dáno hodnotami
+
+Zobrazení f tedy:<br>
+(1) „Prodlužuje"  měřítko v ose druhého a čtvrtého kvadrantu.
+(2) „Zkracuje"  měřítko v ose prvního a třetího kvadrantu.
+Vzhledem k nekanonické bázi  má tedy  matici
+
+Jak spočítat matici  zobrazení  vzhledem ke kanonické bázi  ?
+Myšlenka řešení: hledaná matice  musí splňovat rovnici
+, kde
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241029171730.png">
+Jak najít matice S a T? Jednoduše: jsou to matice identického zobrazení, navíc evidentně platí .
+Platí (díky tomu, co jsme již dokázali)
+
+a tedy
+
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/matice-zobrazení.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Matice zobrazení.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 14:36:46 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/pasted-image-20241029163354.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/pasted-image-20241029163354.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Množina generátorů]]></title><description><![CDATA[ 
+ <br>Definice (Množina generátorů)
+Ať  je lineární podprostor . Řekneme, že množina  generuje , když platí . Říkáme také:  je množina generátorů podprostoru 
+<br>Definice (konečně generovaný podporostor)
+ Řekneme, že lineární podprostor  prostoru  je konečně generovaný, když existuje <a data-tooltip-position="top" aria-label="Konečné a nekonečné množiny" data-href="Konečné a nekonečné množiny" href="https://duckvang.github.io/Konečné a nekonečné množiny" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">konečná množina</a><a data-tooltip-position="top" aria-label="Konečné a nekonečné množiny" data-href="Konečné a nekonečné množiny" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/konečné-a-nekonečné-množiny.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">konečná množina</a> jeho generátorů. (To jest, když platí  pro nějakou konečnou množinu .)<br>
+
+<br><br>Příklad ( Pro KAŽDÝ  prostor  platí:  je množina generátorů prostoru .)
+Množina generátorů  prostoru  obecně není konečná a je vždy lineárně závislá (například:  je nekonečná lineárně závislá množina generátorů prostoru  ).
+<br>Příklad (Jak , tak  jsou KONEČNÉ množiny generátorů triviálního prostoru .  )
+Důvody:  (minulé přednášky) a .
+Všimněme si:
+
+<br> je lineárně nezávislá množina generátorů prostoru .
+<br> je lineárně závislá množina generátorů prostoru .
+
+<br>Příklad ( Konečná množina  generuje "osu prvního a třetího kvadrantu" prostoru . Množina  je lineárně závislá.)]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/množina-generátorů.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Množina generátorů.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 29 Oct 2024 17:13:29 GMT</pubDate></item><item><title><![CDATA[Neutralní prvek]]></title><description><![CDATA[ 
+ <br>V <a data-tooltip-position="top" aria-label="Linární algebra" data-href="Linární algebra" href="https://duckvang.github.io/Linární algebra" class="internal-link" target="_self" rel="noopener nofollow">algebře</a> je neutrální prvek  množiny  s binární operací
+ takový prvek, pro nějž platí, že výsledkem operace neutrálního prvku a libovolného
+ je <br>V případě, že se pro operaci používá multiplikativní značení, např. , je  často nazýván jednotkovým prvkem (). V případě použití aditivního značení, např. , je  často nazýván nulovým prvkem ()<br>Pro neutrální prvek se někdy také používá výraz identita.]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/neutralní-prvek.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Neutralní prvek.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Fri, 04 Oct 2024 20:09:44 GMT</pubDate></item><item><title><![CDATA[Obraz a jádro lineárního zobrazení]]></title><description><![CDATA[ 
+ <br>Definice (obraz a jádro)
+At  je lineární zobrazení. Množině <br>  říkáme jádro , množině <br>  z  říkáme obraz .
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241029145526.png" style="width: 400px; max-width: 100%;">
+<br>Slogany (tj. reklamní hesla, nikoli skutečnost) 
+Jádro f říká, jak moc je f monomorfismus.<br>
+Obraz f říká, jak moc je f epimorfismus.
+<br>Fakt
+Ať  je lineární zobrazení. Pak  je podprostor ,  je podprostor  <a data-footref="0" href="https://duckvang.github.io/#fn-1-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>
+<br>Důkaz<br><a class="original-internal-link" data-href="AKLA.pdf#page=62" href="https://duckvang.github.io/AKLA.pdf#page=62" target="_blank" rel="noopener nofollow" style="display: none;">Důkazy stránka 62 a 63</a><a class="internal-link mathLink-internal-link" data-href="AKLA.pdf#page=62" href="https://duckvang.github.io/pdf/akla.pdf#page=62" target="_self" rel="noopener nofollow">Důkazy stránka 62 a 63</a><br>□<br><a data-tooltip-position="top" aria-label="Defekt a hodnost lineárního zobrazení" data-href="Defekt a hodnost lineárního zobrazení" href="https://duckvang.github.io/Defekt a hodnost lineárního zobrazení" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Pokračování DEFEKT a HODNOST</a><a data-tooltip-position="top" aria-label="Defekt a hodnost lineárního zobrazení" data-href="Defekt a hodnost lineárního zobrazení" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/defekt-a-hodnost-lineárního-zobrazení.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Pokračování DEFEKT a HODNOST</a><br><br>
+<br>
+<br>Obecněji:  je podprostor , pro jakýkoli podprostor  prostoru .<a href="https://duckvang.github.io/#fnref-1-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/obraz-a-jádro-lineárního-zobrazení.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Obraz a jádro lineárního zobrazení.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 29 Oct 2024 14:21:39 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/pasted-image-20241029145526.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/pasted-image-20241029145526.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Opačné číslo]]></title><description><![CDATA[ 
+ <br>V matematice se jako opačné číslo k číslu  označuje takové číslo, které po přičtení k  dává jako výsledek 0. Opačné číslo k číslu  se označuje jako ; jedná se tedy o číslo, které se od původního čísla liší právě ve znaménku. Platí tedy, že .<br>Ke každému <a data-tooltip-position="top" aria-label="Komplexní čísla" data-href="Komplexní čísla" href="https://duckvang.github.io/Komplexní čísla" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">komplexnímu číslu</a><a data-tooltip-position="top" aria-label="Komplexní čísla" data-href="Komplexní čísla" href="https://duckvang.github.io/math/maturita/komplexní-čísla.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">komplexnímu číslu</a> existuje číslo opačné, přičemž nula je jediné číslo, které je samo sobě číslem opačným (). V oboru <a data-tooltip-position="top" aria-label="Přirozená čísla" data-href="Přirozená čísla" href="https://duckvang.github.io/Přirozená čísla" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">přirozených čísel</a><a data-tooltip-position="top" aria-label="Přirozená čísla" data-href="Přirozená čísla" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/přirozená-čísla.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">přirozených čísel</a> opačná čísla neexistují, neboť zde neexistují čísla se záporným znaménkem (operace odčítání není na tomto tělese uzavřená).]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/opačné-číslo.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Opačné číslo.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Fri, 04 Oct 2024 20:09:18 GMT</pubDate></item><item><title><![CDATA[Polynom]]></title><description><![CDATA[ 
+ ]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/polynom.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Polynom.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Fri, 04 Oct 2024 20:09:10 GMT</pubDate></item><item><title><![CDATA[Přirozená čísla]]></title><description><![CDATA[ 
+ ]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/přirozená-čísla.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Přirozená čísla.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Fri, 04 Oct 2024 20:09:05 GMT</pubDate></item><item><title><![CDATA[Seznam (Set)]]></title><description><![CDATA[ 
+ <br>Seznam (také: skupina) vektorů je buď prázdná posloupnost () nbeo konečná posloupnost <br>Pozor: je rozdíl mezi seznamem a množinou
+
+<br>
+ vs 
+
+<br>
+ vs 
+
+
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/seznam-(set).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Seznam (Set).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sun, 06 Oct 2024 19:29:13 GMT</pubDate></item><item><title><![CDATA[Skalár]]></title><description><![CDATA[ 
+ <br>Skalár (z lat. scala, stupnice) je ve fyzice, v matematice nebo informatice veličina, jejíž hodnota je v daných jednotkách plně určena jediným číselným údajem. <br>Protikladem skalární veličiny jsou <a data-tooltip-position="top" aria-label="Vektor" data-href="Vektor" href="https://duckvang.github.io/Vektor" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">vektory</a><a data-tooltip-position="top" aria-label="Vektor" data-href="Vektor" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/vektor.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">vektory</a> nebo <a data-tooltip-position="top" aria-label="Tenzor" data-href="Tenzor" href="https://duckvang.github.io/Tenzor" class="internal-link" target="_self" rel="noopener nofollow">tenzory</a>, které jsou určeny více číselnými hodnotami. Například fyzikální veličina hmotnost je skalár, kdežto síla je vektor - má velikost a směr.<br>Otázka: je jednotkový skalár vektor?]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/skalár.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Skalár.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Fri, 04 Oct 2024 20:09:02 GMT</pubDate></item><item><title><![CDATA[Souřadnice vzhledem k uspořádané bázi]]></title><description><![CDATA[ 
+ <br>Věta (existence souřadnic vzhledem k uspořádané bázi)
+At seznam  tvorí bázi lineárního prostoru . Pro každý vektor  v  existuje jediný seznam  prvkủ  tak, že .
+<br>Důkaz<br>Doplnit□<br>Definice (Souřadnice  vzhledem k uspořádané bázi)
+Ať  je n-tice vektorů tvořící uspořádánou bázi lineárního prostoru . Jednoznačně určenému vektoru 
+
+v prostoru  s vlastností  říkáme vektor souřadnic vektoru  vzhledem k bázi 
+<br>—-<br>Příklad (souřadnice stejného vektoru k různým bázím)
+Seznamy  jsou uspořádané báze prostoru . (Seznam  je kanonická báze prostoru .)<br>
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241016182810.png">
+
+<br>Příklad (souřadnice stejného vektoru k různým bázím)
+Seznamy
+
+jsou uspořádané báze lineárního prostoru  reálných polynomů stupně nejvýše 2 .
+Platí:<br>
+
+<br><br><br>Připomenutí: prostor  nad  má <a data-tooltip-position="top" aria-label="Báze (Basis) > ^5cb0ad" data-href="Báze (Basis)#^5cb0ad" href="https://duckvang.github.io/Báze (Basis)#^5cb0ad" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">kanonickou bázi</a><a data-tooltip-position="top" aria-label="Báze (Basis) > ^5cb0ad" data-href="Báze (Basis)#^5cb0ad" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/báze-(basis).html#^5cb0ad" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">kanonickou bázi</a>  , kde<br><br>At'  je vektor v . Potom .<br><br><br>Fakt (linearita výpočtu souřadnic)
+At  je (jakákoli) koně̌ná uspořádaná báze lineárniho prostoru .<br>
+Potom pro zobrazení  platí: 
+
+<br>
+.
+
+<br>
+.
+
+
+ Tyto dvě vlastnosti jsou velmi dülezitié. Prî́sté je budeme studovat abstraktné (vedou k pojmu <a data-tooltip-position="top" aria-label="Lineární zobrazení (Lineární transformace)" data-href="Lineární zobrazení (Lineární transformace)" href="https://duckvang.github.io/Lineární zobrazení (Lineární transformace)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">lineárniho zobrazeni</a><a data-tooltip-position="top" aria-label="Lineární zobrazení (Lineární transformace)" data-href="Lineární zobrazení (Lineární transformace)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-zobrazení-(lineární-transformace).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">lineárniho zobrazeni</a>).
+<br>Důkaz
+stránka 79<br>□<br>Důsledek (důležitá vlastnost každé uspořádané báze)
+  At'  je jakákoli uspořádaná báze prostoru .<br>
+Potom platí:
+
+Obecně platí:
+
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/souřadnice-vzhledem-k-uspořádané-bázi.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Souřadnice vzhledem k uspořádané bázi.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 04 Nov 2024 14:52:29 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/pasted-image-20241016182810.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/pasted-image-20241016182810.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Speciální vlastnosti lineárních zobrazení]]></title><description><![CDATA[ 
+ <br>Definice (Speciální vlastnosti lineárních zobrazení )
+Lineárnímu zobrazení f:  říkáme: (jsou lineární a zároveň)
+
+<br>monomorfismus, je-li f injektivní (také: prosté) zobrazení.
+<br>epimorfismus, je-li f surjektivní (také: na) zobrazení.
+<br>isomorfismus, je-li f bijektivní (také: prosté a na) zobrazení. <a data-footref="5" href="https://duckvang.github.io/#fn-1-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>
+
+<br><br>Fakt (Složení monomorfismů/epimorfismů/isomorfismů je monomorfismus/epimorfismus/isomorfismus. Identita je isomorfismus.)<br>Důkaz
+doplnit ale mělo by to být prosté
+□<br><br><br>Věta (charakterisace monomorfismů)
+At  je lineární zobrazení, at prostor  má konečnou dimensi. Pak je ekvivalentní:
+
+<br>f je monomorfismus.
+<br>.
+<br>f respektuje lineární nezávislost (tj. obraz lineárně nezávislé množiny je opět lineárně nezávislá množina).
+
+<br>Důkaz<br>□<br>Důsledek (Důsledek (monomorfismy a soustavy rovnic))
+A:  je monomorfismus právě tehdy, když soustava<br>
+ má pouze triviální řešení.
+<br><br>Fakt (charakterisace isomorfismů)
+At  je lineární zobrazení, at prostor  má konečnou dimensi. Pak je ekvivalentní:
+
+<br> je isomorfismus.
+<br>f je monomorfismus a epimorfismus současně.
+<br> a  současně.
+<br> a .
+<br>f respektuje lineární nezávislost (tj. obraz lineárně nezávislé množiny je opět lineárně nezávislá množina) a každá rovnice  má alespoň jedno řešení.
+
+<br>Důkaz<br>□<br>Důsledek (isomorfismy a soustavy rovnic)
+A :  je isomorfismus právě tehdy, když  a každá soustava  má právě jedno řešení.
+<br><br>Definice (Definice (regulární a singulární matice))
+Matice  typu je regulární (také: invertibilní, také: isomorfismus), pokud existuje jednoznačně určená matice  taková, že platí rovnosti . Matici  říkáme inverse matice .
+Matice  je singulární, pokud není regulární.
+<br>Příklad (rotace o úhel  v   je isomorfismus)
+
+je regulární (invertibilní) matice. 
+<br>Důsledek (isomorfismy prostorů konečné dimense)
+At . Potom je, pro lineární zobrazení<br>
+f: , ekvivalentní:
+
+<br>f je monomorfismus.
+<br>f je epimorfismus.
+<br> je isomorfismus.
+
+<br>Fakt !!!
+At  je uspořádaná báze prostoru . Potom výpočet souřadnic v bázi 
+
+je isomorfismus.
+<br>Důkaz.
+Přednáška<br>Poznámka (důležitá)<br>Protože isomorfní lineární prostory se z abstraktního hlediska nijak neliší, vidíme: až na isomorfismus neexistují jiné konečně dimensionální lineární prostory nad  než prostory tvaru .<br><br>
+<br>
+<br>Ekvivalentne: k zobrazenı  existuje inversniı zobrazenı 
+a toto inversnı zobrazeni je opet linearnı.<a href="https://duckvang.github.io/#fnref-1-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/speciální-vlastnosti-lineárních-zobrazení.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Speciální vlastnosti lineárních zobrazení.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Tue, 29 Oct 2024 20:06:06 GMT</pubDate></item><item><title><![CDATA[Těleso (Division ring)]]></title><description><![CDATA[ 
+ <br>Těleso (angl. division ring) je algebraická struktura, na které jsou definovány dvě binární operace.<br>Nejčastěji uvažovaná tělesa, totiž reálná čísla, <a data-tooltip-position="top" aria-label="Racionální čísla" data-href="Racionální čísla" href="https://duckvang.github.io/Racionální čísla" class="internal-link" target="_self" rel="noopener nofollow">racionální čísla</a> a komplexní čísla.<br>Definice (Těleso)
+Těleso je zadáno množinou  (typickému prvku v F říkáme skalár a značíme jej )<br>
+a dvěma funkcemi  a  typu
+
+Slogan – Těleseo  je kolekce jakkýchkoli  objektů (těm budeme říkat tělesa F), které mezi sebou můžeme sčítat () a násobit (). Sčítání a násobení v  splňují stejné vlastnosti jako standardní sčítání a násobení v 
+které navíc splňují následující <a data-tooltip-position="top" aria-label="Těleso (Division ring) > Axiomy" data-href="Těleso (Division ring)#Axiomy" href="https://duckvang.github.io/Těleso (Division ring)#Axiomy" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomy</a><a data-tooltip-position="top" aria-label="Těleso (Division ring) > Axiomy" data-href="Těleso (Division ring)#Axiomy" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html#Axiomy" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomy</a>
+<br>Těleso  je kolekce jakkýchkoli objektů (těm budeme říkat prvky tělesa ), které mezi sebou můžeme sčítat a násobit. Sčítání a násobení v  splňují stejné vlastnosti jako standardní sčítání a násobení v <br><br><br>Axiom (Sčítání skalárů)
+
+<br>Existence nulového skaláru. Existuje skaláru. Existuje skalár  takový, že pro všechna a platí . Skaláru  říkáme nula
+<br>Komutativita sčítání skalárů. Pro všechna  paltí .
+<br>Asociativita sčítání skalárů. Pro všechna  platí 
+<br>Existence opačného skaláru. Pro každé  existuje právě jedno  takové, že platí . Tomuto jednoznačně určenému  říkáme opačný skalár ke skaláru  a zančíme jej 
+
+<br>Axiom (Axiomy pro násobení skalárů)
+
+<br>Existence jedničky. Existuje skalár 1 takový, že pro každé  platí . Skalárů 1 říkáme jednička.
+<br>Komutavita násobení skalárů. Pro všechna  platí 
+<br>Asociativita násobení skalárů. Pro všechna  platí 
+
+<br>Axiom (Distributivní zákon )
+Pro všechna  platí  
+<br>Axiom (Test invertibility )
+Pro každé  platí  právě tehdy, když existuje jediné  tak, že . TOmuto jednoznačně určenému  říkáme inversní prvek k a (také: inverse prvku a)
+<br><br><br>Příklad (Číselné obory)
+Standardní operace (sčítání a násobení) a jiné axiomy tělesa, splňují většina <a data-tooltip-position="top" aria-label="Číselné obory" data-href="Číselné obory" href="https://duckvang.github.io/Číselné obory" class="internal-link" target="_self" rel="noopener nofollow">číselných oborů</a> jako například <a data-tooltip-position="top" aria-label="Racionální čísla" data-href="Racionální čísla" href="https://duckvang.github.io/Racionální čísla" class="internal-link" target="_self" rel="noopener nofollow">racionální čísla</a> , <a data-tooltip-position="top" aria-label="Komplexní čísla" data-href="Komplexní čísla" href="https://duckvang.github.io/Komplexní čísla" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">komplexní čísla</a><a data-tooltip-position="top" aria-label="Komplexní čísla" data-href="Komplexní čísla" href="https://duckvang.github.io/math/maturita/komplexní-čísla.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">komplexní čísla</a> , … kromě celých čísel  přirozených čísel   neboť nesplňují test invertibility a tedy nesplňují podmínky pro těleso
+<br>Příklad ("Nestandardní" sčítání a násobení ())
+
+<br>množina  s operacemi
+
+
+
+<br>Množina  s operacemi:
+
+
+Operace na množinách  a  splňují stejné vlastnosti jako standardní sčítání a násobení na množině  → Jedná se tedy o tělesa (sčítáme a násobíme jako zbytky po dělení 2, resp. 3)
+Obecněji: Množina , kde je  prvočíslo, je těleso, pokud sčítáme a násobíme jako zbytky po dělení 
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Těleso (Division ring).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sat, 05 Oct 2024 20:08:26 GMT</pubDate></item><item><title><![CDATA[Test zkušební]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20241028200857.png" src="https://duckvang.github.io/lib/media/pasted-image-20241028200857.png">]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/test-zkušební.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Test zkušební.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 28 Oct 2024 19:08:58 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/pasted-image-20241028200857.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/pasted-image-20241028200857.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Transformace souřadnic]]></title><description><![CDATA[ 
+ <br><br> At  je lineární zobrazení, at  a  jsou uspořádané báze prostorů  a . Potom matice  má  řádků a  sloupců a -tý sloupec matice  je tvořen souřadnicemi , zapsanými do sloupce.
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241028193045.png" style="width: 400px; max-width: 100%;"><br> je možné zapsat také jako i <br><br><br>Definice (Matice transformace souřadnic)
+At̉  a  jsou uspořádané báze prostoru . Matici <a data-footref="0" href="https://duckvang.github.io/#fn-1-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a> , která splňuje<br>
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241028193217.png" style="width: 400px; max-width: 100%;">
+říkáme matice transformace souřadnic z báze  do báze  (také: matice transformace souřadnic v bázi  na souřadnice v bázi  ).
+<br><br><br>Fakt
+Platí , pro každý vektor . To plyne přímo z definice matice  :
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241028195341.png" style="width: 300px; max-width: 100%;">
+<br>Fakt
+Matice  je vždy regulární. Platí . To plyne  toho, že id :  je isomorfismus.
+<br>Fakt
+Platí . To je triviální:
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241030101533.png" style="width: 300px; max-width: 100%;">
+<br>Fakt
+Platí . To plyne z vlastností matice složeného zobrazení:
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241030101650.png" style="width: 300px; max-width: 100%;">
+<br><br><br>Příklad (přepočet souřadnic vzhledem k jiné bázi)
+V prostoru  nad  máme uspořádané báze <br>
+a .
+Pro polynom  hledáme . Víme, že .
+Protože , stačí tedy znát  matici .
+
+Pro nalezení je jednodušší dělat z komplikované matice na jednodušší
+Pro nalezení inverzní matice lze využít <a data-href="Gaussova eliminační metoda" href="https://duckvang.github.io/Gaussova eliminační metoda" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Gaussova eliminační metoda</a><a data-href="Gaussova eliminační metoda" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/gaussova-eliminační-metoda.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Gaussova eliminační metoda</a>
+<br>Příklad (přepočet souřadnic vzhledem k jiné bázi)
+Jsou dány tři konečné báze  a  prostoru . Spočtěte , pokud znáte  .
+
+
+.
+<br><br> At  a  jsou libovolné báze prostoru .
+Připomenutí: kanonická (také: standardní) báze  prostoru .<br>
+<br>Je snadné nalézt matice  a .
+
+<br>Do -tého sloupce  napišeme souřadnice  kanonické bázi .
+<br>Do -tého sloupce  napisseme souřadnice  kanonické bázi .
+
+
+<br>.
+<br> Stačí tedy vyřešit  maticovou rovnici .<br>Příklad (nalezení báze, známe-li matici transformace)
+ je báze lineárního prostoru . Tedy
+, kde  je kanonická báze .
+Nalezněte bázi  lineárního prostoru
+ tak, aby platila rovnost .
+
+Protože  je báze a protože  je kanonická báze, víme, že platí:
+
+Protože platí , dosadíme a spočítáme
+
+<br>Věta (změna matice zobrazení při změně bází)
+At  je lineární zobrazení, . At  a  jsou báze prostoru  a at  a  jsou báze prostoru . Jestliže  je matice  vzhledem  a , pak součin  je matice  vzhledem  a .<br>
+Důkaz
+<img alt="invertb" src="https://duckvang.github.io/lib/media/pasted-image-20241030102948.png" style="width: 500px; max-width: 100%;">
+□
+<br><br> At́  je báze  a  je báze prostoru .<br> Předpokládejme, že matice  zobrazení  vzhledem  jistým bázím easy  a easy  prostorů  a  se snadno určí.<br>
+<br>Matice transformací souřadnic  a  se také určí snadno:
+
+<br>Do -tého sloupce matice  napišeme souřadnice vektoru  vzhledem k bázi easy .
+<br>Do -tého sloupce matice  napišeme souřadnice vektoru  vzhledem k bázi easy .
+
+
+<br>Platí 
+<br>Součin matic   vzhledem k bázím  a .
+<br>Příklad (matice zobrazení vzhledem k nestandardní bázi)
+Nalezněte matici  zobrazení der :  vzhledem k bázi .<br>
+Víme, že der má následující matici vzhledem  :
+
+Platí:
+
+Tedy: .
+<br><br>
+<br>Jakoukoli čvercovou regulární matici  typu  nad  Ize považovat za matici transformace souřadnic , kde  je kanonická báze prostoru  a báze  je tvořena sloupci matice . <br><br>
+<br>Je-li  matice zobrazení  vzhledem k bázím  a , pak matice zobrazení  vzhledem k nějakým bázím  a  má tvar , pro nějaké regulární matice  a . <br><br> Speciální prípad:  a . Pak matice  přejde na matici tvaru , pro nějakou regulární matici . <br> <br>
+<br>Řekneme, že dvě matice  a  typu  nad  jsou si podobné (značení:  ), pokud platí rovnost , pro nějakou regulární matici . <br> <br>Podobné matice jsou tedy ty, které popisují stejné lineární zobrazení, každá matice jej vyjadřuje v jiné bázi. To využijeme při hledání vlastních hodnot lineárních zobrazení (později).
+<br>Příklad (Připomenutí příkladu z minulé přednášky))
+Lineární zobrazení  je dáno hodnotami
+
+Zobrazení f tedy:
+
+<br>„Prodlužuje"  měřítko v ose druhého a čtvrtého kvadrantu.
+<br>„Zkracuje"  měřítko v ose prvního a třetího kvadrantu.
+
+Vzhledem  nekanonické bázi  lineárního prostoru  má zobrazení  matici
+
+Vzhledem ke kanonické bázi  lineárního prostoru  má zobrazení f maticia
+
+Platí: .<br>
+Matice  je „přehlednějsí" než matice  (matice  vypovídá okamžitě o geometrické povaze zobrazení f).
+<br>
+<br>
+<br>Všimněte si značení: v dolním indexu<a href="https://duckvang.github.io/#fnref-1-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/transformace-souřadnic.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Transformace souřadnic.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Fri, 01 Nov 2024 18:17:58 GMT</pubDate><enclosure url="https://duckvang.github.io/lib/media/pasted-image-20241028193045.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://duckvang.github.io/lib/media/pasted-image-20241028193045.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Triviální a netriviální lineární kombinace]]></title><description><![CDATA[ 
+ <br>Definice (Triviální lineární kombinace )
+<a data-tooltip-position="top" aria-label="Lineární kombinace" data-href="Lineární kombinace" href="https://duckvang.github.io/Lineární kombinace" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Lineární kombinace</a><a data-tooltip-position="top" aria-label="Lineární kombinace" data-href="Lineární kombinace" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-kombinace.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Lineární kombinace</a>  je triviální pokud <br>
+V opačném případě je lineární kombinace  netriviální
+<br>
+<br>Triviální lineární kombinace je vždy rovna nulovému vektoru: rovnost   platí, protože , pro jakýkoli vektor 
+<br>I netriviální lineární kombinace může být rovna nulovému vektoru: například , pro jakýkoli vektor . 
+<br>Lineární kombinaci, která dává nulový vektor, také říkáme nulová kombinace <a data-footref="0" href="https://duckvang.github.io/#fn-1-29826558d7d573d2" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>
+<br><br>
+<br>
+<br>Pozor: trivialnı kombinace je vzdy nulova. Nulova kombinace nemusı byt
+trivialni<a href="https://duckvang.github.io/#fnref-1-29826558d7d573d2" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/triviální-a-netriviální-lineární-kombinace.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Triviální a netriviální lineární kombinace.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sun, 27 Oct 2024 11:33:55 GMT</pubDate></item><item><title><![CDATA[Úsudek (Assumption)]]></title><description><![CDATA[ 
+ <br>Úsudek (assumption) je spojení několika soudů (předpokladů, premis) v jeden nový závěr (konkluzi). Závěr nepřináší žádnou novou informaci (informace musí být předem definované), která není obsažena v premisách, pouze ji vyjadřuje přesněji (deduktivní přístup)<br>Dost podobná definice jako <a data-tooltip-position="top" aria-label="Implication" data-href="Implication" href="https://duckvang.github.io/Implication" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">implikace</a><a data-tooltip-position="top" aria-label="Implication" data-href="Implication" href="https://duckvang.github.io/formal-logic/implication.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">implikace</a><br>Úsudek spočívá ve vyvození soudu z jiných soudů. Úsudek = soud = oznamovací věta přičítající vlastnosti předmětům. <br>Ve výrokové logice ověříme platnosti logického úsudku pomocí <a data-tooltip-position="top" aria-label="Truth table" data-href="Truth table" href="https://duckvang.github.io/Truth table" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">pravdivostní tabulky</a><a data-tooltip-position="top" aria-label="Truth table" data-href="Truth table" href="https://duckvang.github.io/formal-logic/truth-table.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">pravdivostní tabulky</a>, ve které zjistíme pravdivostní hodnoty všech výrokových formulí. <br>Úsudek je soubor oznamovacích vět, ve kterém jsou jasně odděleny předpoklady od závěru. Všechny pojmy v úsudku již musí být definovány.  – Habal<br><br><br>Předpokládáme že značce  rozmíme<br>Předpoklad (Ať  je libovolné sudé přirozené číslo. Potom přirozené číslo  je opět sudé)
+Útvar má všechny náležitosti úsudku: oznamovací věta (Ať  je lib…) je jeho (jediným) předpokladem, oznamovací věta (Přirozené číslo …) je závěrem a slovo (potom) je oddělovací značkou (srovnjete s pojmem sémantického důsledku), která odděluje předpoklady od závěru. 
+Úsudek však není pravdivý a není tudíž matematickou větou: číslo 0 je sudé (podle jiné definice), ale číslo 1 sudé není (opět podle definice 1.1.3).
+<br><br><br>Věta 1 (Pravdivý úsudek - Ať  je libovolné přirozené číslo. Potom přirozené číslo  je opět sudé)
+
+Útvar má opět tvar <a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/Úsudek (Assumption)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">úsudku</a><a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/úsudek-(assumption).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">úsudku</a> ("Ať  je libovolné, … závěr), a to dokonce pravdivého úsudku, proto jsme jej označili jako větu. O pravdivosti přesvědčujeme důkazem.
+
+Důkaz Ať  je libovolné přirozené číslo. Potom (podle definice sudosti) a podle toho, co znamená dělitelnost dvěma, existuje přirozené číslo  tak, že . Chceme ukázat, že přirozené číslo  je opět sudé. 
+S číslem  můžeme dále pracovat. Upravíme  takto: . Protože  je přirozené číslo, je důkaz ukončen: číslo  je dělitelné dvěma, a tudíž se jde o sudé číslo
+□
+ ]] ]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/úsudek-(assumption).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Úsudek (Assumption).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Wed, 25 Sep 2024 12:54:51 GMT</pubDate></item><item><title><![CDATA[Vektor]]></title><description><![CDATA[ 
+ <br>V matematice (<a data-tooltip-position="top" aria-label="Lineární algebra" data-href="Lineární algebra" href="https://duckvang.github.io/Lineární algebra" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">linerání algebrře</a><a data-tooltip-position="top" aria-label="Lineární algebra" data-href="Lineární algebra" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-algebra.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">linerání algebrře</a>) je vektor definován abstraktně jako prvek <a data-tooltip-position="top" aria-label="Lineární prostor (Vektorový prostor)" data-href="Lineární prostor (Vektorový prostor)" href="https://duckvang.github.io/Lineární prostor (Vektorový prostor)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">vektorového prostoru</a><a data-tooltip-position="top" aria-label="Lineární prostor (Vektorový prostor)" data-href="Lineární prostor (Vektorový prostor)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/lineární-prostor-(vektorový-prostor).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">vektorového prostoru</a>. Vektory se dají spolu sčítat a dále násobit prvky komutativního algebraického <a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/Těleso (Division ring)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">tělesa</a><a data-tooltip-position="top" aria-label="Těleso (Division ring)" data-href="Těleso (Division ring)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/těleso-(division-ring).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">tělesa</a>, tzv. <a data-href="Skalár" href="https://duckvang.github.io/Skalár" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Skalár</a><a data-href="Skalár" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/skalár.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Skalár</a>, např. reálnými čísly.]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/vektor.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Vektor.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sat, 05 Oct 2024 08:52:14 GMT</pubDate></item><item><title><![CDATA[Věta (Theorem)]]></title><description><![CDATA[ 
+ <br>Větou (Theorem) označujeme útvar, který má formu pravdivého <a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/Úsudek (Assumption)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">úsudku</a><a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/úsudek-(assumption).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">úsudku</a> (má pravdu, přesvědčujeme se důkazem) o již zavedených pojmech. <br>Wikipedia definice – V matematice se jako věta označuje důležité netriviální a dostatečně obecné tvrzení neboli výrok.<br> Aby se však takové tvrzení dalo považovat za větu, je třeba podat jeho důkaz, to znamená logickým postupem ho odvodit z <a data-tooltip-position="top" aria-label="Definice (Definition)" data-href="Definice (Definition)" href="https://duckvang.github.io/Definice (Definition)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">definic</a><a data-tooltip-position="top" aria-label="Definice (Definition)" data-href="Definice (Definition)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/definice-(definition).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">definic</a>, <a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/Axiom" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomů</a><a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/axiom.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomů</a> a z již dříve dokázaných vět.<br>Věta (Pravdivý úsudek - Ať  je libovolné přirozené číslo. Potom přirozené číslo  je opět sudé)
+
+Útvar má opět tvar <a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/Úsudek (Assumption)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">úsudku</a><a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/úsudek-(assumption).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">úsudku</a> ("Ať  je libovolné, … závěr), a to dokonce pravdivého úsudku, proto jsme jej označili jako větu. O pravdivosti přesvědčujeme důkazem.
+
+Důkaz Ať  je libovolné přirozené číslo. Potom (podle definice sudosti) a podle toho, co znamená dělitelnost dvěma, existuje přirozené číslo  tak, že . Chceme ukázat, že přirozené číslo  je opět sudé. 
+S číslem  můžeme dále pracovat. Upravíme  takto: . Protože  je přirozené číslo, je důkaz ukončen: číslo  je dělitelné dvěma, a tudíž se jde o sudé číslo
+□
+<br><br>More information
+Důkaz se za součást věty nepovažuje, a k jedné větě může existovat i více různých důkazů. Přesto je dokazování různých tvrzení jednou ze základních metod práce matematiků. Důkaz totiž hraje v matematice a logice podobnou roli jako experiment v empirických vědách: pomáhá odlišit hypotézy, domněnky a nesmysly od nesporné jistoty.
+<br><br><br><a data-tooltip-position="top" aria-label="Věta (Theorem)" data-href="Věta (Theorem)" href="https://duckvang.github.io/Věta (Theorem)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Věty</a><a data-tooltip-position="top" aria-label="Věta (Theorem)" data-href="Věta (Theorem)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/věta-(theorem).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Věty</a> a jejich <a data-tooltip-position="top" aria-label="Důkaz" data-href="Důkaz" href="https://duckvang.github.io/Důkaz" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">důkazy</a><a data-tooltip-position="top" aria-label="Důkaz" data-href="Důkaz" href="https://duckvang.github.io/math/vysoká-škola/diskrétní-matematika/důkaz.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">důkazy</a> již známe, věty slouží k popisu poznatků, které nejsou z dosavadních poznatků (<a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/Axiom" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomů</a><a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/axiom.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomů</a> a již dokázaných vět) zřejmé, důkazy pak používáme k ověření a prokázání platnosti vět.]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/věta-(theorem).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Věta (Theorem).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sat, 28 Sep 2024 08:01:14 GMT</pubDate></item><item><title><![CDATA[Výrok]]></title><description><![CDATA[ 
+ <br>Větou (Theorem) označujeme útvar, který má formu pravdivého <a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/Úsudek (Assumption)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">úsudku</a><a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/úsudek-(assumption).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">úsudku</a> (má pravdu, přesvědčujeme se důkazem) o již zavedených pojmech. <br>Wikipedia definice – V matematice se jako věta označuje důležité netriviální a dostatečně obecné tvrzení neboli výrok.<br> Aby se však takové tvrzení dalo považovat za větu, je třeba podat jeho důkaz, to znamená logickým postupem ho odvodit z <a data-tooltip-position="top" aria-label="Definice (Definition)" data-href="Definice (Definition)" href="https://duckvang.github.io/Definice (Definition)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">definic</a><a data-tooltip-position="top" aria-label="Definice (Definition)" data-href="Definice (Definition)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/definice-(definition).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">definic</a>, <a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/Axiom" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomů</a><a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/axiom.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomů</a> a z již dříve dokázaných vět.<br>Věta (Pravdivý úsudek - Ať  je libovolné přirozené číslo. Potom přirozené číslo  je opět sudé)
+
+Útvar má opět tvar <a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/Úsudek (Assumption)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">úsudku</a><a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/úsudek-(assumption).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">úsudku</a> ("Ať  je libovolné, … závěr), a to dokonce pravdivého úsudku, proto jsme jej označili jako větu. O pravdivosti přesvědčujeme důkazem.
+
+Důkaz Ať  je libovolné přirozené číslo. Potom (podle definice sudosti) a podle toho, co znamená dělitelnost dvěma, existuje přirozené číslo  tak, že . Chceme ukázat, že přirozené číslo  je opět sudé. 
+S číslem  můžeme dále pracovat. Upravíme  takto: . Protože  je přirozené číslo, je důkaz ukončen: číslo  je dělitelné dvěma, a tudíž se jde o sudé číslo
+□
+<br><br>More information
+Důkaz se za součást věty nepovažuje, a k jedné větě může existovat i více různých důkazů. Přesto je dokazování různých tvrzení jednou ze základních metod práce matematiků. Důkaz totiž hraje v matematice a logice podobnou roli jako experiment v empirických vědách: pomáhá odlišit hypotézy, domněnky a nesmysly od nesporné jistoty.
+<br><br><br><a data-tooltip-position="top" aria-label="Věta (Theorem)" data-href="Věta (Theorem)" href="https://duckvang.github.io/Věta (Theorem)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Věty</a><a data-tooltip-position="top" aria-label="Věta (Theorem)" data-href="Věta (Theorem)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/věta-(theorem).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Věty</a> a jejich <a data-tooltip-position="top" aria-label="Důkaz" data-href="Důkaz" href="https://duckvang.github.io/Důkaz" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">důkazy</a><a data-tooltip-position="top" aria-label="Důkaz" data-href="Důkaz" href="https://duckvang.github.io/math/vysoká-škola/diskrétní-matematika/důkaz.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">důkazy</a> již známe, věty slouží k popisu poznatků, které nejsou z dosavadních poznatků (<a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/Axiom" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomů</a><a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/axiom.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomů</a> a již dokázaných vět) zřejmé, důkazy pak používáme k ověření a prokázání platnosti vět.]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/výrok.html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Výrok.md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Mon, 23 Sep 2024 20:16:17 GMT</pubDate></item><item><title><![CDATA[Zobrazení (funkce)]]></title><description><![CDATA[ 
+ <br>Větou (Theorem) označujeme útvar, který má formu pravdivého <a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/Úsudek (Assumption)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">úsudku</a><a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/úsudek-(assumption).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">úsudku</a> (má pravdu, přesvědčujeme se důkazem) o již zavedených pojmech. <br>Wikipedia definice – V matematice se jako věta označuje důležité netriviální a dostatečně obecné tvrzení neboli výrok.<br> Aby se však takové tvrzení dalo považovat za větu, je třeba podat jeho důkaz, to znamená logickým postupem ho odvodit z <a data-tooltip-position="top" aria-label="Definice (Definition)" data-href="Definice (Definition)" href="https://duckvang.github.io/Definice (Definition)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">definic</a><a data-tooltip-position="top" aria-label="Definice (Definition)" data-href="Definice (Definition)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/definice-(definition).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">definic</a>, <a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/Axiom" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomů</a><a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/axiom.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomů</a> a z již dříve dokázaných vět.<br>Věta (Pravdivý úsudek - Ať  je libovolné přirozené číslo. Potom přirozené číslo  je opět sudé)
+
+Útvar má opět tvar <a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/Úsudek (Assumption)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">úsudku</a><a data-tooltip-position="top" aria-label="Úsudek (Assumption)" data-href="Úsudek (Assumption)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/úsudek-(assumption).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">úsudku</a> ("Ať  je libovolné, … závěr), a to dokonce pravdivého úsudku, proto jsme jej označili jako větu. O pravdivosti přesvědčujeme důkazem.
+
+Důkaz Ať  je libovolné přirozené číslo. Potom (podle definice sudosti) a podle toho, co znamená dělitelnost dvěma, existuje přirozené číslo  tak, že . Chceme ukázat, že přirozené číslo  je opět sudé. 
+S číslem  můžeme dále pracovat. Upravíme  takto: . Protože  je přirozené číslo, je důkaz ukončen: číslo  je dělitelné dvěma, a tudíž se jde o sudé číslo
+□
+<br><br>More information
+Důkaz se za součást věty nepovažuje, a k jedné větě může existovat i více různých důkazů. Přesto je dokazování různých tvrzení jednou ze základních metod práce matematiků. Důkaz totiž hraje v matematice a logice podobnou roli jako experiment v empirických vědách: pomáhá odlišit hypotézy, domněnky a nesmysly od nesporné jistoty.
+<br><br><br><a data-tooltip-position="top" aria-label="Věta (Theorem)" data-href="Věta (Theorem)" href="https://duckvang.github.io/Věta (Theorem)" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">Věty</a><a data-tooltip-position="top" aria-label="Věta (Theorem)" data-href="Věta (Theorem)" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/věta-(theorem).html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">Věty</a> a jejich <a data-tooltip-position="top" aria-label="Důkaz" data-href="Důkaz" href="https://duckvang.github.io/Důkaz" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">důkazy</a><a data-tooltip-position="top" aria-label="Důkaz" data-href="Důkaz" href="https://duckvang.github.io/math/vysoká-škola/diskrétní-matematika/důkaz.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">důkazy</a> již známe, věty slouží k popisu poznatků, které nejsou z dosavadních poznatků (<a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/Axiom" class="original-internal-link" target="_blank" rel="noopener nofollow" style="display: none;">axiomů</a><a data-tooltip-position="top" aria-label="Axiom" data-href="Axiom" href="https://duckvang.github.io/math/vysoká-škola/lineární-algebra/axiom.html" class="internal-link mathLink-internal-link" target="_self" rel="noopener nofollow">axiomů</a> a již dokázaných vět) zřejmé, důkazy pak používáme k ověření a prokázání platnosti vět.]]></description><link>https://duckvang.github.io/math/vysoká-škola/lineární-algebra/zobrazení-(funkce).html</link><guid isPermaLink="false">Math/Vysoká škola/Lineární Algebra/Zobrazení (funkce).md</guid><dc:creator><![CDATA[Nguyen Duc Minh]]></dc:creator><pubDate>Sun, 27 Oct 2024 19:20:36 GMT</pubDate></item></channel></rss>
